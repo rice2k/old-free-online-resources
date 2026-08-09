@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T04:16:09.666Z",
+  "generated_at": "2026-08-09T04:29:29.952Z",
   "notes": "Metadata and favicon cache for generated old-web resource pages. Missing favicons use assets/favicons/default.svg.",
-  "total_resources": 603,
-  "enriched_resources": 603,
-  "favicons_found": 24,
+  "total_resources": 647,
+  "enriched_resources": 647,
+  "favicons_found": 26,
   "archive_probe_enabled": false,
   "resources": {
     "email-hotpop-hotpop-com": {
@@ -4901,6 +4901,364 @@
       "metadata_url": "",
       "favicon_missing": true,
       "checked_at": "2026-08-09T04:16:09.665Z"
+    },
+    "recovered-old-web-finds-animeshare-graphic-resource-site-animeshare-crystals-ss-net": {
+      "title": "",
+      "description": "AnimeShare Graphic Resource Site is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.336Z"
+    },
+    "recovered-old-web-finds-graal-topsites-cjb-graaltopsites-cjb-net": {
+      "title": "",
+      "description": "Graal TopSites CJB is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.341Z"
+    },
+    "recovered-old-web-finds-free-anime-templates-and-layouts-anime-templates-com": {
+      "title": "",
+      "description": "Free Anime Templates and Layouts is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.343Z"
+    },
+    "recovered-old-web-finds-dragid-net-anime-graphics-dragid-net": {
+      "title": "",
+      "description": "Dragid.net Anime Graphics is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.345Z"
+    },
+    "recovered-old-web-finds-geocities-webmaster-gabo-affiliates-mx-geocities-com-webmastergabo2003-afiliados-htm": {
+      "title": "",
+      "description": "Geocities Webmaster Gabo Affiliates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.436Z"
+    },
+    "recovered-old-web-finds-aimdolls-aim-doll-icons-aimdolls-com": {
+      "title": "",
+      "description": "AimDolls AIM Doll Icons is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.542Z"
+    },
+    "recovered-old-web-finds-mozzka-geocities-affiliates-mx-geocities-com-mozzka-tk-afiliados-htm": {
+      "title": "",
+      "description": "Mozzka Geocities Affiliates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.554Z"
+    },
+    "recovered-old-web-finds-macwacko-highlander-castle-blinkies-br-geocities-com-akadraven-blinkies-html": {
+      "title": "",
+      "description": "MacWacko Highlander Castle Blinkies is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.619Z"
+    },
+    "recovered-old-web-finds-anti-graal-hq-topsites-opengraal-com-topsites-php": {
+      "title": "",
+      "description": "Anti-Graal HQ Topsites is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.725Z"
+    },
+    "recovered-old-web-finds-addglitter-online-now-icons-addglitter-com-graphics-online-now-icons-asp": {
+      "title": "",
+      "description": "AddGlitter Online Now Icons is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": false,
+      "favicon_path": "assets/favicons/recovered-old-web-finds-addglitter-online-now-icons-addglitter-com-graphics-online-now-icons-asp-c68eccac33.ico",
+      "favicon_source": "https://addglitter.com/favicon.ico",
+      "favicon_content_type": "image/x-icon",
+      "checked_at": "2026-08-09T04:29:07.882Z"
+    },
+    "recovered-old-web-finds-conflict2k-layouts-conflict2k-com-layouts-htm": {
+      "title": "",
+      "description": "Conflict2K Layouts is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.950Z"
+    },
+    "recovered-old-web-finds-purpleraichu-link-buttons-purpleraichu-virtualave-net-linkus-html": {
+      "title": "",
+      "description": "Purpleraichu Link Buttons is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.972Z"
+    },
+    "recovered-old-web-finds-graal-online-top-list-gamelists-net-graal": {
+      "title": "",
+      "description": "Graal Online Top List is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:07.987Z"
+    },
+    "recovered-old-web-finds-celestial-star-layout-downloads-celestial-star-net-layouts-topdl": {
+      "title": "",
+      "description": "Celestial Star Layout Downloads is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": false,
+      "favicon_path": "assets/favicons/recovered-old-web-finds-celestial-star-layout-downloads-celestial-star-net-layouts-topdl-112546480e.ico",
+      "favicon_source": "https://celestial-star.net/favicon.ico",
+      "favicon_content_type": "image/vnd.microsoft.icon",
+      "checked_at": "2026-08-09T04:29:08.236Z"
+    },
+    "recovered-old-web-finds-acid-artpacks-archive-artpacks-acid-org": {
+      "title": "",
+      "description": "ACiD Artpacks Archive is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.260Z"
+    },
+    "recovered-old-web-finds-extortionz-templates-extortionz-net": {
+      "title": "",
+      "description": "Extortionz Templates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.434Z"
+    },
+    "recovered-old-web-finds-enemy-territory-resource-site-enemy-territory-4players-de-news-php": {
+      "title": "",
+      "description": "Enemy Territory Resource Site is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.586Z"
+    },
+    "recovered-old-web-finds-dectus-graphics-dectus-com-graphics-htm": {
+      "title": "",
+      "description": "Dectus Graphics is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.723Z"
+    },
+    "recovered-old-web-finds-freeweblayout-freeweblayout-com": {
+      "title": "",
+      "description": "FreeWebLayout is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.737Z"
+    },
+    "recovered-old-web-finds-bv-designs-web-development-resources-bvdesigns-net-index-20-web-development": {
+      "title": "",
+      "description": "BV Designs Web Development Resources is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:08.879Z"
+    },
+    "recovered-old-web-finds-freewebtemplates-download-archive-download-freewebtemplates-com-templates-zip": {
+      "title": "",
+      "description": "FreeWebTemplates Download Archive is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:11.663Z"
+    },
+    "recovered-old-web-finds-fairyland-europe-layout-guide-fairyland-europe-com-image-layout-guide-jpg": {
+      "title": "",
+      "description": "Fairyland Europe Layout Guide is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:12.362Z"
+    },
+    "recovered-old-web-finds-graal-2001-graphics-templates-graal2001-com-gfxlib-gfx-templates-shtml": {
+      "title": "",
+      "description": "Graal 2001 Graphics Templates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:13.734Z"
+    },
+    "recovered-old-web-finds-aimsites-aim-expressions-aimsites-com": {
+      "title": "",
+      "description": "AimSites AIM Expressions is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:14.548Z"
+    },
+    "recovered-old-web-finds-freewebtemplates-freewebtemplates-com": {
+      "title": "",
+      "description": "FreeWebTemplates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:15.617Z"
+    },
+    "recovered-old-web-finds-guistuff-guistuff-com": {
+      "title": "",
+      "description": "GUIStuff is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:15.762Z"
+    },
+    "recovered-old-web-finds-iconfun-buddy-icon-maker-iconfun-com": {
+      "title": "",
+      "description": "IconFun Buddy Icon Maker is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:15.763Z"
+    },
+    "recovered-old-web-finds-jakez-layouts-jakez-net-index2-php": {
+      "title": "",
+      "description": "Jakez Layouts is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:15.883Z"
+    },
+    "recovered-old-web-finds-jens-icons-jensicons-com": {
+      "title": "",
+      "description": "Jens Icons is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:18.668Z"
+    },
+    "recovered-old-web-finds-graal-2000-tripod-page-members-tripod-com-antifox64-graalpage-main-html": {
+      "title": "",
+      "description": "Graal 2000 Tripod Page is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:19.362Z"
+    },
+    "recovered-old-web-finds-mindviz-tracker-mvtracker-com-join-php": {
+      "title": "",
+      "description": "MindViz Tracker is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:20.749Z"
+    },
+    "recovered-old-web-finds-oogle-tutorial-oogle-net-o-tutorial-htm": {
+      "title": "",
+      "description": "Oogle Tutorial is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:21.564Z"
+    },
+    "recovered-old-web-finds-open-web-design-openwebdesign-org-browse-php": {
+      "title": "",
+      "description": "Open Web Design is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:22.633Z"
+    },
+    "recovered-old-web-finds-phong-tutorials-phong-com": {
+      "title": "",
+      "description": "Phong Tutorials is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:22.766Z"
+    },
+    "recovered-old-web-finds-mytheme-aim-expressions-picgames-com-mytheme": {
+      "title": "",
+      "description": "MyTheme AIM Expressions is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:22.783Z"
+    },
+    "recovered-old-web-finds-clantemplates-staff-staff-clantemplates-com": {
+      "title": "",
+      "description": "ClanTemplates Staff is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:22.896Z"
+    },
+    "recovered-old-web-finds-starr2k-buddy-icons-starr2k-com-bicons-htm": {
+      "title": "",
+      "description": "Starr2k Buddy Icons is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:25.700Z"
+    },
+    "recovered-old-web-finds-steel-dolphin-creative-steeldolphin-com": {
+      "title": "",
+      "description": "Steel Dolphin Creative is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:26.362Z"
+    },
+    "recovered-old-web-finds-syrogen-light-orb-tutorial-syrogen-com-tut06-tut06-html": {
+      "title": "",
+      "description": "Syrogen Light Orb Tutorial is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:27.784Z"
+    },
+    "recovered-old-web-finds-favpage-webdesign-templates-templates-favpage-com": {
+      "title": "",
+      "description": "FavPage Webdesign Templates is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:28.566Z"
+    },
+    "recovered-old-web-finds-templatesland-templatesland-com-index-html": {
+      "title": "",
+      "description": "TemplatesLand is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:29.651Z"
+    },
+    "recovered-old-web-finds-topfreegraphics-topfreegraphics-com-index-html": {
+      "title": "",
+      "description": "TopFreeGraphics is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:29.799Z"
+    },
+    "recovered-old-web-finds-tricon-software-triconsoft-com": {
+      "title": "",
+      "description": "Tricon Software is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:29.799Z"
+    },
+    "recovered-old-web-finds-webtemplateszone-webtemplateszone-com": {
+      "title": "",
+      "description": "WebTemplatesZone is listed as defunct or closed. The Wayback Machine link preserves historical captures when the live site no longer works.",
+      "metadata_source": "fallback",
+      "metadata_url": "",
+      "favicon_missing": true,
+      "checked_at": "2026-08-09T04:29:29.920Z"
     }
   }
 }
