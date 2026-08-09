@@ -2,6 +2,56 @@
   "generated_from": "Old Free Online Resources.html",
   "total_links": 603,
   "total_categories": 24,
+  "external_directories": [
+    {
+      "name": "Old'aVista",
+      "url": "https://oldavista.com/",
+      "category": "Old-site search",
+      "description": "Searches old personal websites from hosts like GeoCities, Angelfire, AOL Hometown, Xoom, and Tripod."
+    },
+    {
+      "name": "Wiby",
+      "url": "https://wiby.me/",
+      "category": "Classic web search",
+      "description": "A lightweight search engine focused on older-style pages and the early-web browsing feeling."
+    },
+    {
+      "name": "TheOldNet WebRing",
+      "url": "https://webring.theoldnet.com/",
+      "category": "Webring",
+      "description": "A live webring for modern retro-styled personal sites and vintage-computer-friendly web wandering."
+    },
+    {
+      "name": "Wayback Machine",
+      "url": "https://web.archive.org/",
+      "category": "Web archive",
+      "description": "The core Internet Archive tool for finding historical snapshots of URLs and old websites."
+    },
+    {
+      "name": "Curlie",
+      "url": "https://curlie.org/",
+      "category": "Human-edited directory",
+      "description": "A volunteer-edited web directory descended from the old Open Directory Project/DMOZ tradition."
+    },
+    {
+      "name": "Open Directory Project mirror",
+      "url": "https://odp.org/",
+      "category": "Classic directory",
+      "description": "A browseable Open Directory Project-style category directory useful for older web research paths."
+    },
+    {
+      "name": "Neocities Browse",
+      "url": "https://neocities.org/browse",
+      "category": "Indie web directory",
+      "description": "Browse modern handmade personal sites, including many pages tagged with retro and 1990s aesthetics."
+    },
+    {
+      "name": "Marginalia Search",
+      "url": "https://marginalia-search.com/",
+      "category": "Small-web search",
+      "description": "A discovery-oriented search engine for non-commercial, independent, old, and weird web pages."
+    }
+  ],
   "categories": [
     {
       "id": "email",
