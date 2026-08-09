@@ -1,271 +1,2048 @@
 {
   "generated_from": "C:/Users/Chris/Desktop/Rice2k Upload/links (7).html",
   "generated_at": "2026-08-09",
-  "selection_note": "Recovered from an older local link directory, then filtered to keep old-web, web-design, template, icon, graphics, Graal, and archived resource links while excluding private, login, search-result, local-file, and unrelated modern bookmarks.",
-  "links": [
+  "selection_note": "Recovered from an older local link directory, split into themed categories, and filtered to keep old-web, web-design, template, icon, graphics, Graal, gaming, topsites, webmaster, and personal-site links while excluding private, login, search-result, local-file, offensive, unsafe, and unrelated modern bookmarks.",
+  "total_links": 130,
+  "categories": [
     {
-      "name": "AnimeShare Graphic Resource Site",
-      "href": "https://web.archive.org/web/20051219093154/http://animeshare.crystals-ss.net/",
-      "target": "animeshare.crystals-ss.net",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a mid-2000s anime graphics and layout resource site."
+      "id": "recovered-graal-fan-sites",
+      "title": "Recovered Graal Fan Sites & Resources",
+      "icon": "fas fa-gamepad",
+      "summary": "Graal fan pages, graphics libraries, playerworld material, topsites, and preserved resource pages.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-graal-online-graal2002-com-playerworlds-playerworldsup-html",
+          "name": "Graal Online",
+          "href": "https://web.archive.org/web/20020220061018/http://www.graal2002.com:80/playerworlds/playerworldsup.html",
+          "target": "graal2002.com/playerworlds/playerworldsup.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Online.",
+          "source_title": "Graal Online",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-graal-online-top-list-resources-links-and-information-gamelists-net-graal",
+          "name": "Graal Online Top List - Resources, Links, and Information",
+          "href": "https://web.archive.org/web/20030602042531/http://gamelists.net/graal/",
+          "target": "gamelists.net/graal",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Online Top List - Resources, Links, and Information.",
+          "source_title": "Graal Online Top List - Resources, Links, and Information",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-zenkou-graal-net-zenkou-graal-net",
+          "name": "zenkou.graal.net",
+          "href": "https://web.archive.org/web/*/http://zenkou.graal.net*",
+          "target": "zenkou.graal.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: zenkou.graal.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-zenkou-graal-net-zenkou-graal-net-gn-link-jpg",
+          "name": "zenkou.graal.net",
+          "href": "https://web.archive.org/web/20051212122006/http://zenkou.graal.net:80/gn_link.jpg",
+          "target": "zenkou.graal.net/gn_link.jpg",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: zenkou.graal.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-zenkou-graal-net-zenkou-graal-net-haro-index-html",
+          "name": "zenkou.graal.net",
+          "href": "https://web.archive.org/web/20051217000000*/http://zenkou.graal.net:80/haro/index.html",
+          "target": "zenkou.graal.net/haro/index.html",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: zenkou.graal.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-anti-graal-hq-topsites-opengraal-com-topsites-php",
+          "name": "Anti-Graal HQ : Topsites",
+          "href": "https://web.archive.org/web/20020604083118/http://opengraal.com:80/topsites.php?clickthru=www.angelfire.com/extreme3/ultimareality/Faith1.html",
+          "target": "opengraal.com/topsites.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Anti-Graal HQ : Topsites.",
+          "source_title": "Anti-Graal HQ : Topsites",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-eurocenter-upcoming-graalbible-wiki-graal-net-index-php-eurocenter-upcoming",
+          "name": "Eurocenter Upcoming - GraalBible",
+          "href": "https://web.archive.org/web/20100906085235/http://wiki.graal.net/index.php/Eurocenter_Upcoming#Scorched_3D",
+          "target": "wiki.graal.net/index.php/Eurocenter_Upcoming",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Eurocenter Upcoming - GraalBible.",
+          "source_title": "Eurocenter Upcoming - GraalBible",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-geosoft-inc-server46-hypermart-net-geovaniecom-graal-links-shtml",
+          "name": "GeoSoft Inc.",
+          "href": "https://web.archive.org/web/20010221025656/http://server46.hypermart.net/geovaniecom/graal/links.shtml",
+          "target": "server46.hypermart.net/geovaniecom/graal/links.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: GeoSoft Inc..",
+          "source_title": "GeoSoft Inc.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-geosoft-inc-server46-hypermart-net-geovaniecom-graal-servers-shtml",
+          "name": "GeoSoft Inc.",
+          "href": "https://web.archive.org/web/20010605203517/http://server46.hypermart.net/geovaniecom/graal/servers.shtml",
+          "target": "server46.hypermart.net/geovaniecom/graal/servers.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: GeoSoft Inc..",
+          "source_title": "GeoSoft Inc.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-communication-center-powered-by-vbulletin-forums-graal2001-com-forums",
+          "name": "Graal Communication Center - powered by vBulletin",
+          "href": "https://web.archive.org/web/20010410220515/http://forums.graal2001.com/forums/",
+          "target": "forums.graal2001.com/forums",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Communication Center - powered by vBulletin.",
+          "source_title": "Graal Communication Center - powered by vBulletin",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-communication-center-reserved-for-gold-and-vip-subscribers-gcli-forums-graal2001-com-forums-showthread-php",
+          "name": "Graal Communication Center (reserved for gold and vip subscribers) - GCli...",
+          "href": "https://web.archive.org/web/20040316211909/http://forums.graal2001.com/forums/showthread.php?s=8ecf90d8a996af24b4d25dccb710da18&threadid=3070&perpage=15&pagenumber=3",
+          "target": "forums.graal2001.com/forums/showthread.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Communication Center (reserved for gold and vip subscribers) - GCli....",
+          "source_title": "Graal Communication Center (reserved for gold and vip subscribers) - GClient2001",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-communication-center-reserved-for-gold-and-vip-subscribers-powe-forums-graalonline-com-forums",
+          "name": "Graal Communication Center (reserved for gold and vip subscribers) - Powe...",
+          "href": "https://web.archive.org/web/20080508051515/http://forums.graalonline.com/forums/",
+          "target": "forums.graalonline.com/forums",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Communication Center (reserved for gold and vip subscribers) - Powe....",
+          "source_title": "Graal Communication Center (reserved for gold and vip subscribers) - Powered by vBulletin",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-communication-center-reserved-for-gold-and-vip-subscribers-view-forums-graalonline-com-forums-member-php",
+          "name": "Graal Communication Center (reserved for gold and vip subscribers) - View...",
+          "href": "https://web.archive.org/web/20080324201449/http://forums.graalonline.com/forums/member.php?u=4",
+          "target": "forums.graalonline.com/forums/member.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Communication Center (reserved for gold and vip subscribers) - View....",
+          "source_title": "Graal Communication Center (reserved for gold and vip subscribers) - View Profile: Stefan",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-communication-center-reserved-for-gold-and-vip-subscribers-view-forums-graal2001-com-forums-member-php",
+          "name": "Graal Communication Center (reserved for gold and vip subscribers) - View...",
+          "href": "https://web.archive.org/web/20030624090345/http://forums.graal2001.com/forums/member.php?s=&action=getinfo&userid=899",
+          "target": "forums.graal2001.com/forums/member.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Communication Center (reserved for gold and vip subscribers) - View....",
+          "source_title": "Graal Communication Center (reserved for gold and vip subscribers) - View Profile",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-forums-powered-by-infopop-graalonline-com-cgi-bin-forum-ubb-ultimate-cgi",
+          "name": "Graal Forums - powered by Infopop",
+          "href": "https://web.archive.org/web/20001117220500/http://www.graalonline.com/cgi-bin/forum/ubb/Ultimate.cgi",
+          "target": "graalonline.com/cgi-bin/forum/ubb/Ultimate.cgi",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Forums - powered by Infopop.",
+          "source_title": "Graal Forums - powered by Infopop",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-lightspeed-links-members-nbci-com-graalhp-links-htm",
+          "name": "Graal Lightspeed | Links",
+          "href": "https://web.archive.org/web/20010603045024/http://members.nbci.com/graalhp/links.htm",
+          "target": "members.nbci.com/graalhp/links.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Lightspeed | Links.",
+          "source_title": "Graal Lightspeed | Links",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-network-powered-by-nexose-networks-graal-us-index-php",
+          "name": "Graal Network - powered by Nexose Networks",
+          "href": "https://web.archive.org/web/20020816092838/http://graal.us/index.php?s=",
+          "target": "graal.us/index.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Network - powered by Nexose Networks.",
+          "source_title": "Graal Network - powered by Nexose Networks",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-network-view-profile-graal-us-forum-member-php",
+          "name": "Graal Network - View Profile",
+          "href": "https://web.archive.org/web/20020604185244/http://www.graal.us:80/forum/member.php?action=getinfo&username=Gonmon",
+          "target": "graal.us/forum/member.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Network - View Profile.",
+          "source_title": "Graal Network - View Profile",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-online-graalonline-com-index-htm",
+          "name": "Graal Online",
+          "href": "https://web.archive.org/web/19990829003542/http://graalonline.com:80/index.htm",
+          "target": "graalonline.com/index.htm",
+          "era": "1990s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Online.",
+          "source_title": "Graal Online",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-online-graal2001-com-gfxlib-gfx-bomy-submit-shtml",
+          "name": "Graal Online",
+          "href": "https://web.archive.org/web/20020204194214/http://www.graal2001.com:80/gfxlib/gfx-bomy-submit.shtml",
+          "target": "graal2001.com/gfxlib/gfx-bomy-submit.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Online.",
+          "source_title": "Graal Online",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-online-graalonline-com",
+          "name": "Graal Online",
+          "href": "https://web.archive.org/web/19991013114753/http://graalonline.com:80/",
+          "target": "graalonline.com",
+          "era": "1990s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Online.",
+          "source_title": "Graal Online",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-pastebin-pastebin-graalcenter-org-read-579543051100",
+          "name": "Graal Pastebin",
+          "href": "https://web.archive.org/web/20120629084324/http://pastebin.graalcenter.org:80/read/579543051100",
+          "target": "pastebin.graalcenter.org/read/579543051100",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Pastebin.",
+          "source_title": "Graal Pastebin",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-stats-statistics-graal-us",
+          "name": "Graal Stats",
+          "href": "https://web.archive.org/web/20061205191810/http://statistics.graal.us/",
+          "target": "statistics.graal.us",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Stats.",
+          "source_title": "Graal Stats",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-update-2-levels-and-npcs-graalupdate-8m-com-levelsnpcs-html",
+          "name": "Graal Update 2 - Levels and NPCs",
+          "href": "https://web.archive.org/web/20010221214815/http://graalupdate.8m.com/levelsnpcs.html",
+          "target": "graalupdate.8m.com/levelsnpcs.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal Update 2 - Levels and NPCs.",
+          "source_title": "Graal Update 2 - Levels and NPCs",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-in-graal-in-xml-php",
+          "name": "graal.in",
+          "href": "https://web.archive.org/web/20120908050757/http://www.graal.in/xml.php?get=servers",
+          "target": "graal.in/xml.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal.in.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-iscool-net-graal-iscool-net-news-html",
+          "name": "graal.iscool.net",
+          "href": "https://web.archive.org/web/20021213100814/http://graal.iscool.net/news.html",
+          "target": "graal.iscool.net/news.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal.iscool.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-realgamers-net-graal-realgamers-net",
+          "name": "graal.realgamers.net",
+          "href": "https://web.archive.org/web/*/http://graal.realgamers.net*",
+          "target": "graal.realgamers.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal.realgamers.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal-us-pick-your-poison-graal-us",
+          "name": "Graal.us - Pick your poison!",
+          "href": "https://web.archive.org/web/20061205020031/http://graal.us/",
+          "target": "graal.us",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graal.us - Pick your poison!.",
+          "source_title": "Graal.us - Pick your poison!",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal2001-com-graal2001-com",
+          "name": "graal2001.com",
+          "href": "https://web.archive.org/web/20010220185536/http://www.graal2001.com/",
+          "target": "graal2001.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal2001.com.",
+          "source_title": "W",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal2001-com-graal2001-com-gfxlib",
+          "name": "graal2001.com",
+          "href": "https://web.archive.org/web/*/http://www.graal2001.com/gfxlib/*",
+          "target": "graal2001.com/gfxlib",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal2001.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal2001-com-graal2001-com-gfxlib-gfx-templates-shtml",
+          "name": "graal2001.com",
+          "href": "https://web.archive.org/web/20021002000000*/http://www.graal2001.com:80/gfxlib/gfx-templates.shtml",
+          "target": "graal2001.com/gfxlib/gfx-templates.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal2001.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graal3d-com-graal3d-com-commander-mutualise-php",
+          "name": "graal3d.com",
+          "href": "https://web.archive.org/web/20030711225057/http://graal3d.com/commander/mutualise.php",
+          "target": "graal3d.com/commander/mutualise.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graal3d.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graalagency-com-graalagency-com",
+          "name": "graalagency.com",
+          "href": "https://web.archive.org/web/*/https://graalagency.com/*",
+          "target": "graalagency.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: graalagency.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graalians-com-status-editor-graalians-com-status",
+          "name": "Graalians.com - Status Editor",
+          "href": "https://web.archive.org/web/20110824040659/http://www.graalians.com/status/",
+          "target": "graalians.com/status",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Graalians.com - Status Editor.",
+          "source_title": "Graalians.com - Status Editor",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graalonline-home-fairyland-europe-com",
+          "name": "GraalOnline - Home",
+          "href": "https://web.archive.org/web/20110809071236/http://fairyland-europe.com/?l",
+          "target": "fairyland-europe.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: GraalOnline - Home.",
+          "source_title": "GraalOnline - Home",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-gs2-resource-gs2-graalstudios-com",
+          "name": "GS2 Resource",
+          "href": "https://web.archive.org/web/20111001001140/http://gs2.graalstudios.com/?page=examples",
+          "target": "gs2.graalstudios.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: GS2 Resource.",
+          "source_title": "GS2 Resource",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-gscript-wiki-welcome-skyld-vip-graal-net-wikka-php",
+          "name": "GScript Wiki: Welcome",
+          "href": "https://web.archive.org/web/20070908175809/http://skyld.vip.graal.net/wikka.php?wakka=Homepage",
+          "target": "skyld.vip.graal.net/wikka.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: GScript Wiki: Welcome.",
+          "source_title": "GScript Wiki: Welcome",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-opengraal-news-opengraal-com",
+          "name": "OpenGraal - News",
+          "href": "https://web.archive.org/web/20120908014004/http://www.opengraal.com/",
+          "target": "opengraal.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: OpenGraal - News.",
+          "source_title": "OpenGraal - News",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-pastebin-graalcenter-org-pastebin-graalcenter-org",
+          "name": "pastebin.graalcenter.org",
+          "href": "https://web.archive.org/web/*/https://pastebin.graalcenter.org*",
+          "target": "pastebin.graalcenter.org",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: pastebin.graalcenter.org.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-graal-online-yoshi-tribe-welcome-yoshihead-yoshitribe-xoasis-com-links-php3",
+          "name": "The Graal Online Yoshi Tribe - Welcome Yoshihead",
+          "href": "https://web.archive.org/web/20010209042509fw_/http://yoshitribe.xoasis.com/links.php3",
+          "target": "yoshitribe.xoasis.com/links.php3",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: The Graal Online Yoshi Tribe - Welcome Yoshihead.",
+          "source_title": "The Graal Online Yoshi Tribe - Welcome Yoshihead",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-welcome-to-graal-2000-members-tripod-com-antifox64-graalpage-main-html",
+          "name": "Welcome to Graal 2000",
+          "href": "https://web.archive.org/web/19991128123812/http://members.tripod.com/AntiFox64/GraalPage/main.html",
+          "target": "members.tripod.com/AntiFox64/GraalPage/main.html",
+          "era": "1990s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Welcome to Graal 2000.",
+          "source_title": "Welcome to Graal 2000",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-welcome-to-graal-online-graalonline-com-site-graal-shtml",
+          "name": "Welcome to Graal Online !",
+          "href": "https://web.archive.org/web/20000706211401/http://www.graalonline.com/site/graal.shtml",
+          "target": "graalonline.com/site/graal.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal fan-site, playerworld, graphics, or resource page from the classic online-game web: Welcome to Graal Online !.",
+          "source_title": "Welcome to Graal Online !",
+          "source_tags": [
+            "graal",
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Geocities Webmaster Gabo Affiliates",
-      "href": "https://web.archive.org/web/20091027011000/http://mx.geocities.com/webmastergabo2003/afiliados.htm",
-      "target": "mx.geocities.com/webmastergabo2003/afiliados.htm",
-      "description": "Recovered from the older local link directory. This archived GeoCities page preserves an affiliate-links style web directory from the old personal-site era."
+      "id": "recovered-web-design-templates",
+      "title": "Recovered Web Design & Templates",
+      "icon": "fas fa-paint-brush",
+      "summary": "Old layout, template, tutorial, CSS, Photoshop, and web-design resource pages.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-free-web-templates-get-free-website-templates-and-page-layouts-flash-t-freewebtemplates-com",
+          "name": "Free Web Templates - Get free website templates and page layouts, flash t...",
+          "href": "https://web.archive.org/web/20061018135911/http://www.freewebtemplates.com/",
+          "target": "freewebtemplates.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Free Web Templates - Get free website templates and page layouts, flash t....",
+          "source_title": "Free Web Templates - Get free website templates and page layouts, flash templates, business templates and more",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-bv-designs-effective-technology-resources-bvdesigns-net-index-20-web-development",
+          "name": "BV Designs - Effective Technology Resources",
+          "href": "https://web.archive.org/web/20041009153124/http://bvdesigns.net/index/20/Web_Development",
+          "target": "bvdesigns.net/index/20/Web_Development",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: BV Designs - Effective Technology Resources.",
+          "source_title": "BV Designs - Effective Technology Resources",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-download-freewebtemplates-com-download-freewebtemplates-com-templates-zip",
+          "name": "download.freewebtemplates.com",
+          "href": "https://web.archive.org/web/*/http://download.freewebtemplates.com/templates/zip/*",
+          "target": "download.freewebtemplates.com/templates/zip",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: download.freewebtemplates.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-free-anime-templates-and-layouts-anime-templates-com",
+          "name": "Free Anime Templates and Layouts",
+          "href": "https://web.archive.org/web/20040209050613/http://www.anime-templates.com/",
+          "target": "anime-templates.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Free Anime Templates and Layouts.",
+          "source_title": "Free Anime Templates and Layouts",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-free-web-layout-freeweblayout-com-sites-with-web-layouts-for-free-freeweblayout-com",
+          "name": "Free Web Layout FreeWebLayout.com, Sites with web layouts for free.",
+          "href": "https://web.archive.org/web/20061107082814/http://www.freeweblayout.com/",
+          "target": "freeweblayout.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Free Web Layout FreeWebLayout.com, Sites with web layouts for free..",
+          "source_title": "Free Web Layout FreeWebLayout.com, Sites with web layouts for free.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-open-web-design-browse-designs-openwebdesign-org-browse-php",
+          "name": "Open Web Design - Browse Designs",
+          "href": "https://web.archive.org/web/20060901100057/http://openwebdesign.org/browse.php",
+          "target": "openwebdesign.org/browse.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Open Web Design - Browse Designs.",
+          "source_title": "Open Web Design - Browse Designs",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-phong-tutorials-for-bustin-mad-imagery-phong-com",
+          "name": "phong [ tutorials for bustin' mad imagery ]",
+          "href": "https://web.archive.org/web/20010722111909/http://phong.com/",
+          "target": "phong.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: phong [ tutorials for bustin' mad imagery ].",
+          "source_title": "phong [ tutorials for bustin' mad imagery ]",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-staff-clantemplates-com-staff-clantemplates-com",
+          "name": "Staff - ClanTemplates.com",
+          "href": "https://web.archive.org/web/20080222052719/http://staff.clantemplates.com/",
+          "target": "staff.clantemplates.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Staff - ClanTemplates.com.",
+          "source_title": "Staff - ClanTemplates.com",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-steel-dolphin-creative-free-downloads-tutorials-photography-forum-a-steeldolphin-com",
+          "name": "Steel Dolphin Creative - Free downloads, tutorials, photography, forum, a...",
+          "href": "https://web.archive.org/web/20020928121818/http://www.steeldolphin.com/",
+          "target": "steeldolphin.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Steel Dolphin Creative - Free downloads, tutorials, photography, forum, a....",
+          "source_title": "Steel Dolphin Creative - Free downloads, tutorials, photography, forum, art, design, photoshop",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-syrogen-com-tutorial-light-orb-syrogen-com-tut06-tut06-html",
+          "name": "SYROGEN.COM - TUTORIAL - Light orb",
+          "href": "https://web.archive.org/web/20040503005557/http://www.syrogen.com/tut06/tut06.html",
+          "target": "syrogen.com/tut06/tut06.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: SYROGEN.COM - TUTORIAL - Light orb.",
+          "source_title": "SYROGEN.COM - TUTORIAL - Light orb",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-top-web-template-sites-free-website-templates-templatesland-com-index-html",
+          "name": "Top web template sites, free website templates",
+          "href": "https://web.archive.org/web/20040612155055/http://www.templatesland.com/index.html",
+          "target": "templatesland.com/index.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Top web template sites, free website templates.",
+          "source_title": "Top web template sites, free website templates",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-webdesign-templates-templates-favpage-com",
+          "name": "Webdesign Templates",
+          "href": "https://web.archive.org/web/20040611224201/http://templates.favpage.com/",
+          "target": "templates.favpage.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Webdesign Templates.",
+          "source_title": "Webdesign Templates",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-conflict2k-com-conflict2k-com-layouts-htm",
+          "name": "CONFLICT2K.COM",
+          "href": "https://web.archive.org/web/20021208123722/http://www.conflict2k.com/layouts.htm",
+          "target": "conflict2k.com/layouts.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: CONFLICT2K.COM.",
+          "source_title": "CONFLICT2K.COM",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-design-syrogen-com-v001-syrogen-com-view-php",
+          "name": "design - Syrogen.com v001",
+          "href": "https://web.archive.org/web/20040514143710/http://syrogen.com/view.php?id=36",
+          "target": "syrogen.com/view.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: design - Syrogen.com v001.",
+          "source_title": "design - Syrogen.com v001",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-fairyland-europe-com-fairyland-europe-com-image-layout-guide-jpg",
+          "name": "fairyland-europe.com",
+          "href": "https://web.archive.org/web/20050111053606/http://www.fairyland-europe.com:80/image/layout/guide.jpg",
+          "target": "fairyland-europe.com/image/layout/guide.jpg",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: fairyland-europe.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-most-downloaded-layouts-celestial-star-celestial-star-net-layouts-topdl",
+          "name": "Most downloaded layouts | Celestial Star",
+          "href": "https://web.archive.org/web/20111013144040/http://celestial-star.net/layouts/topdl/",
+          "target": "celestial-star.net/layouts/topdl",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Most downloaded layouts | Celestial Star.",
+          "source_title": "Most downloaded layouts | Celestial Star",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-oogle-page-oasic-tutorial-oogle-net-o-tutorial-htm",
+          "name": "The Oogle Page -> Oasic -> Tutorial",
+          "href": "https://web.archive.org/web/20001205033300/http://www.oogle.net/o_tutorial.htm",
+          "target": "oogle.net/o_tutorial.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: The Oogle Page -> Oasic -> Tutorial.",
+          "source_title": "The Oogle Page -> Oasic -> Tutorial",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-thirteen-some-funny-phrase-or-saying-here-jakez-net-index2-php",
+          "name": "Thirteen - some funny phrase or saying here.",
+          "href": "https://web.archive.org/web/20030402211811/http://jakez.net/index2.php?page=layouts",
+          "target": "jakez.net/index2.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: Thirteen - some funny phrase or saying here..",
+          "source_title": "Thirteen - some funny phrase or saying here.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-webtemplateszone-com-webtemplateszone-com",
+          "name": "webtemplateszone.com",
+          "href": "https://web.archive.org/web/*/http://www.webtemplateszone.com/*",
+          "target": "webtemplateszone.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: webtemplateszone.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-zulumonkey-theres-a-zulu-monkey-on-my-stoep-extortionz-net",
+          "name": "zulumonkey, theres a zulu monkey on my stoep",
+          "href": "https://web.archive.org/web/20041204004146/http://www.extortionz.net/?id=templates",
+          "target": "extortionz.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old web-design, layout, template, or tutorial resource: zulumonkey, theres a zulu monkey on my stoep.",
+          "source_title": "zulumonkey, theres a zulu monkey on my stoep",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Graal TopSites CJB",
-      "href": "http://web.archive.org/web/20000118193558/http://graaltopsites.cjb.net/",
-      "target": "graaltopsites.cjb.net",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves a Graal-focused topsites directory hosted through CJB."
+      "id": "recovered-icons-graphics",
+      "title": "Recovered Icons, Blinkies & Graphics",
+      "icon": "fas fa-icons",
+      "summary": "Buddy icons, blinkies, pixel graphics, banners, art packs, and personal-site image resources.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-online-now-icons-myspace-piczo-xanga-graphics-addglitter-com-graphics-online-now-icons-asp",
+          "name": "Online Now Icons - Myspace, Piczo, Xanga Graphics",
+          "href": "https://web.archive.org/web/20101225031506/http://www.addglitter.com/graphics/online-now-icons.asp",
+          "target": "addglitter.com/graphics/online-now-icons.asp",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Online Now Icons - Myspace, Piczo, Xanga Graphics.",
+          "source_title": "Online Now Icons - Myspace, Piczo, Xanga Graphics",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 5
+        },
+        {
+          "id": "recovered-old-web-finds-jens-dollz-movie-icons-actors-actresses-tv-shows-and-st-patricks-da-jensicons-com",
+          "name": "Jens, Dollz, movie icons, actors, actresses..tv shows..And St Patricks da...",
+          "href": "https://web.archive.org/web/20040407171056/http://www.jensicons.com/",
+          "target": "jensicons.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Jens, Dollz, movie icons, actors, actresses..tv shows..And St Patricks da....",
+          "source_title": "Jens, Dollz, movie icons, actors, actresses..tv shows..And St Patricks day too!",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 4
+        },
+        {
+          "id": "recovered-old-web-finds-dragid-net-anime-japanese-animation-wallpapers-buddy-icons-image-galler-dragid-net",
+          "name": "Dragid.net Anime - Japanese Animation wallpapers,buddy icons,image galler...",
+          "href": "https://web.archive.org/web/20050206190706/http://www.dragid.net/?name=xskater",
+          "target": "dragid.net",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Dragid.net Anime - Japanese Animation wallpapers,buddy icons,image galler....",
+          "source_title": "Dragid.net Anime - Japanese Animation wallpapers,buddy icons,image gallery,themes,episode guide",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-iconfun-com-make-your-own-buddy-icons-buddy-icon-maker-dollz-icon-m-iconfun-com",
+          "name": "IconFun.com - Make Your Own Buddy Icons | Buddy Icon Maker | Dollz Icon M...",
+          "href": "https://web.archive.org/web/20040611065129/http://iconfun.com/",
+          "target": "iconfun.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: IconFun.com - Make Your Own Buddy Icons | Buddy Icon Maker | Dollz Icon M....",
+          "source_title": "IconFun.com - Make Your Own Buddy Icons | Buddy Icon Maker | Dollz Icon Maker | Make Buddy Icons | Make Dollz",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-the-best-websites-for-free-website-templates-web-graphics-clipart-flas-topfreegraphics-com-index-html",
+          "name": "The best websites for free website templates, web graphics, clipart, flas...",
+          "href": "https://web.archive.org/web/20030606213019/http://topfreegraphics.com/index.html",
+          "target": "topfreegraphics.com/index.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: The best websites for free website templates, web graphics, clipart, flas....",
+          "source_title": "The best websites for free website templates, web graphics, clipart, flash intros, animations, wallpapers, etc.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-aimdolls-com-aim-doll-icons-aimdolls-com",
+          "name": "AimDolls.com :: Aim Doll Icons",
+          "href": "https://web.archive.org/web/20040611140602/http://www.aimdolls.com/",
+          "target": "aimdolls.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: AimDolls.com :: Aim Doll Icons.",
+          "source_title": "AimDolls.com :: Aim Doll Icons",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-dectus-com-by-jonas-minke-dectus-com-graphics-htm",
+          "name": "Dectus.com // By Jonas Minke",
+          "href": "https://web.archive.org/web/20030202083155/http://www.dectus.com/graphics.htm",
+          "target": "dectus.com/graphics.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Dectus.com // By Jonas Minke.",
+          "source_title": "Dectus.com // By Jonas Minke",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-guistuff-com-free-graphical-user-interfaces-guistuff-com",
+          "name": "GUIStuff.com - Free Graphical User Interfaces",
+          "href": "https://web.archive.org/web/20030211011200/http://guistuff.com/",
+          "target": "guistuff.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: GUIStuff.com - Free Graphical User Interfaces.",
+          "source_title": "GUIStuff.com - Free Graphical User Interfaces",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-macwacko-highlander-castle-brazil-br-geocities-com-akadraven-blinkies-html",
+          "name": "MacWacko Highlander Castle Brazil",
+          "href": "https://web.archive.org/web/20090723074642/http://br.geocities.com/akadraven/blinkies.html",
+          "target": "br.geocities.com/akadraven/blinkies.html",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: MacWacko Highlander Castle Brazil.",
+          "source_title": "MacWacko Highlander Castle Brazil",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-rapidshare-link-to-us-rapidshare-de-en-banners-html",
+          "name": "RapidShare - Link to us",
+          "href": "https://web.archive.org/web/20060715204549/http://rapidshare.de/en/banners.html",
+          "target": "rapidshare.de/en/banners.html",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: RapidShare - Link to us.",
+          "source_title": "RapidShare - Link to us",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-tricon-software-aol-add-on-software-and-more-triconsoft-com",
+          "name": "Tricon Software: AOL Add-On Software and More!",
+          "href": "https://web.archive.org/web/20040129071907/http://triconsoft.com/",
+          "target": "triconsoft.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Tricon Software: AOL Add-On Software and More!.",
+          "source_title": "Tricon Software: AOL Add-On Software and More!",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-starr2k-ver-8-starr2k-com",
+          "name": "´¯`·.¸.·´¯`·.¸.·´¯`·.¸.· Starr2k Ver.8 ¯`·.¸.·´¯`·.¸.·´¯`·.¸.·´",
+          "href": "https://web.archive.org/web/20080529052759/http://starr2k.com/",
+          "target": "starr2k.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: ´¯`·.¸.·´¯`·.¸.·´¯`·.¸.· Starr2k Ver.8 ¯`·.¸.·´¯`·.¸.·´¯`·.¸.·´.",
+          "source_title": "´¯`·.¸.·´¯`·.¸.·´¯`·.¸.· Starr2k Ver.8 ¯`·.¸.·´¯`·.¸.·´¯`·.¸.·´",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-2channel-emoticon-dictionary-and-aa-character-icon-msn-messenger-material-matsucon-net",
+          "name": "2channel emoticon dictionary & AA character icon / MSN messenger material...",
+          "href": "https://web.archive.org/web/20051230063058/http://matsucon.net/",
+          "target": "matsucon.net",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: 2channel emoticon dictionary & AA character icon / MSN messenger material....",
+          "source_title": "2channel emoticon dictionary & AA character icon / MSN messenger material MatsuCon",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-a-n-i-m-e-s-h-a-r-e-version-23-your-1-online-graphic-resource-site-animeshare-crystals-ss-net",
+          "name": "A N I M E S H A R E { version 23 } | | Your #1 Online Graphic-Resource Site",
+          "href": "https://web.archive.org/web/20051219093154/http://animeshare.crystals-ss.net/",
+          "target": "animeshare.crystals-ss.net",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: A N I M E S H A R E { version 23 } | | Your #1 Online Graphic-Resource Site.",
+          "source_title": "A N I M E S H A R E { version 23 } | | Your #1 Online Graphic-Resource Site",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-artpacks-acid-org-main-artpacks-acid-org",
+          "name": "artpacks.acid.org - main",
+          "href": "https://web.archive.org/web/20001109165000/http://artpacks.acid.org/",
+          "target": "artpacks.acid.org",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: artpacks.acid.org - main.",
+          "source_title": "artpacks.acid.org - main",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-graphic-forums-powered-by-vbulletin-graphic-forums-com-index-php",
+          "name": "Graphic Forums - powered by vBulletin",
+          "href": "https://web.archive.org/web/20031129091606/http://www.graphic-forums.com/index.php?referrerid=1488",
+          "target": "graphic-forums.com/index.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Graphic Forums - powered by vBulletin.",
+          "source_title": "Graphic Forums - powered by vBulletin",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-starr2k-ver-8-starr2k-com-desktops-htm",
+          "name": "Starr2k ver.8",
+          "href": "https://web.archive.org/web/20080429190945/http://www.starr2k.com/desktops.htm",
+          "target": "starr2k.com/desktops.htm",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an icons, blinkies, banners, pixel-art, or personal-site graphics resource: Starr2k ver.8.",
+          "source_title": "Starr2k ver.8",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Anti-Graal HQ Topsites",
-      "href": "http://web.archive.org/web/20020604083118/http://opengraal.com:80/topsites.php?clickthru=www.angelfire.com/extreme3/ultimareality/Faith1.html",
-      "target": "opengraal.com/topsites.php",
-      "description": "Recovered from the older local link directory. This archived topsites page points into the Angelfire and Graal fan-site web."
+      "id": "recovered-aim-messenger",
+      "title": "Recovered AIM & Messenger Culture",
+      "icon": "fas fa-comment-dots",
+      "summary": "AIM expressions, buddy icons, away-message culture, and old messenger-adjacent resources.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-aimsites-com-aim-expressions-themes-buddy-icons-away-messages-aimsites-com",
+          "name": "AimSites.com - Aim Expressions-Themes, Buddy Icons, Away Messages",
+          "href": "https://web.archive.org/web/20040605051943/http://www.aimsites.com/",
+          "target": "aimsites.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an AIM or messenger-era profile, buddy-icon, expression, or away-message resource: AimSites.com - Aim Expressions-Themes, Buddy Icons, Away Messages.",
+          "source_title": "AimSites.com - Aim Expressions-Themes, Buddy Icons, Away Messages",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 4
+        },
+        {
+          "id": "recovered-old-web-finds-mytheme-com-aim-expressions-aim-icons-free-aim-expression-creator-picgames-com-mytheme",
+          "name": "► MyTheme.com - AIM Expressions AIM Icons FREE AIM Expression Creator",
+          "href": "https://web.archive.org/web/20031202204221/http://www.picgames.com/mytheme/",
+          "target": "picgames.com/mytheme",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an AIM or messenger-era profile, buddy-icon, expression, or away-message resource: ► MyTheme.com - AIM Expressions AIM Icons FREE AIM Expression Creator.",
+          "source_title": "► MyTheme.com - AIM Expressions AIM Icons FREE AIM Expression Creator",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-jdennis-net-about-deadaim-jdennis-net-deadaim-about-php",
+          "name": "JDennis.net - About DeadAIM",
+          "href": "https://web.archive.org/web/20031001132849/http://www.jdennis.net/DeadAIM/about.php",
+          "target": "jdennis.net/DeadAIM/about.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an AIM or messenger-era profile, buddy-icon, expression, or away-message resource: JDennis.net - About DeadAIM.",
+          "source_title": "JDennis.net - About DeadAIM",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-trillian-communicate-with-flexibility-and-style-ceruleanstudios-com",
+          "name": "Trillian - Communicate with Flexibility and Style.",
+          "href": "https://web.archive.org/web/20020331110225/http://www.ceruleanstudios.com/",
+          "target": "ceruleanstudios.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an AIM or messenger-era profile, buddy-icon, expression, or away-message resource: Trillian - Communicate with Flexibility and Style..",
+          "source_title": "Trillian - Communicate with Flexibility and Style.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "MacWacko Highlander Castle Blinkies",
-      "href": "https://web.archive.org/web/20090723074642/http://br.geocities.com/akadraven/blinkies.html",
-      "target": "br.geocities.com/akadraven/blinkies.html",
-      "description": "Recovered from the older local link directory. This GeoCities snapshot preserves blinkies and personal-site graphics."
+      "id": "recovered-topsites-webrings",
+      "title": "Recovered Topsites, Webrings & Link Pages",
+      "icon": "fas fa-sitemap",
+      "summary": "Topsites, web rings, affiliates pages, link-to-us pages, and old link-directory hubs.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-a-f-i-l-i-a-d-o-s-mx-geocities-com-webmastergabo2003-afiliados-htm",
+          "name": "- = : ]a f i l i a d o s[ : = -",
+          "href": "https://web.archive.org/web/20091027011000/http://mx.geocities.com/webmastergabo2003/afiliados.htm",
+          "target": "mx.geocities.com/webmastergabo2003/afiliados.htm",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: - = : ]a f i l i a d o s[ : = -.",
+          "source_title": "- = : ]a f i l i a d o s[ : = -",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-mozzka-www-mozzka-tk-nth-dwx-dst-msl-mx-geocities-com-mozzka-tk-afiliados-htm",
+          "name": "¤°´¯`°¤ MoZzKa ¤°´¯`°¤ ---> www.mozzka.tk <--- [ NTH - DWX - DST - MSL ]",
+          "href": "https://web.archive.org/web/20090725155143/http://mx.geocities.com/mozzka_tk/afiliados.htm",
+          "target": "mx.geocities.com/mozzka_tk/afiliados.htm",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: ¤°´¯`°¤ MoZzKa ¤°´¯`°¤ ---> www.mozzka.tk <--- [ NTH - DWX - DST - MSL ].",
+          "source_title": "¤°´¯`°¤ MoZzKa ¤°´¯`°¤ ---> www.mozzka.tk <--- [ NTH - DWX - DST - MSL ]",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-sd-top-sites-main-page-all-sites-sad-destiny-w2r-net-topsites",
+          "name": "SD Top Sites - Main Page - All Sites",
+          "href": "https://web.archive.org/web/20060114161633/http://sad-destiny.w2r.net/topsites/",
+          "target": "sad-destiny.w2r.net/topsites",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: SD Top Sites - Main Page - All Sites.",
+          "source_title": "SD Top Sites - Main Page - All Sites",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-a-x-o-com-a-x-o-com-topsites-amoxapine",
+          "name": "a-x-o.com",
+          "href": "https://web.archive.org/web/*/http://www.a-x-o.com/topsites/amoxapine/*",
+          "target": "a-x-o.com/topsites/amoxapine",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: a-x-o.com.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-link-to-us-now-purpleraichu-virtualave-net-linkus-html",
+          "name": "Link to us - now!",
+          "href": "https://web.archive.org/web/20020910062809/http://purpleraichu.virtualave.net:80/linkus.html",
+          "target": "purpleraichu.virtualave.net/linkus.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: Link to us - now!.",
+          "source_title": "Link to us - now!",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-links-and-webrings-calisland-com-apcg-links-htm",
+          "name": "Links & WebRings",
+          "href": "https://web.archive.org/web/20000120015312/http://www.calisland.com/apcg/links.htm",
+          "target": "calisland.com/apcg/links.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: Links & WebRings.",
+          "source_title": "Links & WebRings",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-linkz-click-online2000-com-links-htm",
+          "name": "Linkz",
+          "href": "https://web.archive.org/web/20021206081930/http://click-online2000.com/links.htm",
+          "target": "click-online2000.com/links.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: Linkz.",
+          "source_title": "Linkz",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-realgamers-net-topsites-topsites-realgamers-net-index-php",
+          "name": "RealGamers.net Topsites",
+          "href": "https://web.archive.org/web/20020609155708/http://topsites.realgamers.net/index.php?page=2&orderby=votes",
+          "target": "topsites.realgamers.net/index.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: RealGamers.net Topsites.",
+          "source_title": "RealGamers.net Topsites",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-topsites-realgamers-net-topsites-realgamers-net-out-php",
+          "name": "topsites.realgamers.net",
+          "href": "https://web.archive.org/web/20020602224236/http://topsites.realgamers.net/out.php?id=17",
+          "target": "topsites.realgamers.net/out.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: topsites.realgamers.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-xinventions-com-xinventions-com-main-links-htm",
+          "name": "xinventions.com",
+          "href": "https://web.archive.org/web/20021015004317/http://www.xinventions.com/main/links.htm#webrings",
+          "target": "xinventions.com/main/links.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a topsite, webring, affiliates, link-to-us, or link-directory page: xinventions.com.",
+          "source_title": "Links",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Free Anime Templates and Layouts",
-      "href": "https://web.archive.org/web/20040209050613/http://www.anime-templates.com/",
-      "target": "anime-templates.com",
-      "description": "Recovered from the older local link directory. This archived site offered anime-themed templates and page layouts for personal websites."
+      "id": "recovered-classic-gaming-fan-sites",
+      "title": "Recovered Classic Gaming & Fan Sites",
+      "icon": "fas fa-chess-rook",
+      "summary": "Classic game, anime fan-site, Nintendo/Zelda, and modding-community pages from the old web.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-wolfenstein-enemy-territory-resource-site-news-enemy-territory-4players-de-news-php",
+          "name": "Wolfenstein: Enemy Territory - Resource Site: News",
+          "href": "https://web.archive.org/web/20090815023450/http://enemy-territory.4players.de/news.php",
+          "target": "enemy-territory.4players.de/news.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Wolfenstein: Enemy Territory - Resource Site: News.",
+          "source_title": "Wolfenstein: Enemy Territory - Resource Site: News",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-wolfenstein-enemy-territory-demos-mods-patches-and-file-downloads-returntocastlewolfenstein-filefront-com",
+          "name": "Wolfenstein: Enemy Territory Demos, Mods, Patches & File Downloads",
+          "href": "https://web.archive.org/web/20091027232559/http://returntocastlewolfenstein.filefront.com/",
+          "target": "returntocastlewolfenstein.filefront.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Wolfenstein: Enemy Territory Demos, Mods, Patches & File Downloads.",
+          "source_title": "Wolfenstein: Enemy Territory Demos, Mods, Patches & File Downloads",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-anime100-com-your-1-site-for-the-best-anime-on-the-web-anime100-com",
+          "name": "anime100.com .:your #1 site for the best anime on the web:.",
+          "href": "https://web.archive.org/web/20010405001127/http://anime100.com/",
+          "target": "anime100.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: anime100.com .:your #1 site for the best anime on the web:..",
+          "source_title": "anime100.com .:your #1 site for the best anime on the web:.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-animetribe-animetribe-com",
+          "name": "AnimeTribe",
+          "href": "https://web.archive.org/web/20051102015757/http://www.animetribe.com/",
+          "target": "animetribe.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: AnimeTribe.",
+          "source_title": "AnimeTribe",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-nintendo-warpzone-classic-nes-snes-gameboy-sonic-and-more-shadownetwork-ath-cx-nintendowarpzone",
+          "name": "Nintendo WarpZone - Classic NES, SNES, GameBoy, Sonic & More",
+          "href": "https://web.archive.org/web/20050101024152/http://shadownetwork.ath.cx/nintendowarpzone/",
+          "target": "shadownetwork.ath.cx/nintendowarpzone",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Nintendo WarpZone - Classic NES, SNES, GameBoy, Sonic & More.",
+          "source_title": "Nintendo WarpZone - Classic NES, SNES, GameBoy, Sonic & More",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-planetwolfenstein-a-member-of-the-gamespy-network-planetwolfenstein-com",
+          "name": "PlanetWolfenstein - A Member of the GameSpy Network",
+          "href": "https://web.archive.org/web/20020720042129/http://www.planetwolfenstein.com/",
+          "target": "planetwolfenstein.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: PlanetWolfenstein - A Member of the GameSpy Network.",
+          "source_title": "PlanetWolfenstein - A Member of the GameSpy Network",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-official-counter-strike-web-site-counter-strike-net",
+          "name": "The official Counter-Strike web site",
+          "href": "https://web.archive.org/web/20031002133320/http://www.counter-strike.net/",
+          "target": "counter-strike.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: The official Counter-Strike web site.",
+          "source_title": "The official Counter-Strike web site",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-tram-design-planetwolfenstein-com-tramdesign-resources-html",
+          "name": "Tram Design",
+          "href": "https://web.archive.org/web/20020803091949/http://www.planetwolfenstein.com/tramdesign/resources.html",
+          "target": "planetwolfenstein.com/tramdesign/resources.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Tram Design.",
+          "source_title": "Tram Design",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-zelda-central-where-the-legend-begins-zelda-gry-online-pl-news-php",
+          "name": "Zelda Central – \"... where the legend begins...\"",
+          "href": "https://web.archive.org/web/20071001014812/http://zelda.gry-online.pl/news.php",
+          "target": "zelda.gry-online.pl/news.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Zelda Central – \"... where the legend begins...\".",
+          "source_title": "Zelda Central – \"... where the legend begins...\"",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-zelda-central-where-the-legend-begins-zelda-gry-online-pl-weblinks-php",
+          "name": "Zelda Central – \"... where the legend begins...\"",
+          "href": "https://web.archive.org/web/20070922115952/http://zelda.gry-online.pl/weblinks.php",
+          "target": "zelda.gry-online.pl/weblinks.php",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a classic gaming, anime, or fan-site page from the old web: Zelda Central – \"... where the legend begins...\".",
+          "source_title": "Zelda Central – \"... where the legend begins...\"",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Dragid.net Anime Graphics",
-      "href": "https://web.archive.org/web/20050206190706/http://www.dragid.net/?name=xskater",
-      "target": "dragid.net",
-      "description": "Recovered from the older local link directory. This Wayback page preserves an anime graphics, wallpapers, buddy icons, and theme resource."
+      "id": "recovered-webmaster-tools",
+      "title": "Recovered Webmaster Tools & Trackers",
+      "icon": "fas fa-tools",
+      "summary": "Site trackers, redirectors, indexing tools, stats pages, and old webmaster utilities.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-mindviz-tracker-extensive-site-tracking-and-webmaster-tools-mvtracker-com-join-php",
+          "name": "MindViz Tracker! - Extensive Site Tracking and Webmaster Tools.",
+          "href": "https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun",
+          "target": "mvtracker.com/join.php",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: MindViz Tracker! - Extensive Site Tracking and Webmaster Tools..",
+          "source_title": "MindViz Tracker! - Extensive Site Tracking and Webmaster Tools.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 3
+        },
+        {
+          "id": "recovered-old-web-finds-cjb-net-free-url-redirection-404-cjb-net",
+          "name": "CJB.NET - Free URL Redirection",
+          "href": "https://web.archive.org/web/20011213031140/http://404.cjb.net/",
+          "target": "404.cjb.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CJB.NET - Free URL Redirection.",
+          "source_title": "CJB.NET - Free URL Redirection",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-shorturl-com-free-short-url-redirection-with-no-ads-vze-com-free-url-redirection-html",
+          "name": "shortURL.com - free short URL redirection with no ads!",
+          "href": "https://web.archive.org/web/20020806210513/http://www.vze.com/free-URL-redirection.html",
+          "target": "vze.com/free-URL-redirection.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: shortURL.com - free short URL redirection with no ads!.",
+          "source_title": "shortURL.com - free short URL redirection with no ads!",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 2
+        },
+        {
+          "id": "recovered-old-web-finds-coolkid-s-site-superpok-mon-stats-coolkid-text2k-net-cgi-bin-stats-show-cgi",
+          "name": "CoolKid's Site - SuperPokémon Stats",
+          "href": "https://web.archive.org/web/20010513114228/http://coolkid.text2k.net/cgi-bin/stats/show.cgi#",
+          "target": "coolkid.text2k.net/cgi-bin/stats/show.cgi",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CoolKid's Site - SuperPokémon Stats.",
+          "source_title": "CoolKid's Site - SuperPokémon Stats",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-counter-theme-counter-free-counter-theme-counter-web-counter-themecounter-com-stats-cgi",
+          "name": "counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter",
+          "href": "https://web.archive.org/web/20010413141239/http://www.themecounter.com/stats.cgi?id=5833",
+          "target": "themecounter.com/stats.cgi",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter.",
+          "source_title": "counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-d-i-g-i-t-a-l-5-k-its-a-little-bit-of-everything-digital5k-com-stats-html",
+          "name": "d i g i t a l 5 k // Its a little bit of everything.",
+          "href": "https://web.archive.org/web/20010622113029/http://www.digital5k.com/stats.html",
+          "target": "digital5k.com/stats.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: d i g i t a l 5 k // Its a little bit of everything..",
+          "source_title": ":// d i g i t a l 5 k // Its a little bit of everything.",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-gamestats-cheats-movies-screenshots-previews-and-reviews-gamestats-com",
+          "name": "GameStats: Cheats, Movies, Screenshots, Previews and Reviews",
+          "href": "https://web.archive.org/web/20050731235115/http://www.gamestats.com/",
+          "target": "gamestats.com",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: GameStats: Cheats, Movies, Screenshots, Previews and Reviews.",
+          "source_title": "GameStats: Cheats, Movies, Screenshots, Previews and Reviews",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-nutch-about-nutch-org-docs-en-about-html",
+          "name": "Nutch: about",
+          "href": "https://web.archive.org/web/20041206211006/http://www.nutch.org/docs/en/about.html",
+          "target": "nutch.org/docs/en/about.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: Nutch: about.",
+          "source_title": "Nutch: about",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     },
     {
-      "name": "Graal 2001 Graphics Templates",
-      "href": "https://web.archive.org/web/20021002000000*/http://www.graal2001.com:80/gfxlib/gfx-templates.shtml",
-      "target": "graal2001.com/gfxlib/gfx-templates.shtml",
-      "description": "Recovered from the older local link directory. This Wayback lookup targets Graal 2001 graphics templates and sprite-era resource pages."
-    },
-    {
-      "name": "Mozzka Geocities Affiliates",
-      "href": "https://web.archive.org/web/20090725155143/http://mx.geocities.com/mozzka_tk/afiliados.htm",
-      "target": "mx.geocities.com/mozzka_tk/afiliados.htm",
-      "description": "Recovered from the older local link directory. This GeoCities capture preserves a link-exchange and affiliates page from a personal site."
-    },
-    {
-      "name": "Purpleraichu Link Buttons",
-      "href": "http://web.archive.org/web/20020910062809/http://purpleraichu.virtualave.net:80/linkus.html",
-      "target": "purpleraichu.virtualave.net/linkus.html",
-      "description": "Recovered from the older local link directory. This archived page preserves classic link-to-us buttons and old personal-site linking culture."
-    },
-    {
-      "name": "Graal Online Top List",
-      "href": "https://web.archive.org/web/20030602042531/http://gamelists.net/graal/",
-      "target": "gamelists.net/graal/",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a Graal Online top-list directory with resources, links, and information."
-    },
-    {
-      "name": "AddGlitter Online Now Icons",
-      "href": "https://web.archive.org/web/20101225031506/http://www.addglitter.com/graphics/online-now-icons.asp",
-      "target": "addglitter.com/graphics/online-now-icons.asp",
-      "description": "Recovered from the older local link directory. This archived graphics page preserves MySpace, Piczo, and Xanga-style online-now icons."
-    },
-    {
-      "name": "AimDolls AIM Doll Icons",
-      "href": "https://web.archive.org/web/20040611140602/http://www.aimdolls.com/",
-      "target": "aimdolls.com",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves AIM doll icons and early messenger profile graphics."
-    },
-    {
-      "name": "AimSites AIM Expressions",
-      "href": "https://web.archive.org/web/20040605051943/http://www.aimsites.com/",
-      "target": "aimsites.com",
-      "description": "Recovered from the older local link directory. This archived site collected AIM expressions, themes, buddy icons, and away-message resources."
-    },
-    {
-      "name": "ACiD Artpacks Archive",
-      "href": "https://web.archive.org/web/20001109165000/http://artpacks.acid.org/",
-      "target": "artpacks.acid.org",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves an artpack archive from the ANSI and digital-art scene."
-    },
-    {
-      "name": "BV Designs Web Development Resources",
-      "href": "https://web.archive.org/web/20041009153124/http://bvdesigns.net/index/20/Web_Development",
-      "target": "bvdesigns.net/index/20/Web_Development",
-      "description": "Recovered from the older local link directory. This archived web-development directory collected design and technology resources."
-    },
-    {
-      "name": "Celestial Star Layout Downloads",
-      "href": "https://web.archive.org/web/20111013144040/http://celestial-star.net/layouts/topdl/",
-      "target": "celestial-star.net/layouts/topdl/",
-      "description": "Recovered from the older local link directory. This Wayback page preserves a ranked layout-download section from Celestial Star."
-    },
-    {
-      "name": "Conflict2K Layouts",
-      "href": "https://web.archive.org/web/20021208123722/http://www.conflict2k.com/layouts.htm",
-      "target": "conflict2k.com/layouts.htm",
-      "description": "Recovered from the older local link directory. This archived page preserves a 2002-style layouts section for personal websites."
-    },
-    {
-      "name": "Dectus Graphics",
-      "href": "https://web.archive.org/web/20030202083155/http://www.dectus.com/graphics.htm",
-      "target": "dectus.com/graphics.htm",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves a graphics page from an early-2000s personal design site."
-    },
-    {
-      "name": "FreeWebTemplates Download Archive",
-      "href": "https://web.archive.org/web/*/http://download.freewebtemplates.com/templates/zip/*",
-      "target": "download.freewebtemplates.com/templates/zip/",
-      "description": "Recovered from the older local link directory. This Wayback lookup targets downloadable ZIP archives of free website templates."
-    },
-    {
-      "name": "Enemy Territory Resource Site",
-      "href": "https://web.archive.org/web/20090815023450/http://enemy-territory.4players.de/news.php",
-      "target": "enemy-territory.4players.de/news.php",
-      "description": "Recovered from the older local link directory. This archived page preserves a Wolfenstein: Enemy Territory news and resource site."
-    },
-    {
-      "name": "Extortionz Templates",
-      "href": "https://web.archive.org/web/20041204004146/http://www.extortionz.net/?id=templates",
-      "target": "extortionz.net",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a templates section from a 2004 design site."
-    },
-    {
-      "name": "Fairyland Europe Layout Guide",
-      "href": "https://web.archive.org/web/20050111053606/http://www.fairyland-europe.com:80/image/layout/guide.jpg",
-      "target": "fairyland-europe.com/image/layout/guide.jpg",
-      "description": "Recovered from the older local link directory. This archived image preserves a layout guide graphic from a mid-2000s site."
-    },
-    {
-      "name": "FreeWebLayout",
-      "href": "https://web.archive.org/web/20061107082814/http://www.freeweblayout.com/",
-      "target": "freeweblayout.com",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves a free web layout and template directory."
-    },
-    {
-      "name": "FreeWebTemplates",
-      "href": "https://web.archive.org/web/20061018135911/http://www.freewebtemplates.com/",
-      "target": "freewebtemplates.com",
-      "description": "Recovered from the older local link directory. This archived site offered free website templates, page layouts, and Flash templates."
-    },
-    {
-      "name": "GUIStuff",
-      "href": "https://web.archive.org/web/20030211011200/http://guistuff.com/",
-      "target": "guistuff.com",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a site for free graphical user-interface assets."
-    },
-    {
-      "name": "IconFun Buddy Icon Maker",
-      "href": "https://web.archive.org/web/20040611065129/http://iconfun.com/",
-      "target": "iconfun.com",
-      "description": "Recovered from the older local link directory. This archived site offered buddy-icon makers and AIM-era icon tools."
-    },
-    {
-      "name": "Jakez Layouts",
-      "href": "https://web.archive.org/web/20030402211811/http://jakez.net/index2.php?page=layouts",
-      "target": "jakez.net/index2.php",
-      "description": "Recovered from the older local link directory. This Wayback page preserves a layouts section from an early-2000s personal site."
-    },
-    {
-      "name": "Jens Icons",
-      "href": "https://web.archive.org/web/20040407171056/http://www.jensicons.com/",
-      "target": "jensicons.com",
-      "description": "Recovered from the older local link directory. This archived icon site collected dollz, movie, TV, and seasonal icon graphics."
-    },
-    {
-      "name": "Graal 2000 Tripod Page",
-      "href": "http://web.archive.org/web/19991128123812/http://members.tripod.com/AntiFox64/GraalPage/main.html",
-      "target": "members.tripod.com/AntiFox64/GraalPage/main.html",
-      "description": "Recovered from the older local link directory. This Tripod capture preserves a Graal 2000 fan page from the late-1990s web."
-    },
-    {
-      "name": "MindViz Tracker",
-      "href": "https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun",
-      "target": "mvtracker.com/join.php",
-      "description": "Recovered from the older local link directory. This archived page preserves a site-tracking and webmaster-tools service."
-    },
-    {
-      "name": "Oogle Tutorial",
-      "href": "https://web.archive.org/web/20001205033300/http://www.oogle.net/o_tutorial.htm",
-      "target": "oogle.net/o_tutorial.htm",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves a tutorial page from The Oogle Page."
-    },
-    {
-      "name": "Open Web Design",
-      "href": "https://web.archive.org/web/20060901100057/http://openwebdesign.org/browse.php",
-      "target": "openwebdesign.org/browse.php",
-      "description": "Recovered from the older local link directory. This archived browse page preserves Open Web Design's community template catalog."
-    },
-    {
-      "name": "Phong Tutorials",
-      "href": "https://web.archive.org/web/20010722111909/http://phong.com/",
-      "target": "phong.com",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a graphics tutorial site from the early-2000s design web."
-    },
-    {
-      "name": "MyTheme AIM Expressions",
-      "href": "https://web.archive.org/web/20031202204221/http://www.picgames.com/mytheme/",
-      "target": "picgames.com/mytheme/",
-      "description": "Recovered from the older local link directory. This archived page preserves AIM expressions, AIM icons, and an expression-creator tool."
-    },
-    {
-      "name": "ClanTemplates Staff",
-      "href": "https://web.archive.org/web/20080222052719/http://staff.clantemplates.com/",
-      "target": "staff.clantemplates.com",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a staff portal from the ClanTemplates web-design scene."
-    },
-    {
-      "name": "Starr2k Buddy Icons",
-      "href": "https://web.archive.org/web/20040605200134/http://www.starr2k.com/bicons.htm",
-      "target": "starr2k.com/bicons.htm",
-      "description": "Recovered from the older local link directory. This archived page preserves buddy icons and personal-site graphics from Starr2k."
-    },
-    {
-      "name": "Steel Dolphin Creative",
-      "href": "https://web.archive.org/web/20020928121818/http://www.steeldolphin.com/",
-      "target": "steeldolphin.com",
-      "description": "Recovered from the older local link directory. This Wayback capture preserves a creative site with downloads, tutorials, photography, art, and design resources."
-    },
-    {
-      "name": "Syrogen Light Orb Tutorial",
-      "href": "https://web.archive.org/web/20040503005557/http://www.syrogen.com/tut06/tut06.html",
-      "target": "syrogen.com/tut06/tut06.html",
-      "description": "Recovered from the older local link directory. This archived tutorial preserves a classic Photoshop-style light-orb design lesson."
-    },
-    {
-      "name": "FavPage Webdesign Templates",
-      "href": "https://web.archive.org/web/20040611224201/http://templates.favpage.com/",
-      "target": "templates.favpage.com",
-      "description": "Recovered from the older local link directory. This Wayback snapshot preserves a webdesign templates collection."
-    },
-    {
-      "name": "TemplatesLand",
-      "href": "https://web.archive.org/web/20040612155055/http://www.templatesland.com/index.html",
-      "target": "templatesland.com/index.html",
-      "description": "Recovered from the older local link directory. This archived directory collected top web template sites and free website templates."
-    },
-    {
-      "name": "TopFreeGraphics",
-      "href": "https://web.archive.org/web/20030606213019/http://topfreegraphics.com/index.html",
-      "target": "topfreegraphics.com/index.html",
-      "description": "Recovered from the older local link directory. This Wayback page preserves a free graphics, templates, clipart, Flash intros, and wallpaper directory."
-    },
-    {
-      "name": "Tricon Software",
-      "href": "https://web.archive.org/web/20040129071907/http://triconsoft.com/",
-      "target": "triconsoft.com",
-      "description": "Recovered from the older local link directory. This archived page preserves an AOL add-on software and utility site."
-    },
-    {
-      "name": "WebTemplatesZone",
-      "href": "https://web.archive.org/web/*/http://www.webtemplateszone.com/*",
-      "target": "webtemplateszone.com",
-      "description": "Recovered from the older local link directory. This Wayback lookup targets a web templates zone from the old free-template web."
+      "id": "recovered-geocities-personal-sites",
+      "title": "Recovered GeoCities & Personal Sites",
+      "icon": "fas fa-home",
+      "summary": "GeoCities, Tripod, Angelfire, CJB, Homestead, VirtualAve, and other personal-site era pages.",
+      "links": [
+        {
+          "id": "recovered-old-web-finds-info-s-world-titan-spaceports-com-info-aol2-htm",
+          "name": "¤¤¤ iNfO's World ¤¤¤",
+          "href": "https://web.archive.org/web/20010504004629/http://titan.spaceports.com/~info/aol2.htm",
+          "target": "titan.spaceports.com/~info/aol2.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: ¤¤¤ iNfO's World ¤¤¤.",
+          "source_title": "¤¤¤ iNfO's World ¤¤¤",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-info-s-world-titan-spaceports-com-info-links2-htm",
+          "name": "¤¤¤ iNfO's World ¤¤¤",
+          "href": "https://web.archive.org/web/20010504021937/http://titan.spaceports.com/~info/links2.htm",
+          "target": "titan.spaceports.com/~info/links2.htm",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: ¤¤¤ iNfO's World ¤¤¤.",
+          "source_title": "¤¤¤ iNfO's World ¤¤¤",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-akuskate-tk-akuskate-tk",
+          "name": "akuskate.tk",
+          "href": "https://web.archive.org/web/20040615231655/http://akuskate.tk/",
+          "target": "akuskate.tk",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: akuskate.tk.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-cemipi-tk-cemipi-tk",
+          "name": "cemipi.tk",
+          "href": "https://web.archive.org/web/20030719225740/http://cemipi.tk/",
+          "target": "cemipi.tk",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: cemipi.tk.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-crosswinds-net-crosswinds-net",
+          "name": "crosswinds.net",
+          "href": "https://web.archive.org/web/*/http://www.crosswinds.net/*",
+          "target": "crosswinds.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: crosswinds.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-dk-elite-dk-elite-tripod-com-dkelite",
+          "name": "DK_elite",
+          "href": "https://web.archive.org/web/20020220121403/http://dk_elite.tripod.com/dkelite/",
+          "target": "dk_elite.tripod.com/dkelite",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: DK_elite.",
+          "source_title": "DK_elite",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-echoproductions-cjb-net-echoproductions-cjb-net",
+          "name": "echoproductions.cjb.net",
+          "href": "https://web.archive.org/web/20000610192857/http://echoproductions.cjb.net/",
+          "target": "echoproductions.cjb.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: echoproductions.cjb.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-ironblood-cjb-net-ironblood-cjb-net",
+          "name": "ironblood.cjb.net",
+          "href": "https://web.archive.org/web/20010507234543/http://ironblood.cjb.net/",
+          "target": "ironblood.cjb.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: ironblood.cjb.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-jatt2000-cjb-net-jatt2000-cjb-net",
+          "name": "jatt2000.cjb.net",
+          "href": "https://web.archive.org/web/20001017183228/http://www.jatt2000.cjb.net/",
+          "target": "jatt2000.cjb.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: jatt2000.cjb.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-macrohouse-macrohouse-cjb-net",
+          "name": "macrohouse",
+          "href": "https://web.archive.org/web/19991128144432/http://macrohouse.cjb.net/",
+          "target": "macrohouse.cjb.net",
+          "era": "1990s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: macrohouse.",
+          "source_title": "macrohouse",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-mx-geocities-com-mx-geocities-com-sasuke-house-afilia-htm",
+          "name": "mx.geocities.com",
+          "href": "https://web.archive.org/web/20090726055353/http://mx.geocities.com/sasuke_house/afilia.htm",
+          "target": "mx.geocities.com/sasuke_house/afilia.htm",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: mx.geocities.com.",
+          "source_title": "Untitled",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-nic-bb-hk-geocities-com-nechi2001uk-main-htm",
+          "name": "nic bb",
+          "href": "https://web.archive.org/web/20090729002915/http://hk.geocities.com/nechi2001uk/main.htm",
+          "target": "hk.geocities.com/nechi2001uk/main.htm",
+          "era": "Mid-2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: nic bb.",
+          "source_title": "nic bb",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-purpleraichu-virtualave-net-purpleraichu-virtualave-net",
+          "name": "purpleraichu.virtualave.net",
+          "href": "https://web.archive.org/web/*/http://purpleraichu.virtualave.net/*",
+          "target": "purpleraichu.virtualave.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: purpleraichu.virtualave.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-purpleraichu-virtualave-net-purpleraichu-virtualave-net-kentakino2-gif",
+          "name": "purpleraichu.virtualave.net",
+          "href": "https://web.archive.org/web/20021015000000*/http://purpleraichu.virtualave.net:80/kentakino2.gif",
+          "target": "purpleraichu.virtualave.net/kentakino2.gif",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: purpleraichu.virtualave.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-reeto-cjb-net-reeto-cjb-net",
+          "name": "reeto.cjb.net",
+          "href": "https://web.archive.org/web/20000620154722/http://www.reeto.cjb.net/",
+          "target": "reeto.cjb.net",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: reeto.cjb.net.",
+          "source_title": "Wayback Machine",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-macrohouse-neptune-spaceports-com-machouse-links-html",
+          "name": "The Macrohouse",
+          "href": "https://web.archive.org/web/20001028145738/http://neptune.spaceports.com/~machouse/links.html",
+          "target": "neptune.spaceports.com/~machouse/links.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: The Macrohouse.",
+          "source_title": "The Macrohouse",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-macrohouse-neptune-spaceports-com-machouse-asciiart-html",
+          "name": "The Macrohouse",
+          "href": "https://web.archive.org/web/20001006055237/http://neptune.spaceports.com/~machouse/asciiart.html",
+          "target": "neptune.spaceports.com/~machouse/asciiart.html",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: The Macrohouse.",
+          "source_title": "The Macrohouse",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-the-npc-scripter-s-page-npcs-8m-com",
+          "name": "The NPC Scripter's Page",
+          "href": "https://web.archive.org/web/20000115224918/http://npcs.8m.com/",
+          "target": "npcs.8m.com",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: The NPC Scripter's Page.",
+          "source_title": "The NPC Scripter's Page",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        },
+        {
+          "id": "recovered-old-web-finds-waax-virtualave-net-waax-virtualave-net-sections-downloads-shtml",
+          "name": "waax.virtualave.net",
+          "href": "https://web.archive.org/web/20010626120732/http://waax.virtualave.net/sections/downloads.shtml",
+          "target": "waax.virtualave.net/sections/downloads.shtml",
+          "era": "Early 2000s",
+          "status": "Archive-only recovered bookmark",
+          "status_key": "defunct",
+          "description": "Recovered from the older local link directory. This Wayback capture preserves a GeoCities, Tripod, Angelfire, CJB, or personal-site era page: waax.virtualave.net.",
+          "source_title": "Untitled Document",
+          "source_tags": [
+            "archive"
+          ],
+          "score": 1
+        }
+      ]
     }
   ]
 }
