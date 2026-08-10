@@ -1,0 +1,1456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Search Engines - Old Free Online Resources Archive</title>
+  <meta name="description" content="This category collects search engines services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include AltaVista, Lycos, Excite, Dogpile.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-search"></i> Category detail page</p>
+      <h1>Free Search Engines</h1>
+      <p class="hero-copy">This category collects search engines services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include AltaVista, Lycos, Excite, Dogpile.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 20 links</a>
+        <a class="button" href="index.html#searchengines"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>20</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>14</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>6</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>2</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This category collects search engines services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include AltaVista, Lycos, Excite, Dogpile.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 19</span>
+<span class="mini-tag">Early 2000s: 1</span>
+<span class="mini-tag">Mid-2000s: 0</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Defunct or closed: 12</span>
+<span class="mini-tag">Active or preserved: 6</span>
+<span class="mini-tag">Changed over time: 2</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Free Search Engines directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Free Search Engines...">
+            </label>
+            <p><strong id="category-count">20</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="altavista defunct altavista is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s altavista.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/altavista-com-ecb1e2e89a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">AltaVista</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>AltaVista is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>altavista.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://altavista.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="lycos active lycos is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s lycos.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/lycos-com-ea7df58398.gif" alt="" loading="lazy">
+    <a href="https://lycos.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Lycos</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Lycos is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>lycos.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://lycos.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="excite active excite is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s excite.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/excite-com-1e7bb546.svg" alt="" loading="lazy">
+    <a href="https://excite.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Excite</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Excite is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>excite.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://excite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="dogpile active dogpile is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s dogpile.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/dogpile-com-1e2f1138.svg" alt="" loading="lazy">
+    <a href="https://dogpile.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Dogpile</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Dogpile is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>dogpile.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/dogpile.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://dogpile.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="changed" data-search="hotbot active, diminished hotbot is a search engines entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s hotbot.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hotbot-com-309c1492c5.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hotbot.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">HotBot</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>HotBot is a search engines entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>hotbot.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hotbot.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hotbot.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="webcrawler active webcrawler is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s webcrawler.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/webcrawler-com-a7387e26.svg" alt="" loading="lazy">
+    <a href="https://webcrawler.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">WebCrawler</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>WebCrawler is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>webcrawler.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webcrawler.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webcrawler.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="infoseek defunct infoseek is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s infoseek.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/infoseek-com-a04652278e.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/infoseek.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Infoseek</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Infoseek is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>infoseek.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/infoseek.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://infoseek.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="alltheweb defunct alltheweb is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s alltheweb.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/alltheweb-com-ecb1e2e89a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/alltheweb.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">AllTheWeb</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>AllTheWeb is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>alltheweb.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/alltheweb.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://alltheweb.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="northern light defunct northern light is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s northernlight.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/northernlight-com-acd9ab2170.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/northernlight.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Northern Light</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Northern Light is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>northernlight.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/northernlight.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://northernlight.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="metacrawler active metacrawler is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s metacrawler.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/metacrawler-com-b99a4abb.svg" alt="" loading="lazy">
+    <a href="https://metacrawler.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">MetaCrawler</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>MetaCrawler is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>metacrawler.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/metacrawler.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://metacrawler.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="snap defunct snap is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s snap.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/snap-com-5c66960f69.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/snap.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Snap</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Snap is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>snap.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/snap.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://snap.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="changed" data-search="ask jeeves now ask.com ask jeeves is a search engines entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s askjeeves.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/askjeeves-com-7a1ce844.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/askjeeves.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Ask Jeeves</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Ask Jeeves is a search engines entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>askjeeves.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/askjeeves.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://askjeeves.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="directhit defunct directhit is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s directhit.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/directhit-com-4570290a.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/directhit.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">DirectHit</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>DirectHit is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>directhit.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/directhit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://directhit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="goto defunct goto is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s goto.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/goto-com-683c2e484b.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/goto.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">GoTo</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>GoTo is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>goto.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/goto.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://goto.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="looksmart defunct looksmart is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s looksmart.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/looksmart-com-fba6cdee9a.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/looksmart.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">LookSmart</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>LookSmart is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>looksmart.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/looksmart.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://looksmart.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="early-2000s" data-status="defunct" data-search="overture defunct overture is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s overture.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/overture-com-485f557d.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/overture.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Overture</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Overture is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>overture.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/overture.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://overture.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="active" data-search="search.com active search.com is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s search.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/search-com-7d82a4afd3.png" alt="" loading="lazy">
+    <a href="https://search.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Search.com</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Search.com is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>search.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/search.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://search.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="magellan defunct magellan is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s magellan.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/magellan-com-ca4e5c27bd.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/magellan.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Magellan</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Magellan is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>magellan.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/magellan.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://magellan.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="openfind defunct openfind is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s openfind.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/openfind-com-405978bf.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/openfind.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">OpenFind</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>OpenFind is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>openfind.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/openfind.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://openfind.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="searchengines" data-era="1990s" data-status="defunct" data-search="euroseek defunct euroseek is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s euroseek.com free search engines">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/euroseek-com-88c90d5886.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/euroseek.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">EuroSeek</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>EuroSeek is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>euroseek.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/euroseek.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://euroseek.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Free Search Engines entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="altavista defunct altavista is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s altavista.com">
+  <td><img class="favicon" src="assets/favicons/altavista-com-ecb1e2e89a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">AltaVista</a></td>
+  <td>AltaVista is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>altavista.com</code></td>
+</tr>
+<tr data-link-row data-search="lycos active lycos is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s lycos.com">
+  <td><img class="favicon" src="assets/favicons/lycos-com-ea7df58398.gif" alt="" loading="lazy"></td>
+  <td><a href="https://lycos.com" target="_blank" rel="noopener noreferrer">Lycos</a></td>
+  <td>Lycos is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>lycos.com</code></td>
+</tr>
+<tr data-link-row data-search="excite active excite is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s excite.com">
+  <td><img class="favicon" src="assets/favicons/generated/excite-com-1e7bb546.svg" alt="" loading="lazy"></td>
+  <td><a href="https://excite.com" target="_blank" rel="noopener noreferrer">Excite</a></td>
+  <td>Excite is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>excite.com</code></td>
+</tr>
+<tr data-link-row data-search="dogpile active dogpile is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s dogpile.com">
+  <td><img class="favicon" src="assets/favicons/generated/dogpile-com-1e2f1138.svg" alt="" loading="lazy"></td>
+  <td><a href="https://dogpile.com" target="_blank" rel="noopener noreferrer">Dogpile</a></td>
+  <td>Dogpile is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/dogpile.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>dogpile.com</code></td>
+</tr>
+<tr data-link-row data-search="hotbot active, diminished hotbot is a search engines entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s hotbot.com">
+  <td><img class="favicon" src="assets/favicons/hotbot-com-309c1492c5.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hotbot.com" target="_blank" rel="noopener noreferrer">HotBot</a></td>
+  <td>HotBot is a search engines entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/hotbot.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hotbot.com</code></td>
+</tr>
+<tr data-link-row data-search="webcrawler active webcrawler is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s webcrawler.com">
+  <td><img class="favicon" src="assets/favicons/generated/webcrawler-com-a7387e26.svg" alt="" loading="lazy"></td>
+  <td><a href="https://webcrawler.com" target="_blank" rel="noopener noreferrer">WebCrawler</a></td>
+  <td>WebCrawler is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/webcrawler.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webcrawler.com</code></td>
+</tr>
+<tr data-link-row data-search="infoseek defunct infoseek is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s infoseek.com">
+  <td><img class="favicon" src="assets/favicons/infoseek-com-a04652278e.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/infoseek.com" target="_blank" rel="noopener noreferrer">Infoseek</a></td>
+  <td>Infoseek is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/infoseek.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>infoseek.com</code></td>
+</tr>
+<tr data-link-row data-search="alltheweb defunct alltheweb is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s alltheweb.com">
+  <td><img class="favicon" src="assets/favicons/alltheweb-com-ecb1e2e89a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/alltheweb.com" target="_blank" rel="noopener noreferrer">AllTheWeb</a></td>
+  <td>AllTheWeb is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/alltheweb.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>alltheweb.com</code></td>
+</tr>
+<tr data-link-row data-search="northern light defunct northern light is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s northernlight.com">
+  <td><img class="favicon" src="assets/favicons/northernlight-com-acd9ab2170.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/northernlight.com" target="_blank" rel="noopener noreferrer">Northern Light</a></td>
+  <td>Northern Light is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/northernlight.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>northernlight.com</code></td>
+</tr>
+<tr data-link-row data-search="metacrawler active metacrawler is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s metacrawler.com">
+  <td><img class="favicon" src="assets/favicons/generated/metacrawler-com-b99a4abb.svg" alt="" loading="lazy"></td>
+  <td><a href="https://metacrawler.com" target="_blank" rel="noopener noreferrer">MetaCrawler</a></td>
+  <td>MetaCrawler is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/metacrawler.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>metacrawler.com</code></td>
+</tr>
+<tr data-link-row data-search="snap defunct snap is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s snap.com">
+  <td><img class="favicon" src="assets/favicons/snap-com-5c66960f69.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/snap.com" target="_blank" rel="noopener noreferrer">Snap</a></td>
+  <td>Snap is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/snap.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>snap.com</code></td>
+</tr>
+<tr data-link-row data-search="ask jeeves now ask.com ask jeeves is a search engines entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s askjeeves.com">
+  <td><img class="favicon" src="assets/favicons/generated/askjeeves-com-7a1ce844.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/askjeeves.com" target="_blank" rel="noopener noreferrer">Ask Jeeves</a></td>
+  <td>Ask Jeeves is a search engines entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/askjeeves.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>askjeeves.com</code></td>
+</tr>
+<tr data-link-row data-search="directhit defunct directhit is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s directhit.com">
+  <td><img class="favicon" src="assets/favicons/generated/directhit-com-4570290a.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/directhit.com" target="_blank" rel="noopener noreferrer">DirectHit</a></td>
+  <td>DirectHit is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/directhit.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>directhit.com</code></td>
+</tr>
+<tr data-link-row data-search="goto defunct goto is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s goto.com">
+  <td><img class="favicon" src="assets/favicons/goto-com-683c2e484b.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/goto.com" target="_blank" rel="noopener noreferrer">GoTo</a></td>
+  <td>GoTo is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/goto.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>goto.com</code></td>
+</tr>
+<tr data-link-row data-search="looksmart defunct looksmart is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s looksmart.com">
+  <td><img class="favicon" src="assets/favicons/looksmart-com-fba6cdee9a.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/looksmart.com" target="_blank" rel="noopener noreferrer">LookSmart</a></td>
+  <td>LookSmart is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/looksmart.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>looksmart.com</code></td>
+</tr>
+<tr data-link-row data-search="overture defunct overture is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s overture.com">
+  <td><img class="favicon" src="assets/favicons/generated/overture-com-485f557d.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/overture.com" target="_blank" rel="noopener noreferrer">Overture</a></td>
+  <td>Overture is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/overture.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>overture.com</code></td>
+</tr>
+<tr data-link-row data-search="search.com active search.com is a search engines entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s search.com">
+  <td><img class="favicon" src="assets/favicons/search-com-7d82a4afd3.png" alt="" loading="lazy"></td>
+  <td><a href="https://search.com" target="_blank" rel="noopener noreferrer">Search.com</a></td>
+  <td>Search.com is a search engines entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/search.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>search.com</code></td>
+</tr>
+<tr data-link-row data-search="magellan defunct magellan is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s magellan.com">
+  <td><img class="favicon" src="assets/favicons/magellan-com-ca4e5c27bd.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/magellan.com" target="_blank" rel="noopener noreferrer">Magellan</a></td>
+  <td>Magellan is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/magellan.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>magellan.com</code></td>
+</tr>
+<tr data-link-row data-search="openfind defunct openfind is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s openfind.com">
+  <td><img class="favicon" src="assets/favicons/generated/openfind-com-405978bf.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/openfind.com" target="_blank" rel="noopener noreferrer">OpenFind</a></td>
+  <td>OpenFind is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/openfind.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>openfind.com</code></td>
+</tr>
+<tr data-link-row data-search="euroseek defunct euroseek is a search engines entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s euroseek.com">
+  <td><img class="favicon" src="assets/favicons/euroseek-com-88c90d5886.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/euroseek.com" target="_blank" rel="noopener noreferrer">EuroSeek</a></td>
+  <td>EuroSeek is a search engines entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/euroseek.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>euroseek.com</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="filehosting.html"><i class="fas fa-arrow-left"></i>Free File Hosting</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="websitebuilders.html">Free Website Builders<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Free Search Engines detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>

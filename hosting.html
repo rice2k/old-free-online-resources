@@ -1,0 +1,3137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Hosting - Old Free Online Resources Archive</title>
+  <meta name="description" content="This category collects hosting services and resources from the original old free online resources list. It includes 76 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include L33t, Web1000, Digitalrice, Tripod.co.uk.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-server"></i> Category detail page</p>
+      <h1>Free Hosting</h1>
+      <p class="hero-copy">This category collects hosting services and resources from the original old free online resources list. It includes 76 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include L33t, Web1000, Digitalrice, Tripod.co.uk.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 76 links</a>
+        <a class="button" href="index.html#hosting"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>76</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>67</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>9</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>3</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This category collects hosting services and resources from the original old free online resources list. It includes 76 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include L33t, Web1000, Digitalrice, Tripod.co.uk.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 59</span>
+<span class="mini-tag">Early 2000s: 9</span>
+<span class="mini-tag">Mid-2000s: 8</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Defunct or closed: 59</span>
+<span class="mini-tag">Active or preserved: 9</span>
+<span class="mini-tag">Changed over time: 7</span>
+<span class="mini-tag">Status uncertain: 1</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Free Hosting directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Free Hosting...">
+            </label>
+            <p><strong id="category-count">76</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="l33t defunct l33t is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s l33t.ca free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/l33t-ca-60e6402c.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/l33t.ca" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">L33t</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>L33t is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>l33t.ca</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/l33t.ca" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://l33t.ca" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="web1000 defunct web1000 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s web1000.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/web1000-com-75c0c8a6.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/web1000.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Web1000</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Web1000 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>web1000.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/web1000.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://web1000.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="digitalrice defunct digitalrice is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s digitalrice.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/digitalrice-com-984a30e7.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/digitalrice.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Digitalrice</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Digitalrice is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>digitalrice.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/digitalrice.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://digitalrice.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="tripod.co.uk defunct tripod.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s tripod.co.uk free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/tripod-co-uk-0d0341fe.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/tripod.co.uk" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Tripod.co.uk</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Tripod.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>tripod.co.uk</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/tripod.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://tripod.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="active" data-search="tripod active tripod is a hosting entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s tripod.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/tripod-com-5e1766b9.svg" alt="" loading="lazy">
+    <a href="https://tripod.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Tripod</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Tripod is a hosting entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>tripod.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/tripod.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://tripod.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="tripod.ca defunct tripod.ca is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s tripod.ca free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/tripod-ca-c1c60434.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/tripod.ca" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Tripod.ca</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Tripod.ca is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>tripod.ca</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/tripod.ca" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://tripod.ca" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="coolfreepages defunct coolfreepages is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s coolfreepages.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/coolfreepages-com-47e2fd32.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/coolfreepages.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Coolfreepages</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Coolfreepages is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>coolfreepages.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/coolfreepages.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://coolfreepages.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="freewebz defunct freewebz is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freewebz.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/freewebz-com-975cb3b8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freewebz.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Freewebz</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Freewebz is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freewebz.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freewebz.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freewebz.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="geocities closed 2009 geocities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s geocities.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/geocities-com-1c494ba3a5.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Geocities</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Geocities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>geocities.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://geocities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="changed" data-search="angelfire partially active angelfire is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s angelfire.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/angelfire-com-b1396947.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Angelfire</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Angelfire is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>angelfire.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://angelfire.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="k-turn defunct k-turn is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s k-turn.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/k-turn-com-4cc6d23c.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/k-turn.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">K-turn</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>K-turn is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>k-turn.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/k-turn.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://k-turn.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="9cy defunct 9cy is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 9cy.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/9cy-com-b189274e.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/9cy.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">9cy</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>9cy is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>9cy.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/9cy.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://9cy.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="t35 defunct t35 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s t35.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/t35-com-e9b6cacec3.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/t35.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">T35</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>T35 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>t35.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/t35.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://t35.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="freewebsites defunct freewebsites is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freewebsites.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freewebsites-com-72501b29ac.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freewebsites.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Freewebsites</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Freewebsites is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freewebsites.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freewebsites.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freewebsites.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="ghs20 defunct ghs20 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s ghs20.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/ghs20-com-3bdf361d.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/ghs20.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Ghs20</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Ghs20 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>ghs20.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/ghs20.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://ghs20.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="streamload defunct streamload is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s streamload.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/streamload-com-076e0005.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/streamload.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Streamload</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Streamload is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>streamload.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/streamload.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://streamload.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="250free defunct 250free is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 250free.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/250free-com-6635be39.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/250free.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">250free</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>250free is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>250free.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/250free.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://250free.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="gigitup defunct gigitup is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s gigitup.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/gigitup-com-0867b5b0.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/gigitup.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Gigitup</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Gigitup is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>gigitup.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/gigitup.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://gigitup.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="moviefiles defunct moviefiles is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s moviefiles.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/moviefiles-net-ae832ce4.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/moviefiles.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Moviefiles</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Moviefiles is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>moviefiles.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/moviefiles.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://moviefiles.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="phreehost defunct phreehost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s phreehost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/phreehost-com-6a1b155e.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/phreehost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Phreehost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Phreehost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>phreehost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/phreehost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://phreehost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="fpages.co.uk defunct fpages.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fpages.co.uk free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/fpages-co-uk-e3cca455.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/fpages.co.uk" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Fpages.co.uk</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Fpages.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>fpages.co.uk</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/fpages.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://fpages.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="dk3 defunct dk3 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dk3.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/dk3-com-14140f90.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/dk3.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Dk3</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Dk3 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>dk3.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/dk3.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://dk3.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="50megs defunct 50megs is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 50megs.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/50megs-com-9cd150266c.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/50megs.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">50megs</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>50megs is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>50megs.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/50megs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://50megs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="freetaboohost defunct freetaboohost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freetaboohost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/freetaboohost-com-8c543a6b.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freetaboohost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Freetaboohost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Freetaboohost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freetaboohost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freetaboohost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freetaboohost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="changed" data-search="netfirms now paid netfirms is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s netfirms.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/netfirms-com-a6bce875d9.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/netfirms.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Netfirms</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Netfirms is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>netfirms.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/netfirms.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://netfirms.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="php50 defunct php50 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s php50.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/php50-com-a6d89615.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/php50.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Php50</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Php50 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>php50.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/php50.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://php50.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="payinghost defunct payinghost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s payinghost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/payinghost-com-bde07cf2.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/payinghost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Payinghost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Payinghost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>payinghost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/payinghost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://payinghost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="portland.co.uk defunct portland.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s portland.co.uk free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/portland-co-uk-fb66ecdf2a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/portland.co.uk" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Portland.co.uk</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Portland.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>portland.co.uk</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/portland.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://portland.co.uk" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="mysitespace defunct mysitespace is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mysitespace.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/mysitespace-com-269ae3bd55.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/mysitespace.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Mysitespace</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Mysitespace is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>mysitespace.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mysitespace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mysitespace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="7host defunct 7host is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 7host.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/7host-com-2d422181.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/7host.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">7host</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>7host is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>7host.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/7host.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://7host.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="changed" data-search="easyspace now paid easyspace is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s easyspace.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/easyspace-com-344c7a4cc5.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/easyspace.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Easyspace</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Easyspace is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>easyspace.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/easyspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://easyspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="liquid2k defunct liquid2k is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s liquid2k.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/liquid2k-com-a0cb64b7.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/liquid2k.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Liquid2k</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Liquid2k is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>liquid2k.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/liquid2k.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://liquid2k.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="webalized.wox.org defunct webalized.wox.org is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s webalized.wox.org free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/webalized-wox-org-4fa5217a.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/webalized.wox.org" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Webalized.wox.org</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Webalized.wox.org is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>webalized.wox.org</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webalized.wox.org" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webalized.wox.org" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="fortunecity closed 2012 fortunecity is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fortunecity.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/fortunecity-com-4ec20f45.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/fortunecity.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Fortunecity</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Fortunecity is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>fortunecity.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/fortunecity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://fortunecity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="free.prohosting defunct free.prohosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s free.prohosting.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/free-prohosting-com-7f4288f5.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/free.prohosting.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Free.prohosting</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Free.prohosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>free.prohosting.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/free.prohosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://free.prohosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="marhost defunct marhost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s marhost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/marhost-com-deaf9055bf.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/marhost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Marhost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Marhost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>marhost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/marhost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://marhost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="nerdcities defunct nerdcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s nerdcities.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/nerdcities-com-3d43e2d5.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/nerdcities.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Nerdcities</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Nerdcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>nerdcities.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/nerdcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://nerdcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="topcities defunct topcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s topcities.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/topcities-com-bd9bced3.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/topcities.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Topcities</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Topcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>topcities.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/topcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://topcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="20m defunct 20m is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 20m.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/20m-com-c0a5cf27.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/20m.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">20m</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>20m is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>20m.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/20m.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://20m.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="spaceports defunct spaceports is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s spaceports.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/spaceports-com-af8bd4b0.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/spaceports.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Spaceports</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Spaceports is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>spaceports.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/spaceports.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://spaceports.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="100megsfree defunct 100megsfree is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 100megsfree.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/100megsfree-com-f0e08e34.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/100megsfree.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">100megsfree</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>100megsfree is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>100megsfree.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/100megsfree.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://100megsfree.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="dreamwater defunct dreamwater is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dreamwater.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/dreamwater-com-c4ae2e21.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/dreamwater.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Dreamwater</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Dreamwater is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>dreamwater.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/dreamwater.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://dreamwater.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="megspace defunct megspace is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s megspace.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/megspace-com-860b9335.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/megspace.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Megspace</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Megspace is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>megspace.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/megspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://megspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="fsn defunct fsn is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fsn.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/fsn-net-24d714e3e3.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/fsn.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Fsn</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Fsn is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>fsn.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/fsn.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://fsn.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="8op defunct 8op is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 8op.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/8op-com-ff426c3b.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/8op.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">8op</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>8op is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>8op.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/8op.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://8op.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="angelcities defunct angelcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s angelcities.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/angelcities-com-4deddd07.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/angelcities.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Angelcities</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Angelcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>angelcities.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/angelcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://angelcities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="ssihost defunct ssihost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s ssihost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/ssihost-com-84572f2157.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/ssihost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Ssihost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Ssihost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>ssihost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/ssihost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://ssihost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="fateback defunct fateback is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s fateback.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/fateback-com-6bc9ae23.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/fateback.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Fateback</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Fateback is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>fateback.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/fateback.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://fateback.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="anzwers defunct anzwers is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s anzwers.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/anzwers-net-5932e6a0e4.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/anzwers.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Anzwers</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Anzwers is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>anzwers.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/anzwers.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://anzwers.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="gizba defunct gizba is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s gizba.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/gizba-com-0ee06cd7.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/gizba.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Gizba</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Gizba is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>gizba.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/gizba.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://gizba.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="dencity defunct dencity is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dencity.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/dencity-com-07846886.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/dencity.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Dencity</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Dencity is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>dencity.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/dencity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://dencity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="changed" data-search="brinkster now paid brinkster is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s brinkster.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/brinkster-com-6e12de9f69.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/brinkster.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Brinkster</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Brinkster is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>brinkster.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/brinkster.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://brinkster.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="sphosting defunct sphosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s sphosting.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/sphosting-com-5c047f36.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/sphosting.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Sphosting</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Sphosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>sphosting.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/sphosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://sphosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="irepublics defunct irepublics is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s irepublics.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/irepublics-com-a46ed2d3.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/irepublics.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Irepublics</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Irepublics is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>irepublics.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/irepublics.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://irepublics.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="i-p defunct i-p is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s i-p.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/i-p-com-8e14bf98.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/i-p.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">I-p</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>I-p is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>i-p.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/i-p.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://i-p.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="oemmail defunct oemmail is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s oemmail.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/oemmail-com-7ca80c6b.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/oemmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Oemmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Oemmail is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>oemmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/oemmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://oemmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="active" data-search="x10hosting active x10hosting is a hosting entry from the early 2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. early 2000s x10hosting.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/x10hosting-com-a06af660f0.ico" alt="" loading="lazy">
+    <a href="https://x10hosting.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">X10Hosting</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>X10Hosting is a hosting entry from the Early 2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>x10hosting.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/x10hosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://x10hosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="freehostia active freehostia is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s freehostia.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freehostia-com-4b1c733a12.png" alt="" loading="lazy">
+    <a href="https://freehostia.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Freehostia</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Freehostia is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>freehostia.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freehostia.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freehostia.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="byethost active byethost is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s byethost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/byethost-com-b3dd710ade.ico" alt="" loading="lazy">
+    <a href="https://byethost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Byethost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Byethost is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>byethost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/byethost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://byethost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="awardspace active awardspace is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s awardspace.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/awardspace-com-6866e85a09.png" alt="" loading="lazy">
+    <a href="https://awardspace.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">AwardSpace</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>AwardSpace is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>awardspace.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/awardspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://awardspace.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="000webhost active 000webhost is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s 000webhost.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/000webhost-com-38cad984fc.ico" alt="" loading="lazy">
+    <a href="https://000webhost.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">000Webhost</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>000Webhost is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>000webhost.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/000webhost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://000webhost.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="changed" data-search="homestead now paid homestead is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s homestead.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/homestead-com-2f855fb3ed.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Homestead</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Homestead is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>homestead.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://homestead.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="changed" data-search="freewebs now webs.com freewebs is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s freewebs.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freewebs-com-9698726fbd.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freewebs.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeWebs</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeWebs is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>freewebs.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freewebs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freewebs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="hypermart defunct hypermart is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hypermart.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hypermart-net-08a14ed459.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hypermart.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">HyperMart</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>HyperMart is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>hypermart.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hypermart.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hypermart.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="hostultra defunct hostultra is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s hostultra.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/hostultra-com-d448750b.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hostultra.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">HostUltra</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>HostUltra is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>hostultra.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hostultra.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hostultra.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="uncertain" data-search="freehosting uncertain freehosting is a hosting entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. early 2000s freehosting.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freehosting-com-ca9df47353.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freehosting.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeHosting</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeHosting is a hosting entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Status uncertain</span>
+    <span>Archive link first</span>
+    <span>freehosting.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freehosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freehosting.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="infinityfree active infinityfree is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s infinityfree.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/infinityfree-net-82274c4f8e.ico" alt="" loading="lazy">
+    <a href="https://infinityfree.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">InfinityFree</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>InfinityFree is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>infinityfree.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/infinityfree.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://infinityfree.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="biz.ly defunct biz.ly is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s biz.ly free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/biz-ly-6d5ce7717b.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/biz.ly" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Biz.ly</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Biz.ly is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>biz.ly</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/biz.ly" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://biz.ly" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="defunct" data-search="host1free defunct host1free is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. mid-2000s host1free.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/host1free-com-88d00257.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/host1free.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Host1Free</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Host1Free is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>host1free.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/host1free.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://host1free.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="freesite defunct freesite is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freesite.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/freesite-com-20a58c00.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freesite.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeSite</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeSite is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freesite.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freesite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freesite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="active" data-search="freewebhostingarea active freewebhostingarea is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s freewebhostingarea.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freewebhostingarea-com-ea9fad5994.ico" alt="" loading="lazy">
+    <a href="https://freewebhostingarea.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeWebHostingArea</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeWebHostingArea is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>freewebhostingarea.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freewebhostingarea.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freewebhostingarea.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="mid-2000s" data-status="changed" data-search="hostinger free now paid hostinger free is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s hostinger.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hostinger-com-38cad984fc.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hostinger.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Hostinger Free</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Hostinger Free is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>hostinger.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hostinger.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hostinger.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="zymic defunct zymic is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s zymic.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/zymic-com-a3f514b8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/zymic.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Zymic</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Zymic is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>zymic.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/zymic.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://zymic.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="active" data-search="freeola active uk freeola is a hosting entry from the 1990s web. it is marked &quot;active uk&quot;, so the live site is the primary link with wayback kept for older captures. 1990s freeola.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freeola-com-7be59d41d2.ico" alt="" loading="lazy">
+    <a href="https://freeola.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Freeola</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Freeola is a hosting entry from the 1990s web. It is marked &quot;Active UK&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>freeola.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freeola.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freeola.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="1990s" data-status="defunct" data-search="hostfree defunct hostfree is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hostfree.com free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hostfree-com-a435af6120.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hostfree.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">HostFree</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>HostFree is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>hostfree.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hostfree.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hostfree.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="hosting" data-era="early-2000s" data-status="defunct" data-search="webfreehosting defunct webfreehosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s webfreehosting.net free hosting">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/webfreehosting-net-14b3cbdcd3.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/webfreehosting.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">WebFreeHosting</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>WebFreeHosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>webfreehosting.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webfreehosting.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webfreehosting.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Free Hosting entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="l33t defunct l33t is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s l33t.ca">
+  <td><img class="favicon" src="assets/favicons/generated/l33t-ca-60e6402c.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/l33t.ca" target="_blank" rel="noopener noreferrer">L33t</a></td>
+  <td>L33t is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/l33t.ca" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>l33t.ca</code></td>
+</tr>
+<tr data-link-row data-search="web1000 defunct web1000 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s web1000.com">
+  <td><img class="favicon" src="assets/favicons/generated/web1000-com-75c0c8a6.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/web1000.com" target="_blank" rel="noopener noreferrer">Web1000</a></td>
+  <td>Web1000 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/web1000.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>web1000.com</code></td>
+</tr>
+<tr data-link-row data-search="digitalrice defunct digitalrice is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s digitalrice.com">
+  <td><img class="favicon" src="assets/favicons/generated/digitalrice-com-984a30e7.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/digitalrice.com" target="_blank" rel="noopener noreferrer">Digitalrice</a></td>
+  <td>Digitalrice is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/digitalrice.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>digitalrice.com</code></td>
+</tr>
+<tr data-link-row data-search="tripod.co.uk defunct tripod.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s tripod.co.uk">
+  <td><img class="favicon" src="assets/favicons/generated/tripod-co-uk-0d0341fe.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/tripod.co.uk" target="_blank" rel="noopener noreferrer">Tripod.co.uk</a></td>
+  <td>Tripod.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/tripod.co.uk" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>tripod.co.uk</code></td>
+</tr>
+<tr data-link-row data-search="tripod active tripod is a hosting entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s tripod.com">
+  <td><img class="favicon" src="assets/favicons/generated/tripod-com-5e1766b9.svg" alt="" loading="lazy"></td>
+  <td><a href="https://tripod.com" target="_blank" rel="noopener noreferrer">Tripod</a></td>
+  <td>Tripod is a hosting entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/tripod.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>tripod.com</code></td>
+</tr>
+<tr data-link-row data-search="tripod.ca defunct tripod.ca is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s tripod.ca">
+  <td><img class="favicon" src="assets/favicons/generated/tripod-ca-c1c60434.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/tripod.ca" target="_blank" rel="noopener noreferrer">Tripod.ca</a></td>
+  <td>Tripod.ca is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/tripod.ca" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>tripod.ca</code></td>
+</tr>
+<tr data-link-row data-search="coolfreepages defunct coolfreepages is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s coolfreepages.com">
+  <td><img class="favicon" src="assets/favicons/generated/coolfreepages-com-47e2fd32.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/coolfreepages.com" target="_blank" rel="noopener noreferrer">Coolfreepages</a></td>
+  <td>Coolfreepages is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/coolfreepages.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>coolfreepages.com</code></td>
+</tr>
+<tr data-link-row data-search="freewebz defunct freewebz is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freewebz.com">
+  <td><img class="favicon" src="assets/favicons/generated/freewebz-com-975cb3b8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freewebz.com" target="_blank" rel="noopener noreferrer">Freewebz</a></td>
+  <td>Freewebz is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freewebz.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freewebz.com</code></td>
+</tr>
+<tr data-link-row data-search="geocities closed 2009 geocities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s geocities.com">
+  <td><img class="favicon" src="assets/favicons/geocities-com-1c494ba3a5.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">Geocities</a></td>
+  <td>Geocities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>geocities.com</code></td>
+</tr>
+<tr data-link-row data-search="angelfire partially active angelfire is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s angelfire.com">
+  <td><img class="favicon" src="assets/favicons/generated/angelfire-com-b1396947.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">Angelfire</a></td>
+  <td>Angelfire is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>angelfire.com</code></td>
+</tr>
+<tr data-link-row data-search="k-turn defunct k-turn is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s k-turn.com">
+  <td><img class="favicon" src="assets/favicons/generated/k-turn-com-4cc6d23c.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/k-turn.com" target="_blank" rel="noopener noreferrer">K-turn</a></td>
+  <td>K-turn is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/k-turn.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>k-turn.com</code></td>
+</tr>
+<tr data-link-row data-search="9cy defunct 9cy is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 9cy.com">
+  <td><img class="favicon" src="assets/favicons/generated/9cy-com-b189274e.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/9cy.com" target="_blank" rel="noopener noreferrer">9cy</a></td>
+  <td>9cy is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/9cy.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>9cy.com</code></td>
+</tr>
+<tr data-link-row data-search="t35 defunct t35 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s t35.com">
+  <td><img class="favicon" src="assets/favicons/t35-com-e9b6cacec3.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/t35.com" target="_blank" rel="noopener noreferrer">T35</a></td>
+  <td>T35 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/t35.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>t35.com</code></td>
+</tr>
+<tr data-link-row data-search="freewebsites defunct freewebsites is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freewebsites.com">
+  <td><img class="favicon" src="assets/favicons/freewebsites-com-72501b29ac.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freewebsites.com" target="_blank" rel="noopener noreferrer">Freewebsites</a></td>
+  <td>Freewebsites is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freewebsites.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freewebsites.com</code></td>
+</tr>
+<tr data-link-row data-search="ghs20 defunct ghs20 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s ghs20.com">
+  <td><img class="favicon" src="assets/favicons/generated/ghs20-com-3bdf361d.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/ghs20.com" target="_blank" rel="noopener noreferrer">Ghs20</a></td>
+  <td>Ghs20 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/ghs20.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>ghs20.com</code></td>
+</tr>
+<tr data-link-row data-search="streamload defunct streamload is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s streamload.com">
+  <td><img class="favicon" src="assets/favicons/generated/streamload-com-076e0005.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/streamload.com" target="_blank" rel="noopener noreferrer">Streamload</a></td>
+  <td>Streamload is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/streamload.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>streamload.com</code></td>
+</tr>
+<tr data-link-row data-search="250free defunct 250free is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 250free.com">
+  <td><img class="favicon" src="assets/favicons/generated/250free-com-6635be39.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/250free.com" target="_blank" rel="noopener noreferrer">250free</a></td>
+  <td>250free is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/250free.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>250free.com</code></td>
+</tr>
+<tr data-link-row data-search="gigitup defunct gigitup is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s gigitup.com">
+  <td><img class="favicon" src="assets/favicons/generated/gigitup-com-0867b5b0.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/gigitup.com" target="_blank" rel="noopener noreferrer">Gigitup</a></td>
+  <td>Gigitup is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/gigitup.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>gigitup.com</code></td>
+</tr>
+<tr data-link-row data-search="moviefiles defunct moviefiles is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s moviefiles.net">
+  <td><img class="favicon" src="assets/favicons/generated/moviefiles-net-ae832ce4.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/moviefiles.net" target="_blank" rel="noopener noreferrer">Moviefiles</a></td>
+  <td>Moviefiles is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/moviefiles.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>moviefiles.net</code></td>
+</tr>
+<tr data-link-row data-search="phreehost defunct phreehost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s phreehost.com">
+  <td><img class="favicon" src="assets/favicons/generated/phreehost-com-6a1b155e.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/phreehost.com" target="_blank" rel="noopener noreferrer">Phreehost</a></td>
+  <td>Phreehost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/phreehost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>phreehost.com</code></td>
+</tr>
+<tr data-link-row data-search="fpages.co.uk defunct fpages.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fpages.co.uk">
+  <td><img class="favicon" src="assets/favicons/generated/fpages-co-uk-e3cca455.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/fpages.co.uk" target="_blank" rel="noopener noreferrer">Fpages.co.uk</a></td>
+  <td>Fpages.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/fpages.co.uk" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>fpages.co.uk</code></td>
+</tr>
+<tr data-link-row data-search="dk3 defunct dk3 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dk3.com">
+  <td><img class="favicon" src="assets/favicons/generated/dk3-com-14140f90.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/dk3.com" target="_blank" rel="noopener noreferrer">Dk3</a></td>
+  <td>Dk3 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/dk3.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>dk3.com</code></td>
+</tr>
+<tr data-link-row data-search="50megs defunct 50megs is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 50megs.com">
+  <td><img class="favicon" src="assets/favicons/50megs-com-9cd150266c.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/50megs.com" target="_blank" rel="noopener noreferrer">50megs</a></td>
+  <td>50megs is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/50megs.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>50megs.com</code></td>
+</tr>
+<tr data-link-row data-search="freetaboohost defunct freetaboohost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freetaboohost.com">
+  <td><img class="favicon" src="assets/favicons/generated/freetaboohost-com-8c543a6b.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freetaboohost.com" target="_blank" rel="noopener noreferrer">Freetaboohost</a></td>
+  <td>Freetaboohost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freetaboohost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freetaboohost.com</code></td>
+</tr>
+<tr data-link-row data-search="netfirms now paid netfirms is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s netfirms.com">
+  <td><img class="favicon" src="assets/favicons/netfirms-com-a6bce875d9.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/netfirms.com" target="_blank" rel="noopener noreferrer">Netfirms</a></td>
+  <td>Netfirms is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/netfirms.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>netfirms.com</code></td>
+</tr>
+<tr data-link-row data-search="php50 defunct php50 is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s php50.com">
+  <td><img class="favicon" src="assets/favicons/generated/php50-com-a6d89615.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/php50.com" target="_blank" rel="noopener noreferrer">Php50</a></td>
+  <td>Php50 is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/php50.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>php50.com</code></td>
+</tr>
+<tr data-link-row data-search="payinghost defunct payinghost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s payinghost.com">
+  <td><img class="favicon" src="assets/favicons/generated/payinghost-com-bde07cf2.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/payinghost.com" target="_blank" rel="noopener noreferrer">Payinghost</a></td>
+  <td>Payinghost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/payinghost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>payinghost.com</code></td>
+</tr>
+<tr data-link-row data-search="portland.co.uk defunct portland.co.uk is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s portland.co.uk">
+  <td><img class="favicon" src="assets/favicons/portland-co-uk-fb66ecdf2a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/portland.co.uk" target="_blank" rel="noopener noreferrer">Portland.co.uk</a></td>
+  <td>Portland.co.uk is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/portland.co.uk" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>portland.co.uk</code></td>
+</tr>
+<tr data-link-row data-search="mysitespace defunct mysitespace is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mysitespace.com">
+  <td><img class="favicon" src="assets/favicons/mysitespace-com-269ae3bd55.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/mysitespace.com" target="_blank" rel="noopener noreferrer">Mysitespace</a></td>
+  <td>Mysitespace is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/mysitespace.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mysitespace.com</code></td>
+</tr>
+<tr data-link-row data-search="7host defunct 7host is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 7host.com">
+  <td><img class="favicon" src="assets/favicons/generated/7host-com-2d422181.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/7host.com" target="_blank" rel="noopener noreferrer">7host</a></td>
+  <td>7host is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/7host.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>7host.com</code></td>
+</tr>
+<tr data-link-row data-search="easyspace now paid easyspace is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s easyspace.com">
+  <td><img class="favicon" src="assets/favicons/easyspace-com-344c7a4cc5.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/easyspace.com" target="_blank" rel="noopener noreferrer">Easyspace</a></td>
+  <td>Easyspace is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/easyspace.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>easyspace.com</code></td>
+</tr>
+<tr data-link-row data-search="liquid2k defunct liquid2k is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s liquid2k.com">
+  <td><img class="favicon" src="assets/favicons/generated/liquid2k-com-a0cb64b7.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/liquid2k.com" target="_blank" rel="noopener noreferrer">Liquid2k</a></td>
+  <td>Liquid2k is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/liquid2k.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>liquid2k.com</code></td>
+</tr>
+<tr data-link-row data-search="webalized.wox.org defunct webalized.wox.org is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s webalized.wox.org">
+  <td><img class="favicon" src="assets/favicons/generated/webalized-wox-org-4fa5217a.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/webalized.wox.org" target="_blank" rel="noopener noreferrer">Webalized.wox.org</a></td>
+  <td>Webalized.wox.org is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/webalized.wox.org" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webalized.wox.org</code></td>
+</tr>
+<tr data-link-row data-search="fortunecity closed 2012 fortunecity is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fortunecity.com">
+  <td><img class="favicon" src="assets/favicons/generated/fortunecity-com-4ec20f45.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/fortunecity.com" target="_blank" rel="noopener noreferrer">Fortunecity</a></td>
+  <td>Fortunecity is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/fortunecity.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>fortunecity.com</code></td>
+</tr>
+<tr data-link-row data-search="free.prohosting defunct free.prohosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s free.prohosting.com">
+  <td><img class="favicon" src="assets/favicons/generated/free-prohosting-com-7f4288f5.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/free.prohosting.com" target="_blank" rel="noopener noreferrer">Free.prohosting</a></td>
+  <td>Free.prohosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/free.prohosting.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>free.prohosting.com</code></td>
+</tr>
+<tr data-link-row data-search="marhost defunct marhost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s marhost.com">
+  <td><img class="favicon" src="assets/favicons/marhost-com-deaf9055bf.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/marhost.com" target="_blank" rel="noopener noreferrer">Marhost</a></td>
+  <td>Marhost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/marhost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>marhost.com</code></td>
+</tr>
+<tr data-link-row data-search="nerdcities defunct nerdcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s nerdcities.com">
+  <td><img class="favicon" src="assets/favicons/generated/nerdcities-com-3d43e2d5.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/nerdcities.com" target="_blank" rel="noopener noreferrer">Nerdcities</a></td>
+  <td>Nerdcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/nerdcities.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>nerdcities.com</code></td>
+</tr>
+<tr data-link-row data-search="topcities defunct topcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s topcities.com">
+  <td><img class="favicon" src="assets/favicons/generated/topcities-com-bd9bced3.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/topcities.com" target="_blank" rel="noopener noreferrer">Topcities</a></td>
+  <td>Topcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/topcities.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>topcities.com</code></td>
+</tr>
+<tr data-link-row data-search="20m defunct 20m is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 20m.com">
+  <td><img class="favicon" src="assets/favicons/generated/20m-com-c0a5cf27.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/20m.com" target="_blank" rel="noopener noreferrer">20m</a></td>
+  <td>20m is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/20m.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>20m.com</code></td>
+</tr>
+<tr data-link-row data-search="spaceports defunct spaceports is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s spaceports.com">
+  <td><img class="favicon" src="assets/favicons/generated/spaceports-com-af8bd4b0.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/spaceports.com" target="_blank" rel="noopener noreferrer">Spaceports</a></td>
+  <td>Spaceports is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/spaceports.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>spaceports.com</code></td>
+</tr>
+<tr data-link-row data-search="100megsfree defunct 100megsfree is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 100megsfree.com">
+  <td><img class="favicon" src="assets/favicons/generated/100megsfree-com-f0e08e34.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/100megsfree.com" target="_blank" rel="noopener noreferrer">100megsfree</a></td>
+  <td>100megsfree is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/100megsfree.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>100megsfree.com</code></td>
+</tr>
+<tr data-link-row data-search="dreamwater defunct dreamwater is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dreamwater.com">
+  <td><img class="favicon" src="assets/favicons/generated/dreamwater-com-c4ae2e21.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/dreamwater.com" target="_blank" rel="noopener noreferrer">Dreamwater</a></td>
+  <td>Dreamwater is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/dreamwater.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>dreamwater.com</code></td>
+</tr>
+<tr data-link-row data-search="megspace defunct megspace is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s megspace.com">
+  <td><img class="favicon" src="assets/favicons/generated/megspace-com-860b9335.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/megspace.com" target="_blank" rel="noopener noreferrer">Megspace</a></td>
+  <td>Megspace is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/megspace.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>megspace.com</code></td>
+</tr>
+<tr data-link-row data-search="fsn defunct fsn is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s fsn.net">
+  <td><img class="favicon" src="assets/favicons/fsn-net-24d714e3e3.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/fsn.net" target="_blank" rel="noopener noreferrer">Fsn</a></td>
+  <td>Fsn is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/fsn.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>fsn.net</code></td>
+</tr>
+<tr data-link-row data-search="8op defunct 8op is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s 8op.com">
+  <td><img class="favicon" src="assets/favicons/generated/8op-com-ff426c3b.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/8op.com" target="_blank" rel="noopener noreferrer">8op</a></td>
+  <td>8op is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/8op.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>8op.com</code></td>
+</tr>
+<tr data-link-row data-search="angelcities defunct angelcities is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s angelcities.com">
+  <td><img class="favicon" src="assets/favicons/generated/angelcities-com-4deddd07.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/angelcities.com" target="_blank" rel="noopener noreferrer">Angelcities</a></td>
+  <td>Angelcities is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/angelcities.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>angelcities.com</code></td>
+</tr>
+<tr data-link-row data-search="ssihost defunct ssihost is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s ssihost.com">
+  <td><img class="favicon" src="assets/favicons/ssihost-com-84572f2157.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/ssihost.com" target="_blank" rel="noopener noreferrer">Ssihost</a></td>
+  <td>Ssihost is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/ssihost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>ssihost.com</code></td>
+</tr>
+<tr data-link-row data-search="fateback defunct fateback is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s fateback.com">
+  <td><img class="favicon" src="assets/favicons/generated/fateback-com-6bc9ae23.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/fateback.com" target="_blank" rel="noopener noreferrer">Fateback</a></td>
+  <td>Fateback is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/fateback.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>fateback.com</code></td>
+</tr>
+<tr data-link-row data-search="anzwers defunct anzwers is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s anzwers.net">
+  <td><img class="favicon" src="assets/favicons/anzwers-net-5932e6a0e4.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/anzwers.net" target="_blank" rel="noopener noreferrer">Anzwers</a></td>
+  <td>Anzwers is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/anzwers.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>anzwers.net</code></td>
+</tr>
+<tr data-link-row data-search="gizba defunct gizba is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s gizba.com">
+  <td><img class="favicon" src="assets/favicons/generated/gizba-com-0ee06cd7.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/gizba.com" target="_blank" rel="noopener noreferrer">Gizba</a></td>
+  <td>Gizba is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/gizba.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>gizba.com</code></td>
+</tr>
+<tr data-link-row data-search="dencity defunct dencity is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s dencity.com">
+  <td><img class="favicon" src="assets/favicons/generated/dencity-com-07846886.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/dencity.com" target="_blank" rel="noopener noreferrer">Dencity</a></td>
+  <td>Dencity is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/dencity.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>dencity.com</code></td>
+</tr>
+<tr data-link-row data-search="brinkster now paid brinkster is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s brinkster.com">
+  <td><img class="favicon" src="assets/favicons/brinkster-com-6e12de9f69.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/brinkster.com" target="_blank" rel="noopener noreferrer">Brinkster</a></td>
+  <td>Brinkster is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/brinkster.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>brinkster.com</code></td>
+</tr>
+<tr data-link-row data-search="sphosting defunct sphosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s sphosting.com">
+  <td><img class="favicon" src="assets/favicons/generated/sphosting-com-5c047f36.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/sphosting.com" target="_blank" rel="noopener noreferrer">Sphosting</a></td>
+  <td>Sphosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/sphosting.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>sphosting.com</code></td>
+</tr>
+<tr data-link-row data-search="irepublics defunct irepublics is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s irepublics.com">
+  <td><img class="favicon" src="assets/favicons/generated/irepublics-com-a46ed2d3.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/irepublics.com" target="_blank" rel="noopener noreferrer">Irepublics</a></td>
+  <td>Irepublics is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/irepublics.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>irepublics.com</code></td>
+</tr>
+<tr data-link-row data-search="i-p defunct i-p is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s i-p.com">
+  <td><img class="favicon" src="assets/favicons/generated/i-p-com-8e14bf98.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/i-p.com" target="_blank" rel="noopener noreferrer">I-p</a></td>
+  <td>I-p is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/i-p.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>i-p.com</code></td>
+</tr>
+<tr data-link-row data-search="oemmail defunct oemmail is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s oemmail.com">
+  <td><img class="favicon" src="assets/favicons/generated/oemmail-com-7ca80c6b.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/oemmail.com" target="_blank" rel="noopener noreferrer">Oemmail</a></td>
+  <td>Oemmail is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/oemmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>oemmail.com</code></td>
+</tr>
+<tr data-link-row data-search="x10hosting active x10hosting is a hosting entry from the early 2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. early 2000s x10hosting.com">
+  <td><img class="favicon" src="assets/favicons/x10hosting-com-a06af660f0.ico" alt="" loading="lazy"></td>
+  <td><a href="https://x10hosting.com" target="_blank" rel="noopener noreferrer">X10Hosting</a></td>
+  <td>X10Hosting is a hosting entry from the Early 2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Early 2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/x10hosting.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>x10hosting.com</code></td>
+</tr>
+<tr data-link-row data-search="freehostia active freehostia is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s freehostia.com">
+  <td><img class="favicon" src="assets/favicons/freehostia-com-4b1c733a12.png" alt="" loading="lazy"></td>
+  <td><a href="https://freehostia.com" target="_blank" rel="noopener noreferrer">Freehostia</a></td>
+  <td>Freehostia is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/freehostia.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freehostia.com</code></td>
+</tr>
+<tr data-link-row data-search="byethost active byethost is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s byethost.com">
+  <td><img class="favicon" src="assets/favicons/byethost-com-b3dd710ade.ico" alt="" loading="lazy"></td>
+  <td><a href="https://byethost.com" target="_blank" rel="noopener noreferrer">Byethost</a></td>
+  <td>Byethost is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/byethost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>byethost.com</code></td>
+</tr>
+<tr data-link-row data-search="awardspace active awardspace is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s awardspace.com">
+  <td><img class="favicon" src="assets/favicons/awardspace-com-6866e85a09.png" alt="" loading="lazy"></td>
+  <td><a href="https://awardspace.com" target="_blank" rel="noopener noreferrer">AwardSpace</a></td>
+  <td>AwardSpace is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/awardspace.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>awardspace.com</code></td>
+</tr>
+<tr data-link-row data-search="000webhost active 000webhost is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s 000webhost.com">
+  <td><img class="favicon" src="assets/favicons/000webhost-com-38cad984fc.ico" alt="" loading="lazy"></td>
+  <td><a href="https://000webhost.com" target="_blank" rel="noopener noreferrer">000Webhost</a></td>
+  <td>000Webhost is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/000webhost.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>000webhost.com</code></td>
+</tr>
+<tr data-link-row data-search="homestead now paid homestead is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s homestead.com">
+  <td><img class="favicon" src="assets/favicons/homestead-com-2f855fb3ed.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">Homestead</a></td>
+  <td>Homestead is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>homestead.com</code></td>
+</tr>
+<tr data-link-row data-search="freewebs now webs.com freewebs is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s freewebs.com">
+  <td><img class="favicon" src="assets/favicons/freewebs-com-9698726fbd.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freewebs.com" target="_blank" rel="noopener noreferrer">FreeWebs</a></td>
+  <td>FreeWebs is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/freewebs.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freewebs.com</code></td>
+</tr>
+<tr data-link-row data-search="hypermart defunct hypermart is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hypermart.net">
+  <td><img class="favicon" src="assets/favicons/hypermart-net-08a14ed459.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hypermart.net" target="_blank" rel="noopener noreferrer">HyperMart</a></td>
+  <td>HyperMart is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/hypermart.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hypermart.net</code></td>
+</tr>
+<tr data-link-row data-search="hostultra defunct hostultra is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s hostultra.com">
+  <td><img class="favicon" src="assets/favicons/generated/hostultra-com-d448750b.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hostultra.com" target="_blank" rel="noopener noreferrer">HostUltra</a></td>
+  <td>HostUltra is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/hostultra.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hostultra.com</code></td>
+</tr>
+<tr data-link-row data-search="freehosting uncertain freehosting is a hosting entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. early 2000s freehosting.com">
+  <td><img class="favicon" src="assets/favicons/freehosting-com-ca9df47353.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freehosting.com" target="_blank" rel="noopener noreferrer">FreeHosting</a></td>
+  <td>FreeHosting is a hosting entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Status uncertain</td>
+  <td><a href="https://web.archive.org/web/*/freehosting.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freehosting.com</code></td>
+</tr>
+<tr data-link-row data-search="infinityfree active infinityfree is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s infinityfree.net">
+  <td><img class="favicon" src="assets/favicons/infinityfree-net-82274c4f8e.ico" alt="" loading="lazy"></td>
+  <td><a href="https://infinityfree.net" target="_blank" rel="noopener noreferrer">InfinityFree</a></td>
+  <td>InfinityFree is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/infinityfree.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>infinityfree.net</code></td>
+</tr>
+<tr data-link-row data-search="biz.ly defunct biz.ly is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s biz.ly">
+  <td><img class="favicon" src="assets/favicons/biz-ly-6d5ce7717b.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/biz.ly" target="_blank" rel="noopener noreferrer">Biz.ly</a></td>
+  <td>Biz.ly is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/biz.ly" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>biz.ly</code></td>
+</tr>
+<tr data-link-row data-search="host1free defunct host1free is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. mid-2000s host1free.com">
+  <td><img class="favicon" src="assets/favicons/generated/host1free-com-88d00257.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/host1free.com" target="_blank" rel="noopener noreferrer">Host1Free</a></td>
+  <td>Host1Free is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/host1free.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>host1free.com</code></td>
+</tr>
+<tr data-link-row data-search="freesite defunct freesite is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freesite.com">
+  <td><img class="favicon" src="assets/favicons/generated/freesite-com-20a58c00.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freesite.com" target="_blank" rel="noopener noreferrer">FreeSite</a></td>
+  <td>FreeSite is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freesite.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freesite.com</code></td>
+</tr>
+<tr data-link-row data-search="freewebhostingarea active freewebhostingarea is a hosting entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s freewebhostingarea.com">
+  <td><img class="favicon" src="assets/favicons/freewebhostingarea-com-ea9fad5994.ico" alt="" loading="lazy"></td>
+  <td><a href="https://freewebhostingarea.com" target="_blank" rel="noopener noreferrer">FreeWebHostingArea</a></td>
+  <td>FreeWebHostingArea is a hosting entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/freewebhostingarea.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freewebhostingarea.com</code></td>
+</tr>
+<tr data-link-row data-search="hostinger free now paid hostinger free is a hosting entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s hostinger.com">
+  <td><img class="favicon" src="assets/favicons/hostinger-com-38cad984fc.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hostinger.com" target="_blank" rel="noopener noreferrer">Hostinger Free</a></td>
+  <td>Hostinger Free is a hosting entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/hostinger.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hostinger.com</code></td>
+</tr>
+<tr data-link-row data-search="zymic defunct zymic is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s zymic.com">
+  <td><img class="favicon" src="assets/favicons/generated/zymic-com-a3f514b8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/zymic.com" target="_blank" rel="noopener noreferrer">Zymic</a></td>
+  <td>Zymic is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/zymic.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>zymic.com</code></td>
+</tr>
+<tr data-link-row data-search="freeola active uk freeola is a hosting entry from the 1990s web. it is marked &quot;active uk&quot;, so the live site is the primary link with wayback kept for older captures. 1990s freeola.com">
+  <td><img class="favicon" src="assets/favicons/freeola-com-7be59d41d2.ico" alt="" loading="lazy"></td>
+  <td><a href="https://freeola.com" target="_blank" rel="noopener noreferrer">Freeola</a></td>
+  <td>Freeola is a hosting entry from the 1990s web. It is marked &quot;Active UK&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/freeola.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freeola.com</code></td>
+</tr>
+<tr data-link-row data-search="hostfree defunct hostfree is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hostfree.com">
+  <td><img class="favicon" src="assets/favicons/hostfree-com-a435af6120.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hostfree.com" target="_blank" rel="noopener noreferrer">HostFree</a></td>
+  <td>HostFree is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/hostfree.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hostfree.com</code></td>
+</tr>
+<tr data-link-row data-search="webfreehosting defunct webfreehosting is a hosting entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s webfreehosting.net">
+  <td><img class="favicon" src="assets/favicons/webfreehosting-net-14b3cbdcd3.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/webfreehosting.net" target="_blank" rel="noopener noreferrer">WebFreeHosting</a></td>
+  <td>WebFreeHosting is a hosting entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/webfreehosting.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webfreehosting.net</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="isp.html"><i class="fas fa-arrow-left"></i>Free ISP</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="guestbooks.html">Free Guestbooks<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Free Hosting detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1967 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Email - Old Free Online Resources Archive</title>
+  <meta name="description" content="This category collects email services and resources from the original old free online resources list. It includes 37 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hotmail, Hotpop, Weedmail, Tshirthell.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-envelope"></i> Category detail page</p>
+      <h1>Free Email</h1>
+      <p class="hero-copy">This category collects email services and resources from the original old free online resources list. It includes 37 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hotmail, Hotpop, Weedmail, Tshirthell.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 37 links</a>
+        <a class="button" href="index.html#email"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>37</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>30</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>7</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>2</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This category collects email services and resources from the original old free online resources list. It includes 37 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hotmail, Hotpop, Weedmail, Tshirthell.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 31</span>
+<span class="mini-tag">Early 2000s: 6</span>
+<span class="mini-tag">Mid-2000s: 0</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Changed over time: 7</span>
+<span class="mini-tag">Defunct or closed: 20</span>
+<span class="mini-tag">Active or preserved: 7</span>
+<span class="mini-tag">Status uncertain: 3</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Free Email directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Free Email...">
+            </label>
+            <p><strong id="category-count">37</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="hotmail now outlook.com hotmail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s hotmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hotmail-com-dd714f7b7f.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hotmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Hotmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Hotmail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>hotmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hotmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hotmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="hotpop defunct hotpop is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hotpop.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/hotpop-com-58fb4025.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hotpop.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Hotpop</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Hotpop is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>hotpop.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hotpop.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hotpop.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="weedmail defunct weedmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s weedmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/weedmail-com-f1e61ee5d8.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/weedmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Weedmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Weedmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>weedmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/weedmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://weedmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="defunct" data-search="tshirthell inactive tshirthell is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s tshirthell.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/tshirthell-com-19683930a1.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/tshirthell.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Tshirthell</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Tshirthell is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>tshirthell.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/tshirthell.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://tshirthell.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="beer defunct beer is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s beer.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/beer-com-71354b77.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/beer.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Beer</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Beer is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>beer.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/beer.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://beer.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="yahoo active latest news coverage, email, free stock quotes, live scores and video are just the beginning. discover more every day at yahoo! 1990s yahoo.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/yahoo-com-1c494ba3a5.png" alt="" loading="lazy">
+    <a href="https://yahoo.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Yahoo</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Latest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>yahoo.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/yahoo.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://yahoo.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="defunct" data-search="pimpemail defunct pimpemail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s pimpemail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/pimpemail-com-e5584a04c6.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/pimpemail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Pimpemail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Pimpemail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>pimpemail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/pimpemail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://pimpemail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="email redirects email is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s email.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/email-com-ae5516b38a.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/email.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Email</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Email is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>email.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/email.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://email.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="gmx active kostenlose e-mail-adresse erstellen, nachrichten lesen und fotos &amp; dateien in der gmx cloud sicher speichern. jetzt registrieren! 1990s gmx.net free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/gmx-net-85ac702d99.ico" alt="" loading="lazy">
+    <a href="https://gmx.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">GMX</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Kostenlose E-Mail-Adresse erstellen, Nachrichten lesen und Fotos &amp; Dateien in der GMX Cloud sicher speichern. Jetzt registrieren!</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>gmx.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/gmx.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://gmx.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="mypad defunct mypad is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mypad.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/mypad-com-9e63c0a4.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/mypad.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Mypad</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Mypad is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>mypad.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mypad.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mypad.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="uncertain" data-search="kgb czech, unclear kgb is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s kgb.cz free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/kgb-cz-0f19c782be.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/kgb.cz" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">KGB</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>KGB is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Status uncertain</span>
+    <span>Archive link first</span>
+    <span>kgb.cz</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/kgb.cz" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://kgb.cz" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="amexmail defunct amexmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s amexmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/amexmail-com-23af5154.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/amexmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Amexmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Amexmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>amexmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/amexmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://amexmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="web.de active sichere kommunikation, aktuelle nachrichten und nützliche online-services - alles an einem ort. einfach, kostenlos und zuverlässig. 1990s web.de free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/web-de-259ea5c86f.ico" alt="" loading="lazy">
+    <a href="https://web.de" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Web.de</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Sichere Kommunikation, aktuelle Nachrichten und nützliche Online-Services - alles an einem Ort. Einfach, kostenlos und zuverlässig.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>web.de</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/web.de" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://web.de" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="mynet active güncel altın fiyatları, son dakika haberleri, spor, oyun, yemek ve ilginizi çekebilecek birçok servis, türkiye’nin lider internet platformu mynet ile sizlerle! 1990s mynet.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/mynet-com-e731126c39.png" alt="" loading="lazy">
+    <a href="https://mynet.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Mynet</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Güncel altın fiyatları, son dakika haberleri, spor, oyun, yemek ve ilginizi çekebilecek birçok servis, Türkiye’nin lider internet platformu Mynet ile sizlerle!</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>mynet.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mynet.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mynet.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="saintmail defunct saintmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s saintmail.net free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/saintmail-net-f734c22c.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/saintmail.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Saintmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Saintmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>saintmail.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/saintmail.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://saintmail.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="msn now outlook msn is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s msn.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/msn-com-560a8ea628.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/msn.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">MSN</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>MSN is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>msn.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/msn.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://msn.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="uncertain" data-search="everyone.net uncertain everyone.net is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s everyone.net free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/everyone-net-b4ab5cc738.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/everyone.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Everyone.net</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Everyone.net is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Status uncertain</span>
+    <span>Archive link first</span>
+    <span>everyone.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/everyone.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://everyone.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="aol mail major 1990s provider aol mail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s mail.aol.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/mail-aol-com-ecb1e2e89a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/mail.aol.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">AOL Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>AOL Mail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>mail.aol.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mail.aol.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mail.aol.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="excite mail defunct excite mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s excite.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/excite-com-30e243e9.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Excite Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Excite Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>excite.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://excite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="lycos mail discontinued lycos mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s lycos.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/lycos-com-ea7df58398.gif" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Lycos Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Lycos Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>lycos.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://lycos.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="mail.com active the right email address for you ✔ secure ✔ 100+ domain names ✔ up to 10 mail addresses ✔ sync across devices ✔ 65gb email storage ✔ sign up today! 1990s mail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/mail-com-356a6a4942.ico" alt="" loading="lazy">
+    <a href="https://mail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Mail.com</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>The right email address for you ✔ Secure ✔ 100+ domain names ✔ Up to 10 mail addresses ✔ Sync across devices ✔ 65GB email storage ✔ Sign up today!</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>mail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="uncertain" data-search="inbox.com status uncertain inbox.com is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. early 2000s inbox.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/inbox-com-8f51bb36b8.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/inbox.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Inbox.com</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Inbox.com is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Status uncertain</span>
+    <span>Archive link first</span>
+    <span>inbox.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/inbox.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://inbox.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="hushmail encrypted, active send secure emails and forms with hushmail. trusted by therapy and healthcare practitioners for handling sensitive information. 1990s hushmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/hushmail-com-041c82fa16.ico" alt="" loading="lazy">
+    <a href="https://hushmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Hushmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Send secure emails and forms with Hushmail. Trusted by therapy and healthcare practitioners for handling sensitive information.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>hushmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hushmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hushmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="changed" data-search="runbox privacy-focused, paid runbox is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s runbox.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/runbox-com-c9a93f98c0.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/runbox.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Runbox</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Runbox is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>runbox.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/runbox.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://runbox.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="bigfoot email forwarding, defunct bigfoot is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s bigfoot.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/bigfoot-com-b52b9f9577.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/bigfoot.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Bigfoot</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Bigfoot is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>bigfoot.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/bigfoot.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://bigfoot.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="juno mail now paid juno mail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s mail.juno.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/mail-juno-com-e60420b7ac.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/mail.juno.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Juno Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Juno Mail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>mail.juno.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mail.juno.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mail.juno.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="altavista mail defunct altavista mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s altavista.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/altavista-com-ecb1e2e89a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Altavista Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Altavista Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>altavista.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://altavista.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="netscape mail defunct netscape mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s netscape.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/netscape-com-aa78a434e7.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/netscape.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Netscape Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Netscape Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>netscape.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/netscape.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://netscape.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="go.com disney email, defunct go.com is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s go.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/go-com-3c84af2fd6.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/go.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Go.com</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Go.com is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>go.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/go.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://go.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="mailcity lycos predecessor, defunct mailcity is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mailcity.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/mailcity-com-d76314c9.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/mailcity.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Mailcity</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Mailcity is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>mailcity.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/mailcity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mailcity.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="postmark defunct postmark is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s postmark.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/postmark-com-92efc1fb51.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/postmark.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Postmark</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Postmark is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>postmark.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/postmark.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://postmark.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="defunct" data-search="zapak mail gaming email, defunct zapak mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s zapak.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/zapak-com-7086291350.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/zapak.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Zapak Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Zapak Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>zapak.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/zapak.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://zapak.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="active" data-search="rediffmail indian email, active &amp;#10004;read latest india news &amp;#10004;get realtime stock quotes &amp;#10004;see live cricket scores &amp;#10004;log in to rediffmail &amp;#10004;expert advice on career, personal finance and relationships 1990s rediff.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/rediff-com-faaf2c62ac.ico" alt="" loading="lazy">
+    <a href="https://rediff.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Rediffmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>&amp;#10004;Read Latest India News &amp;#10004;Get Realtime Stock Quotes &amp;#10004;See Live Cricket Scores &amp;#10004;Log in to Rediffmail &amp;#10004;Expert advice on career, personal finance and relationships</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>rediff.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/rediff.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://rediff.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="early-2000s" data-status="defunct" data-search="indiatimes mail defunct indiatimes mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s indiatimes.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/indiatimes-com-e3b05d0a32.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/indiatimes.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">IndiaTimes Mail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>IndiaTimes Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>indiatimes.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/indiatimes.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://indiatimes.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="changed" data-search="fastmail free once, now paid fastmail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s fastmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/fastmail-com-c3bd9e53ff.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/fastmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Fastmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Fastmail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>fastmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/fastmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://fastmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="rocketmail merged into yahoo rocketmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s rocketmail.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/rocketmail-com-ecb1e2e89a.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/rocketmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Rocketmail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Rocketmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>rocketmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/rocketmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://rocketmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="email" data-era="1990s" data-status="defunct" data-search="theglobe social email, defunct theglobe is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s theglobe.com free email">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/theglobe-com-27756ebb.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/theglobe.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Theglobe</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Theglobe is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>theglobe.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/theglobe.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://theglobe.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Free Email entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="hotmail now outlook.com hotmail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s hotmail.com">
+  <td><img class="favicon" src="assets/favicons/hotmail-com-dd714f7b7f.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hotmail.com" target="_blank" rel="noopener noreferrer">Hotmail</a></td>
+  <td>Hotmail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/hotmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hotmail.com</code></td>
+</tr>
+<tr data-link-row data-search="hotpop defunct hotpop is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s hotpop.com">
+  <td><img class="favicon" src="assets/favicons/generated/hotpop-com-58fb4025.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hotpop.com" target="_blank" rel="noopener noreferrer">Hotpop</a></td>
+  <td>Hotpop is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/hotpop.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hotpop.com</code></td>
+</tr>
+<tr data-link-row data-search="weedmail defunct weedmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s weedmail.com">
+  <td><img class="favicon" src="assets/favicons/weedmail-com-f1e61ee5d8.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/weedmail.com" target="_blank" rel="noopener noreferrer">Weedmail</a></td>
+  <td>Weedmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/weedmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>weedmail.com</code></td>
+</tr>
+<tr data-link-row data-search="tshirthell inactive tshirthell is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s tshirthell.com">
+  <td><img class="favicon" src="assets/favicons/tshirthell-com-19683930a1.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/tshirthell.com" target="_blank" rel="noopener noreferrer">Tshirthell</a></td>
+  <td>Tshirthell is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/tshirthell.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>tshirthell.com</code></td>
+</tr>
+<tr data-link-row data-search="beer defunct beer is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s beer.com">
+  <td><img class="favicon" src="assets/favicons/generated/beer-com-71354b77.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/beer.com" target="_blank" rel="noopener noreferrer">Beer</a></td>
+  <td>Beer is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/beer.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>beer.com</code></td>
+</tr>
+<tr data-link-row data-search="yahoo active latest news coverage, email, free stock quotes, live scores and video are just the beginning. discover more every day at yahoo! 1990s yahoo.com">
+  <td><img class="favicon" src="assets/favicons/yahoo-com-1c494ba3a5.png" alt="" loading="lazy"></td>
+  <td><a href="https://yahoo.com" target="_blank" rel="noopener noreferrer">Yahoo</a></td>
+  <td>Latest news coverage, email, free stock quotes, live scores and video are just the beginning. Discover more every day at Yahoo!</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/yahoo.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>yahoo.com</code></td>
+</tr>
+<tr data-link-row data-search="pimpemail defunct pimpemail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s pimpemail.com">
+  <td><img class="favicon" src="assets/favicons/pimpemail-com-e5584a04c6.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/pimpemail.com" target="_blank" rel="noopener noreferrer">Pimpemail</a></td>
+  <td>Pimpemail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/pimpemail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>pimpemail.com</code></td>
+</tr>
+<tr data-link-row data-search="email redirects email is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s email.com">
+  <td><img class="favicon" src="assets/favicons/email-com-ae5516b38a.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/email.com" target="_blank" rel="noopener noreferrer">Email</a></td>
+  <td>Email is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/email.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>email.com</code></td>
+</tr>
+<tr data-link-row data-search="gmx active kostenlose e-mail-adresse erstellen, nachrichten lesen und fotos &amp; dateien in der gmx cloud sicher speichern. jetzt registrieren! 1990s gmx.net">
+  <td><img class="favicon" src="assets/favicons/gmx-net-85ac702d99.ico" alt="" loading="lazy"></td>
+  <td><a href="https://gmx.net" target="_blank" rel="noopener noreferrer">GMX</a></td>
+  <td>Kostenlose E-Mail-Adresse erstellen, Nachrichten lesen und Fotos &amp; Dateien in der GMX Cloud sicher speichern. Jetzt registrieren!</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/gmx.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>gmx.net</code></td>
+</tr>
+<tr data-link-row data-search="mypad defunct mypad is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mypad.com">
+  <td><img class="favicon" src="assets/favicons/generated/mypad-com-9e63c0a4.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/mypad.com" target="_blank" rel="noopener noreferrer">Mypad</a></td>
+  <td>Mypad is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/mypad.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mypad.com</code></td>
+</tr>
+<tr data-link-row data-search="kgb czech, unclear kgb is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s kgb.cz">
+  <td><img class="favicon" src="assets/favicons/kgb-cz-0f19c782be.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/kgb.cz" target="_blank" rel="noopener noreferrer">KGB</a></td>
+  <td>KGB is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Status uncertain</td>
+  <td><a href="https://web.archive.org/web/*/kgb.cz" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>kgb.cz</code></td>
+</tr>
+<tr data-link-row data-search="amexmail defunct amexmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s amexmail.com">
+  <td><img class="favicon" src="assets/favicons/generated/amexmail-com-23af5154.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/amexmail.com" target="_blank" rel="noopener noreferrer">Amexmail</a></td>
+  <td>Amexmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/amexmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>amexmail.com</code></td>
+</tr>
+<tr data-link-row data-search="web.de active sichere kommunikation, aktuelle nachrichten und nützliche online-services - alles an einem ort. einfach, kostenlos und zuverlässig. 1990s web.de">
+  <td><img class="favicon" src="assets/favicons/web-de-259ea5c86f.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.de" target="_blank" rel="noopener noreferrer">Web.de</a></td>
+  <td>Sichere Kommunikation, aktuelle Nachrichten und nützliche Online-Services - alles an einem Ort. Einfach, kostenlos und zuverlässig.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/web.de" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>web.de</code></td>
+</tr>
+<tr data-link-row data-search="mynet active güncel altın fiyatları, son dakika haberleri, spor, oyun, yemek ve ilginizi çekebilecek birçok servis, türkiye’nin lider internet platformu mynet ile sizlerle! 1990s mynet.com">
+  <td><img class="favicon" src="assets/favicons/mynet-com-e731126c39.png" alt="" loading="lazy"></td>
+  <td><a href="https://mynet.com" target="_blank" rel="noopener noreferrer">Mynet</a></td>
+  <td>Güncel altın fiyatları, son dakika haberleri, spor, oyun, yemek ve ilginizi çekebilecek birçok servis, Türkiye’nin lider internet platformu Mynet ile sizlerle!</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/mynet.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mynet.com</code></td>
+</tr>
+<tr data-link-row data-search="saintmail defunct saintmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s saintmail.net">
+  <td><img class="favicon" src="assets/favicons/generated/saintmail-net-f734c22c.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/saintmail.net" target="_blank" rel="noopener noreferrer">Saintmail</a></td>
+  <td>Saintmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/saintmail.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>saintmail.net</code></td>
+</tr>
+<tr data-link-row data-search="msn now outlook msn is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s msn.com">
+  <td><img class="favicon" src="assets/favicons/msn-com-560a8ea628.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/msn.com" target="_blank" rel="noopener noreferrer">MSN</a></td>
+  <td>MSN is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/msn.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>msn.com</code></td>
+</tr>
+<tr data-link-row data-search="everyone.net uncertain everyone.net is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s everyone.net">
+  <td><img class="favicon" src="assets/favicons/everyone-net-b4ab5cc738.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/everyone.net" target="_blank" rel="noopener noreferrer">Everyone.net</a></td>
+  <td>Everyone.net is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Status uncertain</td>
+  <td><a href="https://web.archive.org/web/*/everyone.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>everyone.net</code></td>
+</tr>
+<tr data-link-row data-search="aol mail major 1990s provider aol mail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s mail.aol.com">
+  <td><img class="favicon" src="assets/favicons/mail-aol-com-ecb1e2e89a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/mail.aol.com" target="_blank" rel="noopener noreferrer">AOL Mail</a></td>
+  <td>AOL Mail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/mail.aol.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mail.aol.com</code></td>
+</tr>
+<tr data-link-row data-search="excite mail defunct excite mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s excite.com">
+  <td><img class="favicon" src="assets/favicons/generated/excite-com-30e243e9.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer">Excite Mail</a></td>
+  <td>Excite Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/excite.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>excite.com</code></td>
+</tr>
+<tr data-link-row data-search="lycos mail discontinued lycos mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s lycos.com">
+  <td><img class="favicon" src="assets/favicons/lycos-com-ea7df58398.gif" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer">Lycos Mail</a></td>
+  <td>Lycos Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/lycos.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>lycos.com</code></td>
+</tr>
+<tr data-link-row data-search="mail.com active the right email address for you ✔ secure ✔ 100+ domain names ✔ up to 10 mail addresses ✔ sync across devices ✔ 65gb email storage ✔ sign up today! 1990s mail.com">
+  <td><img class="favicon" src="assets/favicons/mail-com-356a6a4942.ico" alt="" loading="lazy"></td>
+  <td><a href="https://mail.com" target="_blank" rel="noopener noreferrer">Mail.com</a></td>
+  <td>The right email address for you ✔ Secure ✔ 100+ domain names ✔ Up to 10 mail addresses ✔ Sync across devices ✔ 65GB email storage ✔ Sign up today!</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/mail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mail.com</code></td>
+</tr>
+<tr data-link-row data-search="inbox.com status uncertain inbox.com is an email entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. early 2000s inbox.com">
+  <td><img class="favicon" src="assets/favicons/inbox-com-8f51bb36b8.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/inbox.com" target="_blank" rel="noopener noreferrer">Inbox.com</a></td>
+  <td>Inbox.com is an email entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Status uncertain</td>
+  <td><a href="https://web.archive.org/web/*/inbox.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>inbox.com</code></td>
+</tr>
+<tr data-link-row data-search="hushmail encrypted, active send secure emails and forms with hushmail. trusted by therapy and healthcare practitioners for handling sensitive information. 1990s hushmail.com">
+  <td><img class="favicon" src="assets/favicons/hushmail-com-041c82fa16.ico" alt="" loading="lazy"></td>
+  <td><a href="https://hushmail.com" target="_blank" rel="noopener noreferrer">Hushmail</a></td>
+  <td>Send secure emails and forms with Hushmail. Trusted by therapy and healthcare practitioners for handling sensitive information.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/hushmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hushmail.com</code></td>
+</tr>
+<tr data-link-row data-search="runbox privacy-focused, paid runbox is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s runbox.com">
+  <td><img class="favicon" src="assets/favicons/runbox-com-c9a93f98c0.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/runbox.com" target="_blank" rel="noopener noreferrer">Runbox</a></td>
+  <td>Runbox is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/runbox.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>runbox.com</code></td>
+</tr>
+<tr data-link-row data-search="bigfoot email forwarding, defunct bigfoot is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s bigfoot.com">
+  <td><img class="favicon" src="assets/favicons/bigfoot-com-b52b9f9577.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/bigfoot.com" target="_blank" rel="noopener noreferrer">Bigfoot</a></td>
+  <td>Bigfoot is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/bigfoot.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>bigfoot.com</code></td>
+</tr>
+<tr data-link-row data-search="juno mail now paid juno mail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s mail.juno.com">
+  <td><img class="favicon" src="assets/favicons/mail-juno-com-e60420b7ac.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/mail.juno.com" target="_blank" rel="noopener noreferrer">Juno Mail</a></td>
+  <td>Juno Mail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/mail.juno.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mail.juno.com</code></td>
+</tr>
+<tr data-link-row data-search="altavista mail defunct altavista mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s altavista.com">
+  <td><img class="favicon" src="assets/favicons/altavista-com-ecb1e2e89a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">Altavista Mail</a></td>
+  <td>Altavista Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/altavista.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>altavista.com</code></td>
+</tr>
+<tr data-link-row data-search="netscape mail defunct netscape mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s netscape.com">
+  <td><img class="favicon" src="assets/favicons/netscape-com-aa78a434e7.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/netscape.com" target="_blank" rel="noopener noreferrer">Netscape Mail</a></td>
+  <td>Netscape Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/netscape.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>netscape.com</code></td>
+</tr>
+<tr data-link-row data-search="go.com disney email, defunct go.com is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s go.com">
+  <td><img class="favicon" src="assets/favicons/go-com-3c84af2fd6.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/go.com" target="_blank" rel="noopener noreferrer">Go.com</a></td>
+  <td>Go.com is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/go.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>go.com</code></td>
+</tr>
+<tr data-link-row data-search="mailcity lycos predecessor, defunct mailcity is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s mailcity.com">
+  <td><img class="favicon" src="assets/favicons/generated/mailcity-com-d76314c9.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/mailcity.com" target="_blank" rel="noopener noreferrer">Mailcity</a></td>
+  <td>Mailcity is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/mailcity.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mailcity.com</code></td>
+</tr>
+<tr data-link-row data-search="postmark defunct postmark is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s postmark.com">
+  <td><img class="favicon" src="assets/favicons/postmark-com-92efc1fb51.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/postmark.com" target="_blank" rel="noopener noreferrer">Postmark</a></td>
+  <td>Postmark is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/postmark.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>postmark.com</code></td>
+</tr>
+<tr data-link-row data-search="zapak mail gaming email, defunct zapak mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s zapak.com">
+  <td><img class="favicon" src="assets/favicons/zapak-com-7086291350.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/zapak.com" target="_blank" rel="noopener noreferrer">Zapak Mail</a></td>
+  <td>Zapak Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/zapak.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>zapak.com</code></td>
+</tr>
+<tr data-link-row data-search="rediffmail indian email, active &amp;#10004;read latest india news &amp;#10004;get realtime stock quotes &amp;#10004;see live cricket scores &amp;#10004;log in to rediffmail &amp;#10004;expert advice on career, personal finance and relationships 1990s rediff.com">
+  <td><img class="favicon" src="assets/favicons/rediff-com-faaf2c62ac.ico" alt="" loading="lazy"></td>
+  <td><a href="https://rediff.com" target="_blank" rel="noopener noreferrer">Rediffmail</a></td>
+  <td>&amp;#10004;Read Latest India News &amp;#10004;Get Realtime Stock Quotes &amp;#10004;See Live Cricket Scores &amp;#10004;Log in to Rediffmail &amp;#10004;Expert advice on career, personal finance and relationships</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/rediff.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>rediff.com</code></td>
+</tr>
+<tr data-link-row data-search="indiatimes mail defunct indiatimes mail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s indiatimes.com">
+  <td><img class="favicon" src="assets/favicons/indiatimes-com-e3b05d0a32.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/indiatimes.com" target="_blank" rel="noopener noreferrer">IndiaTimes Mail</a></td>
+  <td>IndiaTimes Mail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/indiatimes.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>indiatimes.com</code></td>
+</tr>
+<tr data-link-row data-search="fastmail free once, now paid fastmail is an email entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s fastmail.com">
+  <td><img class="favicon" src="assets/favicons/fastmail-com-c3bd9e53ff.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/fastmail.com" target="_blank" rel="noopener noreferrer">Fastmail</a></td>
+  <td>Fastmail is an email entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/fastmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>fastmail.com</code></td>
+</tr>
+<tr data-link-row data-search="rocketmail merged into yahoo rocketmail is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s rocketmail.com">
+  <td><img class="favicon" src="assets/favicons/rocketmail-com-ecb1e2e89a.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/rocketmail.com" target="_blank" rel="noopener noreferrer">Rocketmail</a></td>
+  <td>Rocketmail is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/rocketmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>rocketmail.com</code></td>
+</tr>
+<tr data-link-row data-search="theglobe social email, defunct theglobe is an email entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s theglobe.com">
+  <td><img class="favicon" src="assets/favicons/generated/theglobe-com-27756ebb.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/theglobe.com" target="_blank" rel="noopener noreferrer">Theglobe</a></td>
+  <td>Theglobe is an email entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/theglobe.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>theglobe.com</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="recovered-geocities-personal-sites.html"><i class="fas fa-arrow-left"></i>Recovered GeoCities &amp; Personal Sites</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="counters.html">Counters and Trackers<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Free Email detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>

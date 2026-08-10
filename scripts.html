@@ -1,0 +1,1486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Remote Scripts - Old Free Online Resources Archive</title>
+  <meta name="description" content="This category collects remote scripts services and resources from the original old free online resources list. It includes 21 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hostedscripts, CGI Central, HotScripts, ScriptDungeon.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-code"></i> Category detail page</p>
+      <h1>Remote Scripts</h1>
+      <p class="hero-copy">This category collects remote scripts services and resources from the original old free online resources list. It includes 21 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hostedscripts, CGI Central, HotScripts, ScriptDungeon.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 21 links</a>
+        <a class="button" href="index.html#scripts"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>21</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>18</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>3</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>1</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This category collects remote scripts services and resources from the original old free online resources list. It includes 21 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Hostedscripts, CGI Central, HotScripts, ScriptDungeon.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 21</span>
+<span class="mini-tag">Early 2000s: 0</span>
+<span class="mini-tag">Mid-2000s: 0</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Status uncertain: 1</span>
+<span class="mini-tag">Defunct or closed: 17</span>
+<span class="mini-tag">Active or preserved: 3</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Remote Scripts directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Remote Scripts...">
+            </label>
+            <p><strong id="category-count">21</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="uncertain" data-search="hostedscripts uncertain hostedscripts is a remote scripts entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s hostedscripts.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/hostedscripts-com-ce57ec13.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/hostedscripts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Hostedscripts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Hostedscripts is a remote scripts entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Status uncertain</span>
+    <span>Archive link first</span>
+    <span>hostedscripts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hostedscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hostedscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="cgi central defunct cgi central is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgicentral.net remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/cgicentral-net-acba7625.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/cgicentral.net" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CGI Central</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>CGI Central is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>cgicentral.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/cgicentral.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://cgicentral.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="active" data-search="hotscripts active resource hotscripts is a remote scripts entry from the 1990s web. it is marked &quot;active resource&quot;, so the live site is the primary link with wayback kept for older captures. 1990s hotscripts.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/hotscripts-com-5037be24.svg" alt="" loading="lazy">
+    <a href="https://hotscripts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">HotScripts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>HotScripts is a remote scripts entry from the 1990s web. It is marked &quot;Active resource&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>hotscripts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/hotscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://hotscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="scriptdungeon defunct scriptdungeon is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptdungeon.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/scriptdungeon-com-d73d2f6d74.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/scriptdungeon.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">ScriptDungeon</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>ScriptDungeon is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>scriptdungeon.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/scriptdungeon.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://scriptdungeon.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="freescripts defunct freescripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freescripts.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freescripts-com-67c0862471.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freescripts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeScripts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freescripts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freescripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freescripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="cgi-resources defunct cgi-resources is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgi-resources.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/cgi-resources-com-870ee3b480.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/cgi-resources.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CGI-Resources</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>CGI-Resources is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>cgi-resources.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/cgi-resources.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://cgi-resources.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="matt's script archive inactive matt's script archive is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptarchive.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/scriptarchive-com-f893107064.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/scriptarchive.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Matt's Script Archive</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Matt's Script Archive is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>scriptarchive.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/scriptarchive.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://scriptarchive.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="formmail defunct formmail is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s formmail.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/formmail-com-08af329bf8.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/formmail.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FormMail</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FormMail is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>formmail.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/formmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://formmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="perlscripts defunct perlscripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s perlscripts.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/perlscripts-com-97b2bb13.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/perlscripts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">PerlScripts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>PerlScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>perlscripts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/perlscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://perlscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="active" data-search="javascript kit active javascript kit is a remote scripts entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s javascriptkit.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/javascriptkit-com-9424d58f.svg" alt="" loading="lazy">
+    <a href="https://javascriptkit.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">JavaScript Kit</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>JavaScript Kit is a remote scripts entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>javascriptkit.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/javascriptkit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://javascriptkit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="active" data-search="dynamic drive active dynamic drive is a remote scripts entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s dynamicdrive.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/dynamicdrive-com-384d4f01.svg" alt="" loading="lazy">
+    <a href="https://dynamicdrive.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Dynamic Drive</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Dynamic Drive is a remote scripts entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>dynamicdrive.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/dynamicdrive.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://dynamicdrive.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="cgi world defunct cgi world is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgiworld.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/cgiworld-com-8dcb09b8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/cgiworld.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CGI World</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>CGI World is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>cgiworld.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/cgiworld.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://cgiworld.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="scriptocean defunct scriptocean is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptocean.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/scriptocean-com-f0c3261a9b.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/scriptocean.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">ScriptOcean</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>ScriptOcean is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>scriptocean.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/scriptocean.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://scriptocean.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="codelifter defunct codelifter is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s codelifter.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/codelifter-com-1463d16c.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/codelifter.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CodeLifter</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>CodeLifter is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>codelifter.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/codelifter.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://codelifter.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="planet source code defunct planet source code is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s planetsourcecode.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/planetsourcecode-com-9f931866.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/planetsourcecode.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Planet Source Code</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Planet Source Code is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>planetsourcecode.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/planetsourcecode.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://planetsourcecode.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="webscripts defunct webscripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s webscripts.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/webscripts-com-fb3591ac.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/webscripts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">WebScripts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>WebScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>webscripts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webscripts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="cgi-bin defunct cgi-bin is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgi-bin.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/cgi-bin-com-f97662f8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/cgi-bin.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CGI-Bin</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>CGI-Bin is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>cgi-bin.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/cgi-bin.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://cgi-bin.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="scriptsearch defunct scriptsearch is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptsearch.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/scriptsearch-com-09a2c23650.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/scriptsearch.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">ScriptSearch</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>ScriptSearch is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>scriptsearch.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/scriptsearch.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://scriptsearch.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="freecgi defunct freecgi is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freecgi.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/freecgi-com-84572f2157.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/freecgi.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">FreeCGI</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>FreeCGI is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>freecgi.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/freecgi.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://freecgi.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="jscript defunct jscript is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s jscript.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/jscript-com-301e1200.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/jscript.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">JScript</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>JScript is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>jscript.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/jscript.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://jscript.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="scripts" data-era="1990s" data-status="defunct" data-search="remoteloader defunct remoteloader is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s remoteloader.com remote scripts">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/remoteloader-com-be88ff6f.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/remoteloader.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">RemoteLoader</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>RemoteLoader is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>remoteloader.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/remoteloader.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://remoteloader.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Remote Scripts entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="hostedscripts uncertain hostedscripts is a remote scripts entry with uncertain current status. the wayback machine link is used first so the listing still has a reliable reference point. 1990s hostedscripts.com">
+  <td><img class="favicon" src="assets/favicons/generated/hostedscripts-com-ce57ec13.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/hostedscripts.com" target="_blank" rel="noopener noreferrer">Hostedscripts</a></td>
+  <td>Hostedscripts is a remote scripts entry with uncertain current status. The Wayback Machine link is used first so the listing still has a reliable reference point.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Status uncertain</td>
+  <td><a href="https://web.archive.org/web/*/hostedscripts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hostedscripts.com</code></td>
+</tr>
+<tr data-link-row data-search="cgi central defunct cgi central is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgicentral.net">
+  <td><img class="favicon" src="assets/favicons/generated/cgicentral-net-acba7625.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/cgicentral.net" target="_blank" rel="noopener noreferrer">CGI Central</a></td>
+  <td>CGI Central is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/cgicentral.net" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>cgicentral.net</code></td>
+</tr>
+<tr data-link-row data-search="hotscripts active resource hotscripts is a remote scripts entry from the 1990s web. it is marked &quot;active resource&quot;, so the live site is the primary link with wayback kept for older captures. 1990s hotscripts.com">
+  <td><img class="favicon" src="assets/favicons/generated/hotscripts-com-5037be24.svg" alt="" loading="lazy"></td>
+  <td><a href="https://hotscripts.com" target="_blank" rel="noopener noreferrer">HotScripts</a></td>
+  <td>HotScripts is a remote scripts entry from the 1990s web. It is marked &quot;Active resource&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/hotscripts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>hotscripts.com</code></td>
+</tr>
+<tr data-link-row data-search="scriptdungeon defunct scriptdungeon is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptdungeon.com">
+  <td><img class="favicon" src="assets/favicons/scriptdungeon-com-d73d2f6d74.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/scriptdungeon.com" target="_blank" rel="noopener noreferrer">ScriptDungeon</a></td>
+  <td>ScriptDungeon is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/scriptdungeon.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>scriptdungeon.com</code></td>
+</tr>
+<tr data-link-row data-search="freescripts defunct freescripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freescripts.com">
+  <td><img class="favicon" src="assets/favicons/freescripts-com-67c0862471.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freescripts.com" target="_blank" rel="noopener noreferrer">FreeScripts</a></td>
+  <td>FreeScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freescripts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freescripts.com</code></td>
+</tr>
+<tr data-link-row data-search="cgi-resources defunct cgi-resources is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgi-resources.com">
+  <td><img class="favicon" src="assets/favicons/cgi-resources-com-870ee3b480.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/cgi-resources.com" target="_blank" rel="noopener noreferrer">CGI-Resources</a></td>
+  <td>CGI-Resources is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/cgi-resources.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>cgi-resources.com</code></td>
+</tr>
+<tr data-link-row data-search="matt's script archive inactive matt's script archive is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptarchive.com">
+  <td><img class="favicon" src="assets/favicons/scriptarchive-com-f893107064.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/scriptarchive.com" target="_blank" rel="noopener noreferrer">Matt's Script Archive</a></td>
+  <td>Matt's Script Archive is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/scriptarchive.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>scriptarchive.com</code></td>
+</tr>
+<tr data-link-row data-search="formmail defunct formmail is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s formmail.com">
+  <td><img class="favicon" src="assets/favicons/formmail-com-08af329bf8.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/formmail.com" target="_blank" rel="noopener noreferrer">FormMail</a></td>
+  <td>FormMail is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/formmail.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>formmail.com</code></td>
+</tr>
+<tr data-link-row data-search="perlscripts defunct perlscripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s perlscripts.com">
+  <td><img class="favicon" src="assets/favicons/generated/perlscripts-com-97b2bb13.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/perlscripts.com" target="_blank" rel="noopener noreferrer">PerlScripts</a></td>
+  <td>PerlScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/perlscripts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>perlscripts.com</code></td>
+</tr>
+<tr data-link-row data-search="javascript kit active javascript kit is a remote scripts entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s javascriptkit.com">
+  <td><img class="favicon" src="assets/favicons/generated/javascriptkit-com-9424d58f.svg" alt="" loading="lazy"></td>
+  <td><a href="https://javascriptkit.com" target="_blank" rel="noopener noreferrer">JavaScript Kit</a></td>
+  <td>JavaScript Kit is a remote scripts entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/javascriptkit.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>javascriptkit.com</code></td>
+</tr>
+<tr data-link-row data-search="dynamic drive active dynamic drive is a remote scripts entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s dynamicdrive.com">
+  <td><img class="favicon" src="assets/favicons/generated/dynamicdrive-com-384d4f01.svg" alt="" loading="lazy"></td>
+  <td><a href="https://dynamicdrive.com" target="_blank" rel="noopener noreferrer">Dynamic Drive</a></td>
+  <td>Dynamic Drive is a remote scripts entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/dynamicdrive.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>dynamicdrive.com</code></td>
+</tr>
+<tr data-link-row data-search="cgi world defunct cgi world is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgiworld.com">
+  <td><img class="favicon" src="assets/favicons/generated/cgiworld-com-8dcb09b8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/cgiworld.com" target="_blank" rel="noopener noreferrer">CGI World</a></td>
+  <td>CGI World is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/cgiworld.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>cgiworld.com</code></td>
+</tr>
+<tr data-link-row data-search="scriptocean defunct scriptocean is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptocean.com">
+  <td><img class="favicon" src="assets/favicons/scriptocean-com-f0c3261a9b.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/scriptocean.com" target="_blank" rel="noopener noreferrer">ScriptOcean</a></td>
+  <td>ScriptOcean is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/scriptocean.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>scriptocean.com</code></td>
+</tr>
+<tr data-link-row data-search="codelifter defunct codelifter is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s codelifter.com">
+  <td><img class="favicon" src="assets/favicons/generated/codelifter-com-1463d16c.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/codelifter.com" target="_blank" rel="noopener noreferrer">CodeLifter</a></td>
+  <td>CodeLifter is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/codelifter.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>codelifter.com</code></td>
+</tr>
+<tr data-link-row data-search="planet source code defunct planet source code is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s planetsourcecode.com">
+  <td><img class="favicon" src="assets/favicons/generated/planetsourcecode-com-9f931866.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/planetsourcecode.com" target="_blank" rel="noopener noreferrer">Planet Source Code</a></td>
+  <td>Planet Source Code is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/planetsourcecode.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>planetsourcecode.com</code></td>
+</tr>
+<tr data-link-row data-search="webscripts defunct webscripts is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s webscripts.com">
+  <td><img class="favicon" src="assets/favicons/generated/webscripts-com-fb3591ac.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/webscripts.com" target="_blank" rel="noopener noreferrer">WebScripts</a></td>
+  <td>WebScripts is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/webscripts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webscripts.com</code></td>
+</tr>
+<tr data-link-row data-search="cgi-bin defunct cgi-bin is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s cgi-bin.com">
+  <td><img class="favicon" src="assets/favicons/generated/cgi-bin-com-f97662f8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/cgi-bin.com" target="_blank" rel="noopener noreferrer">CGI-Bin</a></td>
+  <td>CGI-Bin is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/cgi-bin.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>cgi-bin.com</code></td>
+</tr>
+<tr data-link-row data-search="scriptsearch defunct scriptsearch is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s scriptsearch.com">
+  <td><img class="favicon" src="assets/favicons/scriptsearch-com-09a2c23650.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/scriptsearch.com" target="_blank" rel="noopener noreferrer">ScriptSearch</a></td>
+  <td>ScriptSearch is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/scriptsearch.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>scriptsearch.com</code></td>
+</tr>
+<tr data-link-row data-search="freecgi defunct freecgi is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s freecgi.com">
+  <td><img class="favicon" src="assets/favicons/freecgi-com-84572f2157.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/freecgi.com" target="_blank" rel="noopener noreferrer">FreeCGI</a></td>
+  <td>FreeCGI is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/freecgi.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>freecgi.com</code></td>
+</tr>
+<tr data-link-row data-search="jscript defunct jscript is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s jscript.com">
+  <td><img class="favicon" src="assets/favicons/generated/jscript-com-301e1200.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/jscript.com" target="_blank" rel="noopener noreferrer">JScript</a></td>
+  <td>JScript is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/jscript.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>jscript.com</code></td>
+</tr>
+<tr data-link-row data-search="remoteloader defunct remoteloader is a remote scripts entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s remoteloader.com">
+  <td><img class="favicon" src="assets/favicons/generated/remoteloader-com-be88ff6f.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/remoteloader.com" target="_blank" rel="noopener noreferrer">RemoteLoader</a></td>
+  <td>RemoteLoader is a remote scripts entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/remoteloader.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>remoteloader.com</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="counters.html"><i class="fas fa-arrow-left"></i>Counters and Trackers</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="forums.html">Remote Forums Hosting<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Remote Scripts detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Website Builders - Old Free Online Resources Archive</title>
+  <meta name="description" content="This category collects website builders services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Wix, Moonfruit, SiteBuilder, Yola.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-tools"></i> Category detail page</p>
+      <h1>Free Website Builders</h1>
+      <p class="hero-copy">This category collects website builders services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Wix, Moonfruit, SiteBuilder, Yola.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 20 links</a>
+        <a class="button" href="index.html#websitebuilders"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>20</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>9</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>11</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>3</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This category collects website builders services and resources from the original old free online resources list. It includes 20 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include Wix, Moonfruit, SiteBuilder, Yola.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 4</span>
+<span class="mini-tag">Early 2000s: 4</span>
+<span class="mini-tag">Mid-2000s: 12</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Active or preserved: 11</span>
+<span class="mini-tag">Defunct or closed: 4</span>
+<span class="mini-tag">Changed over time: 5</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Free Website Builders directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Free Website Builders...">
+            </label>
+            <p><strong id="category-count">20</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="wix free tier, active wix is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s wix.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/wix-com-c1219a3da6.png" alt="" loading="lazy">
+    <a href="https://wix.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Wix</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Wix is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>wix.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/wix.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://wix.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="early-2000s" data-status="defunct" data-search="moonfruit defunct moonfruit is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s moonfruit.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/moonfruit-com-3e2edf55d0.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/moonfruit.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Moonfruit</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Moonfruit is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>moonfruit.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/moonfruit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://moonfruit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="sitebuilder active sitebuilder is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s sitebuilder.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/sitebuilder-com-08a14ed459.png" alt="" loading="lazy">
+    <a href="https://sitebuilder.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">SiteBuilder</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>SiteBuilder is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>sitebuilder.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/sitebuilder.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://sitebuilder.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="yola active yola is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s yola.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/yola-com-8c1333a059.ico" alt="" loading="lazy">
+    <a href="https://yola.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Yola</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Yola is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>yola.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/yola.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://yola.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="weebly free tier, active weebly is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s weebly.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/weebly-com-b98d8b73ad.ico" alt="" loading="lazy">
+    <a href="https://weebly.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Weebly</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Weebly is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>weebly.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/weebly.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://weebly.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="jimdo free tier, active jimdo is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s jimdo.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/jimdo-com-88d9409574.png" alt="" loading="lazy">
+    <a href="https://jimdo.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Jimdo</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Jimdo is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>jimdo.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/jimdo.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://jimdo.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="webstarts active webstarts is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s webstarts.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/webstarts-com-9358072f79.ico" alt="" loading="lazy">
+    <a href="https://webstarts.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">WebStarts</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>WebStarts is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>webstarts.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webstarts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webstarts.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="doodlekit active doodlekit is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s doodlekit.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/doodlekit-com-a91a8675.svg" alt="" loading="lazy">
+    <a href="https://doodlekit.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">DoodleKit</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>DoodleKit is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>doodlekit.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/doodlekit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://doodlekit.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="ucoz free tier, active ucoz is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s ucoz.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/ucoz-com-e229d2c29f.ico" alt="" loading="lazy">
+    <a href="https://ucoz.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">uCoz</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>uCoz is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>ucoz.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/ucoz.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://ucoz.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="early-2000s" data-status="active" data-search="webs free tier, active webs is a website builders entry from the early 2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. early 2000s webs.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/webs-com-9698726fbd.ico" alt="" loading="lazy">
+    <a href="https://webs.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Webs</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Webs is a website builders entry from the Early 2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>webs.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webs.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="active" data-search="site123 free tier, active site123 is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s site123.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/site123-com-a77060a2f6.png" alt="" loading="lazy">
+    <a href="https://site123.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Site123</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Site123 is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>site123.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/site123.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://site123.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="1990s" data-status="changed" data-search="homestead free once, now paid homestead is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s homestead.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/homestead-com-2f855fb3ed.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Homestead</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Homestead is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>homestead.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://homestead.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="1990s" data-status="active" data-search="tripod builder active tripod builder is a website builders entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s tripod.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/tripod-com-65eaa14e.svg" alt="" loading="lazy">
+    <a href="https://tripod.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Tripod Builder</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Tripod Builder is a website builders entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Active or preserved</span>
+    <span>Live link first</span>
+    <span>tripod.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/tripod.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://tripod.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="1990s" data-status="changed" data-search="angelfire builder partially active angelfire builder is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s angelfire.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/angelfire-com-5099da86.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Angelfire Builder</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Angelfire Builder is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>angelfire.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://angelfire.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="1990s" data-status="defunct" data-search="geocities builder closed 2009 geocities builder is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s geocities.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/geocities-com-1c494ba3a5.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">GeoCities Builder</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>GeoCities Builder is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>1990s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>geocities.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://geocities.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="early-2000s" data-status="changed" data-search="synthasite now yola synthasite is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s synthasite.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/synthasite-com-8c1333a059.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/synthasite.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Synthasite</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Synthasite is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>synthasite.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/synthasite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://synthasite.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="defunct" data-search="viviti defunct viviti is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. mid-2000s viviti.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/viviti-com-c9284f22.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/viviti.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Viviti</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Viviti is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>viviti.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/viviti.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://viviti.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="early-2000s" data-status="defunct" data-search="webeden defunct webeden is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s webeden.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/webeden-com-ad0ecab8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/webeden.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">WebEden</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>WebEden is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>webeden.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/webeden.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://webeden.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="changed" data-search="snapages now paid snapages is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s snapages.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/snapages-com-0a4cb81a64.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/snapages.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Snapages</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Snapages is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>snapages.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/snapages.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://snapages.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="websitebuilders" data-era="mid-2000s" data-status="changed" data-search="edicy now voog edicy is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s edicy.com free website builders">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/edicy-com-fa0a6c96f7.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/*/edicy.com" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Edicy</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Edicy is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Changed over time</span>
+    <span>Archive link first</span>
+    <span>edicy.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/*/edicy.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://edicy.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Free Website Builders entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="wix free tier, active wix is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s wix.com">
+  <td><img class="favicon" src="assets/favicons/wix-com-c1219a3da6.png" alt="" loading="lazy"></td>
+  <td><a href="https://wix.com" target="_blank" rel="noopener noreferrer">Wix</a></td>
+  <td>Wix is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/wix.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>wix.com</code></td>
+</tr>
+<tr data-link-row data-search="moonfruit defunct moonfruit is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s moonfruit.com">
+  <td><img class="favicon" src="assets/favicons/moonfruit-com-3e2edf55d0.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/moonfruit.com" target="_blank" rel="noopener noreferrer">Moonfruit</a></td>
+  <td>Moonfruit is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/moonfruit.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>moonfruit.com</code></td>
+</tr>
+<tr data-link-row data-search="sitebuilder active sitebuilder is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s sitebuilder.com">
+  <td><img class="favicon" src="assets/favicons/sitebuilder-com-08a14ed459.png" alt="" loading="lazy"></td>
+  <td><a href="https://sitebuilder.com" target="_blank" rel="noopener noreferrer">SiteBuilder</a></td>
+  <td>SiteBuilder is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/sitebuilder.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>sitebuilder.com</code></td>
+</tr>
+<tr data-link-row data-search="yola active yola is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s yola.com">
+  <td><img class="favicon" src="assets/favicons/yola-com-8c1333a059.ico" alt="" loading="lazy"></td>
+  <td><a href="https://yola.com" target="_blank" rel="noopener noreferrer">Yola</a></td>
+  <td>Yola is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/yola.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>yola.com</code></td>
+</tr>
+<tr data-link-row data-search="weebly free tier, active weebly is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s weebly.com">
+  <td><img class="favicon" src="assets/favicons/weebly-com-b98d8b73ad.ico" alt="" loading="lazy"></td>
+  <td><a href="https://weebly.com" target="_blank" rel="noopener noreferrer">Weebly</a></td>
+  <td>Weebly is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/weebly.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>weebly.com</code></td>
+</tr>
+<tr data-link-row data-search="jimdo free tier, active jimdo is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s jimdo.com">
+  <td><img class="favicon" src="assets/favicons/jimdo-com-88d9409574.png" alt="" loading="lazy"></td>
+  <td><a href="https://jimdo.com" target="_blank" rel="noopener noreferrer">Jimdo</a></td>
+  <td>Jimdo is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/jimdo.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>jimdo.com</code></td>
+</tr>
+<tr data-link-row data-search="webstarts active webstarts is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s webstarts.com">
+  <td><img class="favicon" src="assets/favicons/webstarts-com-9358072f79.ico" alt="" loading="lazy"></td>
+  <td><a href="https://webstarts.com" target="_blank" rel="noopener noreferrer">WebStarts</a></td>
+  <td>WebStarts is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/webstarts.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webstarts.com</code></td>
+</tr>
+<tr data-link-row data-search="doodlekit active doodlekit is a website builders entry from the mid-2000s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s doodlekit.com">
+  <td><img class="favicon" src="assets/favicons/generated/doodlekit-com-a91a8675.svg" alt="" loading="lazy"></td>
+  <td><a href="https://doodlekit.com" target="_blank" rel="noopener noreferrer">DoodleKit</a></td>
+  <td>DoodleKit is a website builders entry from the Mid-2000s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/doodlekit.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>doodlekit.com</code></td>
+</tr>
+<tr data-link-row data-search="ucoz free tier, active ucoz is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s ucoz.com">
+  <td><img class="favicon" src="assets/favicons/ucoz-com-e229d2c29f.ico" alt="" loading="lazy"></td>
+  <td><a href="https://ucoz.com" target="_blank" rel="noopener noreferrer">uCoz</a></td>
+  <td>uCoz is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/ucoz.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>ucoz.com</code></td>
+</tr>
+<tr data-link-row data-search="webs free tier, active webs is a website builders entry from the early 2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. early 2000s webs.com">
+  <td><img class="favicon" src="assets/favicons/webs-com-9698726fbd.ico" alt="" loading="lazy"></td>
+  <td><a href="https://webs.com" target="_blank" rel="noopener noreferrer">Webs</a></td>
+  <td>Webs is a website builders entry from the Early 2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Early 2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/webs.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webs.com</code></td>
+</tr>
+<tr data-link-row data-search="site123 free tier, active site123 is a website builders entry from the mid-2000s web. it is marked &quot;free tier, active&quot;, so the live site is the primary link with wayback kept for older captures. mid-2000s site123.com">
+  <td><img class="favicon" src="assets/favicons/site123-com-a77060a2f6.png" alt="" loading="lazy"></td>
+  <td><a href="https://site123.com" target="_blank" rel="noopener noreferrer">Site123</a></td>
+  <td>Site123 is a website builders entry from the Mid-2000s web. It is marked &quot;Free tier, active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>Mid-2000s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/site123.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>site123.com</code></td>
+</tr>
+<tr data-link-row data-search="homestead free once, now paid homestead is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s homestead.com">
+  <td><img class="favicon" src="assets/favicons/homestead-com-2f855fb3ed.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">Homestead</a></td>
+  <td>Homestead is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/homestead.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>homestead.com</code></td>
+</tr>
+<tr data-link-row data-search="tripod builder active tripod builder is a website builders entry from the 1990s web. it is marked &quot;active&quot;, so the live site is the primary link with wayback kept for older captures. 1990s tripod.com">
+  <td><img class="favicon" src="assets/favicons/generated/tripod-com-65eaa14e.svg" alt="" loading="lazy"></td>
+  <td><a href="https://tripod.com" target="_blank" rel="noopener noreferrer">Tripod Builder</a></td>
+  <td>Tripod Builder is a website builders entry from the 1990s web. It is marked &quot;Active&quot;, so the live site is the primary link with Wayback kept for older captures.</td>
+  <td>Live</td>
+  <td>1990s</td>
+  <td>Active or preserved</td>
+  <td><a href="https://web.archive.org/web/*/tripod.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>tripod.com</code></td>
+</tr>
+<tr data-link-row data-search="angelfire builder partially active angelfire builder is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. 1990s angelfire.com">
+  <td><img class="favicon" src="assets/favicons/generated/angelfire-com-5099da86.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">Angelfire Builder</a></td>
+  <td>Angelfire Builder is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/angelfire.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>angelfire.com</code></td>
+</tr>
+<tr data-link-row data-search="geocities builder closed 2009 geocities builder is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. 1990s geocities.com">
+  <td><img class="favicon" src="assets/favicons/geocities-com-1c494ba3a5.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">GeoCities Builder</a></td>
+  <td>GeoCities Builder is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>1990s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/geocities.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>geocities.com</code></td>
+</tr>
+<tr data-link-row data-search="synthasite now yola synthasite is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. early 2000s synthasite.com">
+  <td><img class="favicon" src="assets/favicons/synthasite-com-8c1333a059.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/synthasite.com" target="_blank" rel="noopener noreferrer">Synthasite</a></td>
+  <td>Synthasite is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/synthasite.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>synthasite.com</code></td>
+</tr>
+<tr data-link-row data-search="viviti defunct viviti is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. mid-2000s viviti.com">
+  <td><img class="favicon" src="assets/favicons/generated/viviti-com-c9284f22.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/viviti.com" target="_blank" rel="noopener noreferrer">Viviti</a></td>
+  <td>Viviti is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/viviti.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>viviti.com</code></td>
+</tr>
+<tr data-link-row data-search="webeden defunct webeden is a website builders entry listed as defunct or closed. the wayback machine link is used first because the live site may no longer function. early 2000s webeden.com">
+  <td><img class="favicon" src="assets/favicons/generated/webeden-com-ad0ecab8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/webeden.com" target="_blank" rel="noopener noreferrer">WebEden</a></td>
+  <td>WebEden is a website builders entry listed as defunct or closed. The Wayback Machine link is used first because the live site may no longer function.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/*/webeden.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>webeden.com</code></td>
+</tr>
+<tr data-link-row data-search="snapages now paid snapages is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s snapages.com">
+  <td><img class="favicon" src="assets/favicons/snapages-com-0a4cb81a64.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/snapages.com" target="_blank" rel="noopener noreferrer">Snapages</a></td>
+  <td>Snapages is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/snapages.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>snapages.com</code></td>
+</tr>
+<tr data-link-row data-search="edicy now voog edicy is a website builders entry that changed from its original free-web era form. the wayback link is the best primary reference for old versions. mid-2000s edicy.com">
+  <td><img class="favicon" src="assets/favicons/edicy-com-fa0a6c96f7.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/*/edicy.com" target="_blank" rel="noopener noreferrer">Edicy</a></td>
+  <td>Edicy is a website builders entry that changed from its original free-web era form. The Wayback link is the best primary reference for old versions.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Changed over time</td>
+  <td><a href="https://web.archive.org/web/*/edicy.com" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>edicy.com</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="searchengines.html"><i class="fas fa-arrow-left"></i>Free Search Engines</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="blogs.html">Free Blog Platforms<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Free Website Builders detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>

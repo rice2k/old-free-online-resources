@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EmailAlias">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7cff6b"/>
+      <stop offset="1" stop-color="#2ee6a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#10131f"/>
+  <rect x="5" y="5" width="54" height="54" rx="10" fill="url(#g)"/>
+  <path d="M14 18h36v28H14z" fill="rgba(16,19,31,.32)"/>
+  <path d="M14 18h36v7H14z" fill="rgba(255,255,255,.25)"/>
+  <circle cx="20" cy="21.5" r="1.6" fill="#10131f"/>
+  <circle cx="25" cy="21.5" r="1.6" fill="#10131f"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" fill="#10131f">EM</text>
+</svg>

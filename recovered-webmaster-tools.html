@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recovered Webmaster Tools &amp; Trackers - Old Free Online Resources Archive</title>
+  <meta name="description" content="This recovered category comes from the older local bookmark directory and keeps the old-web finds grouped by theme. It includes 8 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include MindViz Tracker! - Extensive Site Tracking and Webmaster Tools., CJB.NET - Free URL Redirection, shortURL.com - free short URL redirection with no ads!, CoolKid's Site - SuperPokémon Stats.">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+:root {
+  color-scheme: dark;
+  --ink: #10131f;
+  --ink-soft: #182036;
+  --paper: #fff9ef;
+  --muted: #aab4cf;
+  --line: rgba(255, 255, 255, 0.16);
+  --cyan: #00c2ff;
+  --pink: #ff4fd8;
+  --lime: #7cff6b;
+  --gold: #ffd166;
+  --coral: #ff7a59;
+  --violet: #8f7bff;
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(0, 194, 255, 0.08), transparent 28%),
+    linear-gradient(225deg, rgba(255, 79, 216, 0.1), transparent 32%),
+    #10131f;
+  color: #f8fbff;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem clamp(1rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  background: rgba(16, 19, 31, 0.88);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  border: 2px solid #ffffff;
+  background: linear-gradient(135deg, var(--cyan), var(--pink) 50%, var(--gold));
+  color: #10131f;
+  border-radius: 6px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.18);
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.nav-actions a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #f8fbff;
+  text-decoration: none;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.primary {
+  border-color: rgba(255, 209, 102, 0.75);
+  background: linear-gradient(135deg, #ffd166, #ff7a59);
+  color: #161821;
+}
+
+.hero {
+  position: relative;
+  min-height: min(760px, 78vh);
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background-image:
+    linear-gradient(90deg, rgba(16, 19, 31, 0.82), rgba(16, 19, 31, 0.28) 55%, rgba(16, 19, 31, 0.74)),
+    url("assets/retro-internet-hero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 7rem;
+  background: linear-gradient(transparent, #10131f);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(3rem, 7vw, 7rem) 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  color: var(--gold);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 820px;
+  margin-bottom: 1rem;
+  font-size: 5.9rem;
+  line-height: 0.88;
+  letter-spacing: 0;
+  text-shadow: 0 4px 28px rgba(0, 0, 0, 0.45);
+}
+
+.hero-copy {
+  max-width: 680px;
+  color: #e8eefc;
+  font-size: 1.22rem;
+  line-height: 1.65;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hero-actions,
+.control-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-actions {
+  margin-top: 1.5rem;
+}
+
+.stats-band,
+.content-band,
+.footer {
+  padding: clamp(2.2rem, 5vw, 4rem) clamp(1rem, 4vw, 3rem);
+}
+
+.stats-grid,
+.section-grid,
+.screenshot-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-tile,
+.resource-card,
+.info-tile,
+.screenshot-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.075);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+.stat-tile {
+  padding: 1.15rem;
+}
+
+.stat-tile strong {
+  display: block;
+  color: #ffffff;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.stat-tile span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.directory-shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 1rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 0.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+.section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.controls {
+  position: sticky;
+  top: 4.25rem;
+  z-index: 10;
+  margin-bottom: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(16, 19, 31, 0.9);
+  backdrop-filter: blur(16px);
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input,
+select,
+button {
+  min-height: 2.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  background: #f8fbff;
+  color: #111827;
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  font-weight: 700;
+}
+
+button {
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.search-box {
+  flex: 1 1 320px;
+}
+
+.filter-box {
+  flex: 0 1 190px;
+}
+
+.result-count {
+  margin-left: auto;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.category-chips {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 0 1rem;
+  overflow-x: auto;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.12);
+}
+
+.category-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--chip) 55%, white 10%);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, transparent);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.category-section {
+  padding: 1.3rem 0 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.category-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.category-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.category-heading i {
+  color: var(--accent);
+}
+
+.category-count {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.category-heading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.category-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.85rem;
+}
+
+.category-page-card {
+  position: relative;
+  min-height: 18rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.category-page-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.category-page-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0;
+}
+
+.category-page-card h3 i {
+  color: var(--accent);
+}
+
+.category-page-card p {
+  color: #dce5f8;
+  line-height: 1.55;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.resource-card {
+  position: relative;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.resource-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+}
+
+.resource-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+}
+
+.favicon {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.12);
+  object-fit: contain;
+}
+
+.resource-title-row a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 3.2rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 900;
+  flex: 1 1 auto;
+}
+
+.resource-title-row a:hover .resource-title {
+  text-decoration: underline;
+}
+
+.resource-card p {
+  min-height: 5rem;
+  color: #dce5f8;
+  line-height: 1.45;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.resource-meta span,
+.mini-tag {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: #edf4ff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.mini-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.no-results {
+  display: none;
+  padding: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+}
+
+.no-results.is-visible {
+  display: block;
+}
+
+.info-grid {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-tile {
+  padding: 1.2rem;
+}
+
+.info-tile h3 {
+  color: var(--gold);
+}
+
+.screenshot-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.screenshot-card {
+  padding: 0.85rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #0b1020;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #182036;
+  color: var(--gold);
+}
+
+td {
+  color: #edf4ff;
+}
+
+td a {
+  color: #8be9ff;
+  font-weight: 900;
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.footer-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media (max-width: 820px) {
+  .site-nav,
+  .section-heading,
+  .category-heading,
+  .footer-inner {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .site-nav,
+  .section-heading {
+    display: flex;
+  }
+
+  .nav-actions {
+    justify-content: flex-start;
+  }
+
+  .category-heading-actions {
+    justify-content: flex-start;
+  }
+
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero {
+    min-height: 600px;
+    background-position: 62% center;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-copy {
+    font-size: 1.08rem;
+  }
+
+  .stat-tile strong {
+    font-size: 2.6rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2.35rem;
+  }
+
+  .category-heading h3 {
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .stats-grid,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    top: 5.85rem;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-content {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">IA</span><span>Resource Arcade</span></a>
+    <div class="nav-actions">
+      <a href="index.html"><i class="fas fa-home"></i>Home</a>
+      <a href="index.html#category-pages"><i class="fas fa-layer-group"></i>Category Pages</a>
+      <a href="information.html"><i class="fas fa-info-circle"></i>Information</a>
+      <a href="information.html#all-links"><i class="fas fa-link"></i>All Links</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow"><i class="fas fa-tools"></i> Category detail page</p>
+      <h1>Recovered Webmaster Tools &amp; Trackers</h1>
+      <p class="hero-copy">This recovered category comes from the older local bookmark directory and keeps the old-web finds grouped by theme. It includes 8 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include MindViz Tracker! - Extensive Site Tracking and Webmaster Tools., CJB.NET - Free URL Redirection, shortURL.com - free short URL redirection with no ads!, CoolKid's Site - SuperPokémon Stats.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#category-links"><i class="fas fa-search"></i>Browse 8 links</a>
+        <a class="button" href="index.html#recovered-webmaster-tools"><i class="fas fa-arrow-left"></i>Back to main category</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats-band">
+      <div class="stats-grid">
+        <div class="stat-tile"><strong>8</strong><span>links in this category</span></div>
+        <div class="stat-tile"><strong>8</strong><span>archive-first links</span></div>
+        <div class="stat-tile"><strong>0</strong><span>live-first links</span></div>
+        <div class="stat-tile"><strong>2</strong><span>eras represented</span></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-clipboard-list"></i> Category notes</p>
+            <h2>What is in this category</h2>
+            <p>This recovered category comes from the older local bookmark directory and keeps the old-web finds grouped by theme. It includes 8 links with Wayback references, status notes, short descriptions, favicon badges when available, and live links when a current site is still useful. Example entries include MindViz Tracker! - Extensive Site Tracking and Webmaster Tools., CJB.NET - Free URL Redirection, shortURL.com - free short URL redirection with no ads!, CoolKid's Site - SuperPokémon Stats.</p>
+          </div>
+          <div class="info-tile">
+            <h3>Era totals</h3>
+            <p><span class="mini-tag">1990s: 0</span>
+<span class="mini-tag">Early 2000s: 7</span>
+<span class="mini-tag">Mid-2000s: 1</span></p>
+            <h3>Status totals</h3>
+            <p><span class="mini-tag">Defunct or closed: 8</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="category-links" class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-link"></i> Service links</p>
+            <h2>Recovered Webmaster Tools &amp; Trackers directory</h2>
+            <p>Use the cards for quick browsing or the table for a compact full list. Older, changed, or closed services open through Wayback first.</p>
+          </div>
+          <div class="info-tile">
+            <label>Filter this category
+              <input id="category-search" type="search" placeholder="Search Recovered Webmaster Tools &amp; Trackers...">
+            </label>
+            <p><strong id="category-count">8</strong> links showing</p>
+          </div>
+        </div>
+        <ul class="resource-grid">
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="mindviz tracker! - extensive site tracking and webmaster tools. archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: mindviz tracker! - extensive site tracking and webmaster tools.. early 2000s mvtracker.com/join.php recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/mvtracker-com-d7885c1b.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">MindViz Tracker! - Extensive Site Tracking and Webmaster Tools.</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: MindViz Tracker! - Extensive Site Tracking and Webmaster Tools..</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>mvtracker.com/join.php</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://mvtracker.com/join.php" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="cjb.net - free url redirection archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: cjb.net - free url redirection. early 2000s 404.cjb.net recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/404-cjb-net-81781ce8.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20011213031140/http://404.cjb.net/" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CJB.NET - Free URL Redirection</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CJB.NET - Free URL Redirection.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>404.cjb.net</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20011213031140/http://404.cjb.net/" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://404.cjb.net" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="shorturl.com - free short url redirection with no ads! archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: shorturl.com - free short url redirection with no ads!. early 2000s vze.com/free-url-redirection.html recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/vze-com-0c0934555b.ico" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20020806210513/http://www.vze.com/free-URL-redirection.html" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">shortURL.com - free short URL redirection with no ads!</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: shortURL.com - free short URL redirection with no ads!.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>vze.com/free-URL-redirection.html</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20020806210513/http://www.vze.com/free-URL-redirection.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://vze.com/free-URL-redirection.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="coolkid's site - superpokémon stats archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: coolkid's site - superpokémon stats. early 2000s coolkid.text2k.net/cgi-bin/stats/show.cgi recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/coolkid-text2k-net-2adf6be5.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20010513114228/http://coolkid.text2k.net/cgi-bin/stats/show.cgi#" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">CoolKid's Site - SuperPokémon Stats</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CoolKid's Site - SuperPokémon Stats.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>coolkid.text2k.net/cgi-bin/stats/show.cgi</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20010513114228/http://coolkid.text2k.net/cgi-bin/stats/show.cgi#" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://coolkid.text2k.net/cgi-bin/stats/show.cgi" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="counter [ theme counter ] - free counter - [ theme counter ] - web counter archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: counter [ theme counter ] - free counter - [ theme counter ] - web counter. early 2000s themecounter.com/stats.cgi recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/themecounter-com-5cdfc923fa.png" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20010413141239/http://www.themecounter.com/stats.cgi?id=5833" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>themecounter.com/stats.cgi</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20010413141239/http://www.themecounter.com/stats.cgi?id=5833" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://themecounter.com/stats.cgi" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="d i g i t a l 5 k // its a little bit of everything. archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: d i g i t a l 5 k // its a little bit of everything.. early 2000s digital5k.com/stats.html recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/digital5k-com-48ad728c.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20010622113029/http://www.digital5k.com/stats.html" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">d i g i t a l 5 k // Its a little bit of everything.</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: d i g i t a l 5 k // Its a little bit of everything..</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>digital5k.com/stats.html</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20010622113029/http://www.digital5k.com/stats.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://digital5k.com/stats.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="mid-2000s" data-status="defunct" data-search="gamestats: cheats, movies, screenshots, previews and reviews archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: gamestats: cheats, movies, screenshots, previews and reviews. mid-2000s gamestats.com recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/gamestats-com-98f3322e.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20050731235115/http://www.gamestats.com/" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">GameStats: Cheats, Movies, Screenshots, Previews and Reviews</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: GameStats: Cheats, Movies, Screenshots, Previews and Reviews.</p>
+  <div class="resource-meta">
+    <span>Mid-2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>gamestats.com</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20050731235115/http://www.gamestats.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://gamestats.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+<li class="resource-card" data-resource-card data-category="recovered-webmaster-tools" data-era="early-2000s" data-status="defunct" data-search="nutch: about archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: nutch: about. early 2000s nutch.org/docs/en/about.html recovered webmaster tools &amp; trackers">
+  <div class="resource-title-row">
+    <img class="favicon" src="assets/favicons/generated/nutch-org-c684b159.svg" alt="" loading="lazy">
+    <a href="https://web.archive.org/web/20041206211006/http://www.nutch.org/docs/en/about.html" target="_blank" rel="noopener noreferrer">
+      <span class="resource-title">Nutch: about</span>
+      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: Nutch: about.</p>
+  <div class="resource-meta">
+    <span>Early 2000s</span>
+    <span>Defunct or closed</span>
+    <span>Archive link first</span>
+    <span>nutch.org/docs/en/about.html</span>
+  </div>
+  <div class="resource-actions">
+    <a class="mini-button" href="https://web.archive.org/web/20041206211006/http://www.nutch.org/docs/en/about.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-history"></i>Archive</a>
+    <a class="mini-button" href="https://nutch.org/docs/en/about.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Live</a>
+  </div>
+</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="fas fa-table"></i> Compact table</p>
+            <h2>All Recovered Webmaster Tools &amp; Trackers entries</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Icon</th>
+                <th>Service</th>
+                <th>Description</th>
+                <th>Main link</th>
+                <th>Era</th>
+                <th>Status</th>
+                <th>Archive</th>
+                <th>Archive target</th>
+              </tr>
+            </thead>
+            <tbody>
+<tr data-link-row data-search="mindviz tracker! - extensive site tracking and webmaster tools. archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: mindviz tracker! - extensive site tracking and webmaster tools.. early 2000s mvtracker.com/join.php">
+  <td><img class="favicon" src="assets/favicons/generated/mvtracker-com-d7885c1b.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun" target="_blank" rel="noopener noreferrer">MindViz Tracker! - Extensive Site Tracking and Webmaster Tools.</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: MindViz Tracker! - Extensive Site Tracking and Webmaster Tools..</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20040619124249/http://www.mvtracker.com/join.php?l=iconfun" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>mvtracker.com/join.php</code></td>
+</tr>
+<tr data-link-row data-search="cjb.net - free url redirection archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: cjb.net - free url redirection. early 2000s 404.cjb.net">
+  <td><img class="favicon" src="assets/favicons/generated/404-cjb-net-81781ce8.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20011213031140/http://404.cjb.net/" target="_blank" rel="noopener noreferrer">CJB.NET - Free URL Redirection</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CJB.NET - Free URL Redirection.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20011213031140/http://404.cjb.net/" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>404.cjb.net</code></td>
+</tr>
+<tr data-link-row data-search="shorturl.com - free short url redirection with no ads! archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: shorturl.com - free short url redirection with no ads!. early 2000s vze.com/free-url-redirection.html">
+  <td><img class="favicon" src="assets/favicons/vze-com-0c0934555b.ico" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20020806210513/http://www.vze.com/free-URL-redirection.html" target="_blank" rel="noopener noreferrer">shortURL.com - free short URL redirection with no ads!</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: shortURL.com - free short URL redirection with no ads!.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20020806210513/http://www.vze.com/free-URL-redirection.html" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>vze.com/free-URL-redirection.html</code></td>
+</tr>
+<tr data-link-row data-search="coolkid's site - superpokémon stats archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: coolkid's site - superpokémon stats. early 2000s coolkid.text2k.net/cgi-bin/stats/show.cgi">
+  <td><img class="favicon" src="assets/favicons/generated/coolkid-text2k-net-2adf6be5.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20010513114228/http://coolkid.text2k.net/cgi-bin/stats/show.cgi#" target="_blank" rel="noopener noreferrer">CoolKid's Site - SuperPokémon Stats</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: CoolKid's Site - SuperPokémon Stats.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20010513114228/http://coolkid.text2k.net/cgi-bin/stats/show.cgi#" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>coolkid.text2k.net/cgi-bin/stats/show.cgi</code></td>
+</tr>
+<tr data-link-row data-search="counter [ theme counter ] - free counter - [ theme counter ] - web counter archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: counter [ theme counter ] - free counter - [ theme counter ] - web counter. early 2000s themecounter.com/stats.cgi">
+  <td><img class="favicon" src="assets/favicons/themecounter-com-5cdfc923fa.png" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20010413141239/http://www.themecounter.com/stats.cgi?id=5833" target="_blank" rel="noopener noreferrer">counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: counter [ THEME COUNTER ] - free counter - [ THEME COUNTER ] - web counter.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20010413141239/http://www.themecounter.com/stats.cgi?id=5833" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>themecounter.com/stats.cgi</code></td>
+</tr>
+<tr data-link-row data-search="d i g i t a l 5 k // its a little bit of everything. archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: d i g i t a l 5 k // its a little bit of everything.. early 2000s digital5k.com/stats.html">
+  <td><img class="favicon" src="assets/favicons/generated/digital5k-com-48ad728c.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20010622113029/http://www.digital5k.com/stats.html" target="_blank" rel="noopener noreferrer">d i g i t a l 5 k // Its a little bit of everything.</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: d i g i t a l 5 k // Its a little bit of everything..</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20010622113029/http://www.digital5k.com/stats.html" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>digital5k.com/stats.html</code></td>
+</tr>
+<tr data-link-row data-search="gamestats: cheats, movies, screenshots, previews and reviews archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: gamestats: cheats, movies, screenshots, previews and reviews. mid-2000s gamestats.com">
+  <td><img class="favicon" src="assets/favicons/generated/gamestats-com-98f3322e.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20050731235115/http://www.gamestats.com/" target="_blank" rel="noopener noreferrer">GameStats: Cheats, Movies, Screenshots, Previews and Reviews</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: GameStats: Cheats, Movies, Screenshots, Previews and Reviews.</td>
+  <td>Archive</td>
+  <td>Mid-2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20050731235115/http://www.gamestats.com/" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>gamestats.com</code></td>
+</tr>
+<tr data-link-row data-search="nutch: about archive-only recovered bookmark recovered from the older local link directory. this wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: nutch: about. early 2000s nutch.org/docs/en/about.html">
+  <td><img class="favicon" src="assets/favicons/generated/nutch-org-c684b159.svg" alt="" loading="lazy"></td>
+  <td><a href="https://web.archive.org/web/20041206211006/http://www.nutch.org/docs/en/about.html" target="_blank" rel="noopener noreferrer">Nutch: about</a></td>
+  <td>Recovered from the older local link directory. This Wayback capture preserves an old webmaster tool, tracker, redirector, stats, or indexing resource: Nutch: about.</td>
+  <td>Archive</td>
+  <td>Early 2000s</td>
+  <td>Defunct or closed</td>
+  <td><a href="https://web.archive.org/web/20041206211006/http://www.nutch.org/docs/en/about.html" target="_blank" rel="noopener noreferrer">Wayback</a></td>
+  <td><code>nutch.org/docs/en/about.html</code></td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="directory-shell">
+        <div class="hero-actions">
+          <a class="button" href="recovered-classic-gaming-fan-sites.html"><i class="fas fa-arrow-left"></i>Recovered Classic Gaming &amp; Fan Sites</a>
+          <a class="button primary" href="index.html#category-pages"><i class="fas fa-layer-group"></i>All category pages</a>
+          <a class="button" href="recovered-geocities-personal-sites.html">Recovered GeoCities &amp; Personal Sites<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Recovered Webmaster Tools &amp; Trackers detail page.</span>
+      <span><a href="index.html">Back to home</a></span>
+    </div>
+  </footer>
+
+  <script>
+(() => {
+  const search = document.getElementById("category-search");
+  const cards = Array.from(document.querySelectorAll("[data-resource-card]"));
+  const rows = Array.from(document.querySelectorAll("[data-link-row]"));
+  const count = document.getElementById("category-count");
+  search.addEventListener("input", () => {
+    const query = search.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = !query || card.dataset.search.includes(query);
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    rows.forEach((row) => {
+      row.hidden = query && !row.dataset.search.includes(query);
+    });
+    count.textContent = visible;
+  });
+})();
+  </script>
+</body>
+</html>
